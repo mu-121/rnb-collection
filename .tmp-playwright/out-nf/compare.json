@@ -1,0 +1,272 @@
+{
+  "390": {
+    "live": {
+      "footerH": 1127,
+      "footerPad": "86px 0px 15px",
+      "h4": {
+        "fs": "26px",
+        "w": 300,
+        "h": 32,
+        "color": "rgb(255, 255, 255)"
+      },
+      "form": {
+        "w": 350,
+        "h": 48,
+        "gap": "10px"
+      },
+      "input": {
+        "w": 217,
+        "h": 48,
+        "bg": "rgb(31, 31, 31)",
+        "radius": "999px"
+      },
+      "submit": {
+        "w": 123,
+        "h": 48,
+        "pad": "15px 24px"
+      },
+      "containerPad": "0px 20px",
+      "logos": [
+        {
+          "w": 90,
+          "h": 21.9
+        },
+        {
+          "w": 350,
+          "h": 85.1
+        }
+      ],
+      "brandDescW": 233,
+      "linksW": 350,
+      "linksH": 429,
+      "overflow": false
+    },
+    "local": {
+      "newsH": 284,
+      "footerH": 874,
+      "combinedH": 1159,
+      "newsPad": "86px 0px 0px",
+      "footerPad": "58px 0px 15px",
+      "h4": {
+        "fs": "26px",
+        "w": 300,
+        "h": 63,
+        "color": "rgb(255, 255, 255)"
+      },
+      "form": {
+        "w": 350,
+        "h": 48,
+        "gap": "10px"
+      },
+      "input": {
+        "w": 218,
+        "h": 48,
+        "bg": "rgb(31, 31, 31)",
+        "radius": "999px"
+      },
+      "submit": {
+        "w": 122,
+        "h": 48,
+        "pad": "15px 24px"
+      },
+      "containerPad": "0px 20px",
+      "dividerW": 350,
+      "logos": [
+        {
+          "w": 90,
+          "h": 21.9
+        },
+        {
+          "w": 350,
+          "h": 85
+        }
+      ],
+      "brandDescW": 233,
+      "brandW": 350,
+      "linksW": 350,
+      "linksH": 429,
+      "overflow": false,
+      "text": "Subscribe to our news later\nEmail address\nA sophisticated e-commerce template designed for modern and minimalist brands.\n\nContact Wearix\nContact Wearix\nQuick Links\nHome\nAbout\nBlog\nShop\nReviews\nStyles\nFollow us:\nInstagram\nDribbble\nFacebook\nTwitter\nYoutube\nGet in touch\ntest@gmail.com\n+001 234 567 890\nLondon, England"
+    }
+  },
+  "1024": {
+    "live": {
+      "footerH": 1022,
+      "footerPad": "86px 0px 15px",
+      "h4": {
+        "fs": "34px",
+        "w": 300,
+        "h": 83,
+        "color": "rgb(255, 255, 255)"
+      },
+      "form": {
+        "w": 350,
+        "h": 48,
+        "gap": "10px"
+      },
+      "input": {
+        "w": 217,
+        "h": 48,
+        "bg": "rgb(31, 31, 31)",
+        "radius": "999px"
+      },
+      "submit": {
+        "w": 123,
+        "h": 48,
+        "pad": "15px 24px"
+      },
+      "containerPad": "0px 22px",
+      "logos": [
+        {
+          "w": 90,
+          "h": 21.9
+        },
+        {
+          "w": 980,
+          "h": 238.2
+        }
+      ],
+      "brandDescW": 450,
+      "linksW": 490,
+      "linksH": 429,
+      "overflow": false
+    },
+    "local": {
+      "newsH": 228,
+      "footerH": 794,
+      "combinedH": 1022,
+      "newsPad": "86px 0px 0px",
+      "footerPad": "58px 0px 15px",
+      "h4": {
+        "fs": "34px",
+        "w": 300,
+        "h": 83,
+        "color": "rgb(255, 255, 255)"
+      },
+      "form": {
+        "w": 350,
+        "h": 48,
+        "gap": "10px"
+      },
+      "input": {
+        "w": 218,
+        "h": 48,
+        "bg": "rgb(31, 31, 31)",
+        "radius": "999px"
+      },
+      "submit": {
+        "w": 122,
+        "h": 48,
+        "pad": "15px 24px"
+      },
+      "containerPad": "0px 22px",
+      "dividerW": 980,
+      "logos": [
+        {
+          "w": 90,
+          "h": 21.9
+        },
+        {
+          "w": 980,
+          "h": 238.2
+        }
+      ],
+      "brandDescW": 450,
+      "brandW": 450,
+      "linksW": 490,
+      "linksH": 429,
+      "overflow": false,
+      "text": "Subscribe to our news later\nEmail address\nA sophisticated e-commerce template designed for modern and minimalist brands.\n\nContact Wearix\nContact Wearix\nQuick Links\nHome\nAbout\nBlog\nShop\nReviews\nStyles\nFollow us:\nInstagram\nDribbble\nFacebook\nTwitter\nYoutube\nGet in touch\ntest@gmail.com\n+001 234 567 890\nLondon, England"
+    }
+  },
+  "1440": {
+    "live": {
+      "footerH": 882,
+      "footerPad": "86px 0px 15px",
+      "h4": {
+        "fs": "36px",
+        "w": 300,
+        "h": 88,
+        "color": "rgb(255, 255, 255)"
+      },
+      "form": {
+        "w": 400,
+        "h": 48,
+        "gap": "10px"
+      },
+      "input": {
+        "w": 267,
+        "h": 48,
+        "bg": "rgb(31, 31, 31)",
+        "radius": "999px"
+      },
+      "submit": {
+        "w": 123,
+        "h": 48,
+        "pad": "15px 24px"
+      },
+      "containerPad": "0px 25px",
+      "logos": [
+        {
+          "w": 90,
+          "h": 21.9
+        },
+        {
+          "w": 1190,
+          "h": 289.2
+        }
+      ],
+      "brandDescW": 450,
+      "linksW": 595,
+      "linksH": 233,
+      "overflow": false
+    },
+    "local": {
+      "newsH": 233,
+      "footerH": 649,
+      "combinedH": 882,
+      "newsPad": "86px 0px 0px",
+      "footerPad": "58px 0px 15px",
+      "h4": {
+        "fs": "36px",
+        "w": 300,
+        "h": 88,
+        "color": "rgb(255, 255, 255)"
+      },
+      "form": {
+        "w": 400,
+        "h": 48,
+        "gap": "10px"
+      },
+      "input": {
+        "w": 268,
+        "h": 48,
+        "bg": "rgb(31, 31, 31)",
+        "radius": "999px"
+      },
+      "submit": {
+        "w": 122,
+        "h": 48,
+        "pad": "15px 24px"
+      },
+      "containerPad": "0px 25px",
+      "dividerW": 1190,
+      "logos": [
+        {
+          "w": 90,
+          "h": 21.9
+        },
+        {
+          "w": 1190,
+          "h": 289.2
+        }
+      ],
+      "brandDescW": 450,
+      "brandW": 450,
+      "linksW": 595,
+      "linksH": 233,
+      "overflow": false,
+      "text": "Subscribe to our news later\nEmail address\nA sophisticated e-commerce template designed for modern and minimalist brands.\n\nContact Wearix\nContact Wearix\nQuick Links\nHome\nAbout\nBlog\nShop\nReviews\nStyles\nFollow us:\nInstagram\nDribbble\nFacebook\nTwitter\nYoutube\nGet in touch\ntest@gmail.com\n+001 234 567 890\nLondon, England"
+    }
+  }
+}

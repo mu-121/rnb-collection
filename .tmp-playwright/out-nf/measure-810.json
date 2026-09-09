@@ -1,0 +1,111 @@
+{
+  "footerName": "Tablet",
+  "footer": {
+    "h": 970,
+    "pad": "86px 0px 15px",
+    "w": 810,
+    "overflow": "clip"
+  },
+  "container": {
+    "pad": "0px 22px",
+    "gap": "54px",
+    "w": 810,
+    "h": 869
+  },
+  "h4": {
+    "fs": "34px",
+    "ls": "-1.02px",
+    "lh": "41.48px",
+    "w": 300,
+    "h": 83
+  },
+  "newsRow": {
+    "dir": "row",
+    "justify": "space-between",
+    "align": "center",
+    "gap": "normal",
+    "w": 766,
+    "h": 83
+  },
+  "form": {
+    "w": 350,
+    "h": 48,
+    "gap": "10px"
+  },
+  "input": {
+    "w": 217,
+    "h": 48
+  },
+  "submit": {
+    "w": 123,
+    "h": 48
+  },
+  "grid": {
+    "cols": "191.5px 191.5px 191.5px 191.5px",
+    "gap": "0px",
+    "w": 766,
+    "h": 429,
+    "kids": [
+      {
+        "w": 383,
+        "h": 151,
+        "t": "A sophisticated e-commer"
+      },
+      {
+        "w": 383,
+        "h": 429,
+        "t": "Quick Links\n\nHome\n\nAbout"
+      }
+    ]
+  },
+  "linkWrap": {
+    "dir": "row",
+    "wrap": "nowrap",
+    "gap": "32px 10px",
+    "w": 383,
+    "h": 429,
+    "kids": [
+      {
+        "w": 170,
+        "h": 233,
+        "x": 405,
+        "y": 216,
+        "t": "Quick Links"
+      },
+      {
+        "w": 180,
+        "h": 200,
+        "x": 602,
+        "y": 216,
+        "t": "Follow us:"
+      },
+      {
+        "w": 187,
+        "h": 164,
+        "x": 405,
+        "y": 481,
+        "t": "Get in touch"
+      }
+    ]
+  },
+  "brandDesc": {
+    "w": 383,
+    "fs": "16px"
+  },
+  "logos": [
+    {
+      "w": 90,
+      "h": 21.9
+    },
+    {
+      "w": 766,
+      "h": 186.2
+    }
+  ],
+  "contactYs": [
+    524.9375,
+    568.9375,
+    612.9375
+  ],
+  "contentW": 766
+}

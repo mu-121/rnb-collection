@@ -1,0 +1,52 @@
+{
+  "symbols": [
+    {
+      "id": "1233169835",
+      "tag": "svg",
+      "len": 1972
+    },
+    {
+      "id": "469908671",
+      "tag": "svg",
+      "len": 2055
+    },
+    {
+      "id": "3061636003",
+      "tag": "svg",
+      "len": 1426
+    }
+  ],
+  "uses": [
+    {
+      "href": "#1233169835",
+      "parent": "<svg class=\"framer-KsQEH framer-1t6gkyk\" role=\"presentation\" style=\"--1m6trwb: 0; --21h8s6: var(--token-18be105c-b5bc-4024-add1-e91f0abc8038, rgb(255, 255, 255)); --pgex8v: 2; opacity: 1;\" viewBox=\"0 "
+    },
+    {
+      "href": "#469908671",
+      "parent": "<svg class=\"framer-g7Gzw framer-1t6gkyk\" role=\"presentation\" style=\"--1m6trwb: 0; --21h8s6: var(--token-18be105c-b5bc-4024-add1-e91f0abc8038, rgb(255, 255, 255)); --pgex8v: 2; opacity: 1;\" viewBox=\"0 "
+    },
+    {
+      "href": "#3061636003",
+      "parent": "<svg class=\"framer-NNK2m framer-1t6gkyk\" role=\"presentation\" style=\"--1m6trwb: 0; --21h8s6: var(--token-18be105c-b5bc-4024-add1-e91f0abc8038, rgb(255, 255, 255)); --pgex8v: 2; opacity: 1;\" viewBox=\"0 "
+    }
+  ],
+  "svgs": [
+    {
+      "html": "<svg class=\"framer-KsQEH framer-1t6gkyk\" role=\"presentation\" style=\"--1m6trwb: 0; --21h8s6: var(--token-18be105c-b5bc-4024-add1-e91f0abc8038, rgb(255, 255, 255)); --pgex8v: 2; opacity: 1;\" viewBox=\"0 0 24 24\"><use href=\"#1233169835\"></use></svg>",
+      "shadow": null,
+      "childCount": 1
+    },
+    {
+      "html": "<svg class=\"framer-g7Gzw framer-1t6gkyk\" role=\"presentation\" style=\"--1m6trwb: 0; --21h8s6: var(--token-18be105c-b5bc-4024-add1-e91f0abc8038, rgb(255, 255, 255)); --pgex8v: 2; opacity: 1;\" viewBox=\"0 0 24 24\"><use href=\"#469908671\"></use></svg>",
+      "shadow": null,
+      "childCount": 1
+    },
+    {
+      "html": "<svg class=\"framer-NNK2m framer-1t6gkyk\" role=\"presentation\" style=\"--1m6trwb: 0; --21h8s6: var(--token-18be105c-b5bc-4024-add1-e91f0abc8038, rgb(255, 255, 255)); --pgex8v: 2; opacity: 1;\" viewBox=\"0 0 24 24\"><use href=\"#3061636003\"></use></svg>",
+      "shadow": null,
+      "childCount": 1
+    }
+  ],
+  "snippet": "4-add1-e91f0abc8038, rgb(255, 255, 255)); --pgex8v: 2; opacity: 1;\" viewBox=\"0 0 24 24\"><use href=\"#1233169835\"></use></svg></div><div class=\"framer-qlsvy5\" style=\"--extracted-r6o4lv: var(--token-53911345-7180-4272-b5cc-ab0ca0383428, rgba(255, 255, 255, 0.6)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; opacity: 1;\" data-framer-component-type=\"RichTextContainer\"><p class=\"framer-text framer-styles-preset-rt4wjg\" data-styles-preset=\"w1ddV6zz9\" dir=\"auto\" style=\"--framer-text-alignment:left;--framer-text-color:var(--extracted-r6o4lv, var(--token-53911345-7180-4272-b5cc-ab0ca0383428, rgba(255, 255, 255, 0.6)))\">test@gmail.com</p></div></a><!--/$--></div><div class=\"framer-m9z2lh-container\" style=\"opacity: 1;\"><!--$--><a class=\"framer-mszbl framer-UKwSM framer-1mpfzs3 framer-v-1mpfzs3 framer-cpthjc\" data-framer-name=\"Variant 1\" href=",
+  "htmlHasPhone": true
+}

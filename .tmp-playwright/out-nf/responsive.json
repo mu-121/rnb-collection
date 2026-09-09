@@ -1,0 +1,302 @@
+{
+  "390": {
+    "footerH": 0,
+    "footerPad": "86px 0px 15px",
+    "containerPad": "0px 25px",
+    "containerGap": "54px",
+    "containerW": 0,
+    "h4": {
+      "fs": "26px",
+      "w": 0,
+      "h": 0,
+      "ls": "-0.78px",
+      "lh": "31.72px"
+    },
+    "form": {
+      "w": 0,
+      "h": 0,
+      "gap": "10px"
+    },
+    "input": {
+      "w": 0,
+      "h": 0
+    },
+    "submit": {
+      "w": 0,
+      "h": 0
+    },
+    "newsFlex": {
+      "dir": "row",
+      "justify": "space-between",
+      "w": 0
+    },
+    "grid": {
+      "cols": "repeat(4, minmax(50px, 1fr))",
+      "gap": "0px",
+      "w": 0,
+      "h": 0,
+      "display": "grid"
+    },
+    "linkWrap": {
+      "dir": "row",
+      "wrap": "nowrap",
+      "gap": "10px",
+      "w": 0,
+      "h": 0,
+      "kids": [
+        {
+          "w": 0,
+          "h": 0,
+          "t": "Quick LinksHomeAbout"
+        },
+        {
+          "w": 0,
+          "h": 0,
+          "t": "Follow us:InstagramD"
+        },
+        {
+          "w": 0,
+          "h": 0,
+          "t": "Get in touchtest@gma"
+        }
+      ]
+    },
+    "logos": [
+      {
+        "w": 0,
+        "h": 0
+      },
+      {
+        "w": 0,
+        "h": 0
+      }
+    ],
+    "brandDescW": 0,
+    "overflowX": false
+  },
+  "768": {
+    "footerH": 1226,
+    "footerPad": "86px 0px 15px",
+    "containerPad": "0px 20px",
+    "containerGap": "54px",
+    "containerW": 768,
+    "h4": {
+      "fs": "26px",
+      "w": 300,
+      "h": 63,
+      "ls": "-0.78px",
+      "lh": "31.72px"
+    },
+    "form": {
+      "w": 400,
+      "h": 48,
+      "gap": "10px"
+    },
+    "input": {
+      "w": 267,
+      "h": 48
+    },
+    "submit": {
+      "w": 123,
+      "h": 48
+    },
+    "newsFlex": {
+      "dir": "column",
+      "justify": "flex-start",
+      "w": 728
+    },
+    "grid": {
+      "cols": "242.656px 242.656px 242.672px",
+      "gap": "58px 0px",
+      "w": 728,
+      "h": 637,
+      "display": "grid"
+    },
+    "linkWrap": {
+      "dir": "row",
+      "wrap": "nowrap",
+      "gap": "32px 10px",
+      "w": 728,
+      "h": 429,
+      "kids": [
+        {
+          "w": 170,
+          "h": 233,
+          "t": "Quick LinksHomeAbout"
+        },
+        {
+          "w": 180,
+          "h": 200,
+          "t": "Follow us:InstagramD"
+        },
+        {
+          "w": 728,
+          "h": 164,
+          "t": "Get in touchtest@gma"
+        }
+      ]
+    },
+    "logos": [
+      {
+        "w": 90,
+        "h": 22
+      },
+      {
+        "w": 728,
+        "h": 177
+      }
+    ],
+    "brandDescW": 450,
+    "overflowX": false
+  },
+  "810": {
+    "footerH": 0,
+    "footerPad": "86px 0px 15px",
+    "containerPad": "0px 25px",
+    "containerGap": "54px",
+    "containerW": 0,
+    "h4": {
+      "fs": "34px",
+      "w": 0,
+      "h": 0,
+      "ls": "-1.02px",
+      "lh": "41.48px"
+    },
+    "form": {
+      "w": 0,
+      "h": 0,
+      "gap": "10px"
+    },
+    "input": {
+      "w": 0,
+      "h": 0
+    },
+    "submit": {
+      "w": 0,
+      "h": 0
+    },
+    "newsFlex": {
+      "dir": "row",
+      "justify": "space-between",
+      "w": 0
+    },
+    "grid": {
+      "cols": "repeat(4, minmax(50px, 1fr))",
+      "gap": "0px",
+      "w": 0,
+      "h": 0,
+      "display": "grid"
+    },
+    "linkWrap": {
+      "dir": "row",
+      "wrap": "nowrap",
+      "gap": "10px",
+      "w": 0,
+      "h": 0,
+      "kids": [
+        {
+          "w": 0,
+          "h": 0,
+          "t": "Quick LinksHomeAbout"
+        },
+        {
+          "w": 0,
+          "h": 0,
+          "t": "Follow us:InstagramD"
+        },
+        {
+          "w": 0,
+          "h": 0,
+          "t": "Get in touchtest@gma"
+        }
+      ]
+    },
+    "logos": [
+      {
+        "w": 0,
+        "h": 0
+      },
+      {
+        "w": 0,
+        "h": 0
+      }
+    ],
+    "brandDescW": 0,
+    "overflowX": false
+  },
+  "1024": {
+    "footerH": 1022,
+    "footerPad": "86px 0px 15px",
+    "containerPad": "0px 22px",
+    "containerGap": "54px",
+    "containerW": 1024,
+    "h4": {
+      "fs": "34px",
+      "w": 300,
+      "h": 83,
+      "ls": "-1.02px",
+      "lh": "41.48px"
+    },
+    "form": {
+      "w": 350,
+      "h": 48,
+      "gap": "10px"
+    },
+    "input": {
+      "w": 217,
+      "h": 48
+    },
+    "submit": {
+      "w": 123,
+      "h": 48
+    },
+    "newsFlex": {
+      "dir": "row",
+      "justify": "space-between",
+      "w": 980
+    },
+    "grid": {
+      "cols": "245px 245px 245px 245px",
+      "gap": "0px",
+      "w": 980,
+      "h": 429,
+      "display": "grid"
+    },
+    "linkWrap": {
+      "dir": "row",
+      "wrap": "nowrap",
+      "gap": "32px 10px",
+      "w": 490,
+      "h": 429,
+      "kids": [
+        {
+          "w": 170,
+          "h": 233,
+          "t": "Quick LinksHomeAbout"
+        },
+        {
+          "w": 180,
+          "h": 200,
+          "t": "Follow us:InstagramD"
+        },
+        {
+          "w": 240,
+          "h": 164,
+          "t": "Get in touchtest@gma"
+        }
+      ]
+    },
+    "logos": [
+      {
+        "w": 90,
+        "h": 22
+      },
+      {
+        "w": 980,
+        "h": 238
+      }
+    ],
+    "brandDescW": 450,
+    "overflowX": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "bodyH": 15378,
+  "scrollH": 15378,
+  "candidates": [
+    {
+      "name": "Tablet",
+      "display": "flex",
+      "position": "relative",
+      "w": 810,
+      "h": 970,
+      "top": 14408,
+      "pad": "86px 0px 15px",
+      "text": "Subscribe to our news later\n\nA sophisticated e-commerce template designed for modern and minimalist "
+    }
+  ],
+  "named": [
+    {
+      "name": "Tablet",
+      "tag": "SECTION",
+      "display": "flex",
+      "w": 810,
+      "h": 819,
+      "text": "Stay connected\n\nSee our community in modern silhouettes\n\nCon"
+    },
+    {
+      "name": "Tablet",
+      "tag": "FOOTER",
+      "display": "flex",
+      "w": 810,
+      "h": 970,
+      "text": "Subscribe to our news later\n\nA sophisticated e-commerce temp"
+    }
+  ],
+  "subscribeVisible": [
+    {
+      "fs": "34px",
+      "w": 300,
+      "h": 83,
+      "y": 14494,
+      "display": "block"
+    }
+  ]
+}

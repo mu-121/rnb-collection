@@ -1,0 +1,186 @@
+export type ProductBadge = "New" | "Best seller";
+
+export type Product = {
+  id: string;
+  slug: string;
+  name: string;
+  price: number;
+  compareAtPrice: number;
+  badge: ProductBadge;
+  category: "new-arrivals" | "best-sellers";
+  image: string;
+  hoverImage: string;
+};
+
+export const newArrivals: Product[] = [
+  {
+    id: "na-01",
+    slug: "textured-knitted-shirt",
+    name: "Textured Knitted Shirt",
+    price: 59,
+    compareAtPrice: 79,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-020.jpg",
+    hoverImage: "/Images/wearix-023.jpg",
+  },
+  {
+    id: "na-02",
+    slug: "structured-trench-coat",
+    name: "Structured Trench Coat",
+    price: 210,
+    compareAtPrice: 280,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-028.jpg",
+    hoverImage: "/Images/wearix-031.jpg",
+  },
+  {
+    id: "na-03",
+    slug: "mini-denim-overalls",
+    name: "Mini Denim Overalls",
+    price: 45,
+    compareAtPrice: 60,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-034.jpg",
+    hoverImage: "/Images/wearix-037.jpg",
+  },
+  {
+    id: "na-04",
+    slug: "riviera-collar-shirt",
+    name: "Riviera Collar Shirt",
+    price: 45,
+    compareAtPrice: 60,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-040.jpg",
+    hoverImage: "/Images/wearix-043.jpg",
+  },
+  {
+    id: "na-05",
+    slug: "stretch-jersey-tee",
+    name: "Stretch Jersey Tee",
+    price: 65,
+    compareAtPrice: 95,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-046.jpg",
+    hoverImage: "/Images/wearix-049.jpg",
+  },
+  {
+    id: "na-06",
+    slug: "urban-utility-cargo",
+    name: "Urban Utility Cargo",
+    price: 90,
+    compareAtPrice: 120,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-051.png",
+    hoverImage: "/Images/wearix-054.png",
+  },
+  {
+    id: "na-07",
+    slug: "classic-boxy-tee",
+    name: "Classic Boxy Tee",
+    price: 35,
+    compareAtPrice: 45,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-057.jpg",
+    hoverImage: "/Images/wearix-060.jpg",
+  },
+  {
+    id: "na-08",
+    slug: "pleated-smart-trousers",
+    name: "Pleated Smart Trousers",
+    price: 76,
+    compareAtPrice: 100,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-062.webp",
+    hoverImage: "/Images/wearix-064.png",
+  },
+  {
+    id: "na-09",
+    slug: "french-terry-shorts",
+    name: "French Terry Shorts",
+    price: 40,
+    compareAtPrice: 55,
+    badge: "New",
+    category: "new-arrivals",
+    image: "/Images/wearix-066.webp",
+    hoverImage: "/Images/wearix-067.jpg",
+  },
+];
+
+export const bestSellers: Product[] = [
+  {
+    id: "bs-01",
+    slug: "heavyweight-oversized-hoodie",
+    name: "Heavyweight Oversized Hoodie",
+    price: 85,
+    compareAtPrice: 110,
+    badge: "Best seller",
+    category: "best-sellers",
+    image: "/Images/wearix-069.jpg",
+    hoverImage: "/Images/wearix-073.jpg",
+  },
+  {
+    id: "bs-02",
+    slug: "patterned-knit-sweater",
+    name: "Patterned Knit Sweater",
+    price: 45,
+    compareAtPrice: 90,
+    badge: "Best seller",
+    category: "best-sellers",
+    image: "/Images/wearix-075.png",
+    hoverImage: "/Images/wearix-077.png",
+  },
+  {
+    id: "bs-03",
+    slug: "quilted-bomber-jacket",
+    name: "Quilted Bomber Jacket",
+    price: 145,
+    compareAtPrice: 180,
+    badge: "Best seller",
+    category: "best-sellers",
+    image: "/Images/wearix-079.webp",
+    hoverImage: "/Images/wearix-081.jpg",
+  },
+  {
+    id: "bs-04",
+    slug: "hooded-puffer-vest",
+    name: "Hooded Puffer Vest",
+    price: 45,
+    compareAtPrice: 75,
+    badge: "Best seller",
+    category: "best-sellers",
+    image: "/Images/wearix-083.png",
+    hoverImage: "/Images/wearix-085.png",
+  },
+  {
+    id: "bs-05",
+    slug: "vegan-leather-leggings",
+    name: "Vegan Leather Leggings",
+    price: 75,
+    compareAtPrice: 99,
+    badge: "Best seller",
+    category: "best-sellers",
+    image: "/Images/wearix-088.jpg",
+    hoverImage: "/Images/wearix-091.jpg",
+  },
+  {
+    id: "bs-06",
+    slug: "cropped-boxy-blazer",
+    name: "Cropped Boxy Blazer",
+    price: 130,
+    compareAtPrice: 175,
+    badge: "Best seller",
+    category: "best-sellers",
+    image: "/Images/wearix-093.jpg",
+    hoverImage: "/Images/wearix-096.jpg",
+  },
+];
+
+export const products: Product[] = [...newArrivals, ...bestSellers];

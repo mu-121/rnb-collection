@@ -1,0 +1,268 @@
+{
+  "socialName": "Desktop",
+  "newsFound": true,
+  "newsName": null,
+  "newsTag": "DIV",
+  "newsText": "Subscribe to our news laterA sophisticated e-commerce template designed for modern and minimalist brands.Contact WearixContact WearixQuick LinksHomeAboutBlogShopReviewsStylesFollow us:InstagramDribbbleFacebookTwitterYoutubeGet in touchtest@gmail.com+001 234 567 890London, England",
+  "footerTag": "FOOTER",
+  "footerName": "Desktop",
+  "footerText": "Subscribe to our news laterA sophisticated e-commerce template designed for modern and minimalist brands.Contact WearixContact WearixQuick LinksHomeAboutBlogShopReviewsStylesFollow us:InstagramDribbbleFacebookTwitterYoutubeGet in touchtest@gmail.com+001 234 567 890London, England",
+  "texts": [
+    {
+      "tag": "A",
+      "name": "White",
+      "t": "ContactContact",
+      "href": "./contact",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "Transparent",
+      "t": "Contact usContact us",
+      "href": "./contact",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact us",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact us",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "Desktop",
+      "t": "NewStructured Trench Coat$210.00$280.00",
+      "href": "./shop/structured-trench-coat",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "Desktop",
+      "t": "NewStretch Jersey Tee$65.00$95.00",
+      "href": "./shop/stretch-jersey-tee",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Wearix",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "Transparent",
+      "t": "Contact usContact us",
+      "href": "./contact",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact us",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact us",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Wearix Voice",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "White",
+      "t": "Contact usContact us",
+      "href": "./contact",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact us",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact us",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "H4",
+      "name": null,
+      "t": "Subscribe to our news later",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "INPUT",
+      "name": null,
+      "t": "Enter your email",
+      "href": null,
+      "type": "email",
+      "placeholder": "Enter your email"
+    },
+    {
+      "tag": "INPUT",
+      "name": null,
+      "t": "Subscribe",
+      "href": null,
+      "type": "submit",
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "White",
+      "t": "Contact WearixContact Wearix",
+      "href": "./contact",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact Wearix",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Contact Wearix",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Quick Links",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Follow us:",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "Variant 1",
+      "t": "Instagram",
+      "href": "https://instagram.com",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Instagram",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "A",
+      "name": "Variant 1",
+      "t": "Dribbble",
+      "href": "https://dribbble.com",
+      "type": null,
+      "placeholder": null
+    },
+    {
+      "tag": "P",
+      "name": null,
+      "t": "Dribbble",
+      "href": null,
+      "type": null,
+      "placeholder": null
+    }
+  ],
+  "endSections": [
+    {
+      "name": "Best sellers",
+      "h": 1411.4,
+      "text": "Best sellersOur signature best selling piecesSee all collectionsSee all collectionsBest sellerHeavyweight Oversized Hood"
+    },
+    {
+      "name": "Collections",
+      "h": 2103.8,
+      "text": "Our CollectionsModern collections defined by simplicityShop all itemsShop all itemsNewMens's wearPremium modern collecti"
+    },
+    {
+      "name": "Reviews",
+      "h": 903.9,
+      "text": "Customer reviewsThe voice of qualityExperience the difference through the words of customers who value premium fabrics a"
+    },
+    {
+      "name": "Styles & Wear",
+      "h": 1284.7,
+      "text": "What defines our wearWhere style meets easeThoughtful design blending modern style, comfort, and versatility for everyda"
+    },
+    {
+      "name": "Blog",
+      "h": 1094.1,
+      "text": "Wearix VoiceElevating your daily style journeyRead all blogsRead all blogsStyle GuideHow to master the art of minimal st"
+    },
+    {
+      "name": "Desktop",
+      "h": 828.7,
+      "text": "Stay connectedSee our community in modern silhouettesConnect with us on social media for a daily dose of fresh style, fe"
+    }
+  ]
+}

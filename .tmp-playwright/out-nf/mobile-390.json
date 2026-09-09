@@ -1,0 +1,211 @@
+{
+  "bodyH": 20934,
+  "scrollH": 20934,
+  "candidates": [
+    {
+      "name": "Phone",
+      "display": "flex",
+      "position": "relative",
+      "w": 390,
+      "h": 1159,
+      "top": 19776,
+      "pad": "86px 0px 15px",
+      "text": "Subscribe to our news later\n\nA sophisticated e-commerce template designed for modern and minimalist "
+    }
+  ],
+  "named": [
+    {
+      "name": "Mobile white",
+      "tag": "NAV",
+      "display": "flex",
+      "w": 390,
+      "h": 69,
+      "text": "Home\n\nHome\n\nAbout\n\nAbout\n\nShop\n\nShop\n\nBlog\n\nBlog\n\nContact\n\nC"
+    },
+    {
+      "name": "04 - Phone",
+      "tag": "DIV",
+      "display": "flex",
+      "w": 390,
+      "h": 810,
+      "text": "Soft\n\nWarm Winter Layers\n\nPremium wear for modern living\n\nDi"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nTextured Knitted Shirt\n\n$59.00\n\n$79.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nStructured Trench Coat\n\n$210.00\n\n$280.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nMini Denim Overalls\n\n$45.00\n\n$60.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nRiviera Collar Shirt\n\n$45.00\n\n$60.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nStretch Jersey Tee\n\n$65.00\n\n$95.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nUrban Utility Cargo\n\n$90.00\n\n$120.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nClassic Boxy Tee\n\n$35.00\n\n$45.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nPleated Smart Trousers\n\n$76.00\n\n$100.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "New\n\nFrench Terry Shorts\n\n$40.00\n\n$55.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "Best seller\n\nHeavyweight Oversized Hoodie\n\n$85.00\n\n$110.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "Best seller\n\nPatterned Knit Sweater\n\n$45.00\n\n$90.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "Best seller\n\nQuilted Bomber Jacket\n\n$145.00\n\n$180.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "Best seller\n\nHooded Puffer Vest\n\n$45.00\n\n$75.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "Best seller\n\nVegan Leather Leggings\n\n$75.00\n\n$99.00"
+    },
+    {
+      "name": " Phone 01",
+      "tag": "A",
+      "display": "flex",
+      "w": 350,
+      "h": 496,
+      "text": "Best seller\n\nCropped Boxy Blazer\n\n$130.00\n\n$175.00"
+    },
+    {
+      "name": "01 - Phone",
+      "tag": "DIV",
+      "display": "flex",
+      "w": 350,
+      "h": 704,
+      "text": "The premium quality of the men's collection is truly unmatch"
+    },
+    {
+      "name": "Phone",
+      "tag": "A",
+      "display": "grid",
+      "w": 350,
+      "h": 611,
+      "text": "Style Guide\n\nHow to master the art of minimal street style\n\n"
+    },
+    {
+      "name": "Phone",
+      "tag": "A",
+      "display": "grid",
+      "w": 350,
+      "h": 439,
+      "text": "Fashion Tips\n\nElevate everyday outfits using modern minimali"
+    },
+    {
+      "name": "Phone",
+      "tag": "A",
+      "display": "grid",
+      "w": 350,
+      "h": 439,
+      "text": "Style Guide\n\nBuild a capsule wardrobe that works year round\n"
+    },
+    {
+      "name": "Phone",
+      "tag": "SECTION",
+      "display": "flex",
+      "w": 390,
+      "h": 816,
+      "text": "Stay connected\n\nSee our community in modern silhouettes\n\nCon"
+    },
+    {
+      "name": "Phone",
+      "tag": "FOOTER",
+      "display": "flex",
+      "w": 390,
+      "h": 1159,
+      "text": "Subscribe to our news later\n\nA sophisticated e-commerce temp"
+    }
+  ],
+  "subscribeVisible": [
+    {
+      "fs": "26px",
+      "w": 300,
+      "h": 63,
+      "y": 19862,
+      "display": "block"
+    }
+  ]
+}
