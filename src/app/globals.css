@@ -1,35 +1,58 @@
 @import "tailwindcss";
 
+/* Figma: Sansation Bold used for display + UI labels (mapped to 500/700) */
 @font-face {
-  font-family: "Ronzino";
-  src: url("/fonts/Ronzino-Medium.woff2") format("woff2");
+  font-family: "Sansation";
+  src: url("/fonts/Sansation-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sansation";
+  src: url("/fonts/Sansation-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Sansation";
+  src: url("/fonts/Sansation-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
+  /* Figma tokens — Dark #020A1D, accent blues #005AFA → #30B1FD */
   --background: #f8f8f8;
-  --foreground: #000000;
+  --foreground: #020a1d;
   --muted: #787878;
   --muted-2: #a1a1a1;
-  --border: rgba(0, 0, 0, 0.1);
-  --border-strong: rgba(0, 0, 0, 0.15);
-  --button: #000000;
+  --border: rgba(2, 10, 29, 0.1);
+  --border-strong: rgba(2, 10, 29, 0.15);
+  --button: #020a1d;
   --button-text: #ffffff;
+  --button-gradient: linear-gradient(180deg, #005afa 0%, #30b1fd 100%);
   --button-secondary-bg: #ffffff;
-  --button-secondary-text: #000000;
+  --button-secondary-text: #020a1d;
   --secondary-background: #ececea;
   --surface-white: #ffffff;
-  --accent: #ff6a00;
-  --overlay: rgba(0, 0, 0, 0.8);
-  --overlay-soft: rgba(0, 0, 0, 0.4);
+  --surface-tint: #f0f9ff;
+  --accent: #30b1fd;
+  --accent-deep: #005afa;
+  --overlay: rgba(2, 10, 29, 0.8);
+  --overlay-soft: rgba(2, 10, 29, 0.4);
   --nav-link-on-dark: rgba(255, 255, 255, 0.8);
   --glass: rgba(255, 255, 255, 0.15);
-  --footer-dark: #1f1f1f;
+  --footer-dark: #020a1d;
+  --footer-input: rgba(255, 255, 255, 0.05);
+  --footer-divider: #30b1fd;
 
-  --font-display: "Ronzino", var(--font-inter), sans-serif;
-  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+  --font-display: "Sansation", system-ui, sans-serif;
+  --font-sans: "Sansation", system-ui, sans-serif;
 
   --container: 1200px;
   --header-height: 64px;
@@ -197,10 +220,9 @@ ol {
 }
 
 .site-header__logo img {
-  width: 67px;
-  height: 23px;
+  width: 136px;
+  height: 25px;
   object-fit: contain;
-  filter: invert(1);
 }
 
 .site-header__nav {
@@ -255,8 +277,8 @@ ol {
   gap: 10px;
   padding: 8px 15px;
   border-radius: 999px;
-  background: var(--surface-white);
-  color: var(--foreground);
+  background: var(--button-gradient);
+  color: var(--surface-white);
   font-size: 15px;
   font-weight: 500;
   line-height: 1.55em;
@@ -356,7 +378,7 @@ ol {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.45);
+  background: var(--overlay-soft);
   opacity: 0;
   transition: opacity 280ms ease;
 }
@@ -416,8 +438,8 @@ ol {
   justify-content: center;
   padding: 12px 18px;
   border-radius: 999px;
-  background: var(--surface-white);
-  color: var(--foreground);
+  background: var(--button-gradient);
+  color: var(--surface-white);
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.035em;
@@ -443,7 +465,7 @@ ol {
   min-height: 640px;
   overflow: hidden;
   color: var(--surface-white);
-  background: #111;
+  background: #020a1d;
 }
 
 .hero__media {
@@ -653,7 +675,7 @@ ol {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--overlay);
   opacity: 0.9;
   pointer-events: none;
   -webkit-mask-image: linear-gradient(
@@ -816,7 +838,7 @@ button:focus-visible .hover-text__track {
   gap: 6px;
   padding: 3px 14px 3px 3px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -831,7 +853,7 @@ button:focus-visible .hover-text__track {
   width: 24px;
   height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   flex-shrink: 0;
 }
@@ -852,7 +874,7 @@ button:focus-visible .hover-text__track {
   flex-shrink: 0;
   padding: 8px 15px;
   border-radius: 999px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
   font-weight: 500;
@@ -890,13 +912,14 @@ button:focus-visible .hover-text__track {
   height: 420px;
   overflow: hidden;
   border-radius: 12px;
-  background: #eeeeee;
+  background: var(--surface-tint);
 }
 
 .product-card__image {
   object-fit: cover;
   object-position: center;
   transition: opacity 400ms ease;
+  mix-blend-mode: multiply;
 }
 
 .product-card__image--primary {
@@ -935,7 +958,7 @@ button:focus-visible .hover-text__track {
 }
 
 .product-card__badge--dark {
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
 }
 
@@ -1024,7 +1047,10 @@ button:focus-visible .hover-text__track {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: -0.03em;
-  color: var(--foreground);
+  background: var(--button-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .product-card__compare {
@@ -1202,7 +1228,7 @@ button:focus-visible .hover-text__track {
   gap: 6px;
   padding: 3px 14px 3px 3px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -1217,7 +1243,7 @@ button:focus-visible .hover-text__track {
   width: 24px;
   height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   flex-shrink: 0;
 }
@@ -1238,7 +1264,7 @@ button:focus-visible .hover-text__track {
   flex-shrink: 0;
   padding: 8px 15px;
   border-radius: 999px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
   font-weight: 500;
@@ -1352,7 +1378,7 @@ button:focus-visible .hover-text__track {
   gap: 6px;
   padding: 3px 14px 3px 3px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -1367,7 +1393,7 @@ button:focus-visible .hover-text__track {
   width: 24px;
   height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   flex-shrink: 0;
 }
@@ -1392,7 +1418,7 @@ button:focus-visible .hover-text__track {
   flex-shrink: 0;
   padding: 8px 15px;
   border-radius: 999px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 12px;
   font-weight: 400;
@@ -1448,7 +1474,7 @@ button:focus-visible .hover-text__track {
   min-height: 0;
   overflow: hidden;
   border-radius: 14px;
-  background: #eeeeee;
+  background: var(--surface-tint);
 }
 
 .collections__image {
@@ -1512,7 +1538,7 @@ button:focus-visible .hover-text__track {
   min-height: 0;
   padding: 28px;
   border-radius: 12px;
-  background: #eeeeee;
+  background: var(--surface-tint);
 }
 
 .collections__copy {
@@ -1609,7 +1635,7 @@ button:focus-visible .hover-text__track {
   width: 52px;
   height: 52px;
   border-radius: 7px;
-  background: #f8f8f8;
+  background:#F0F9FF;
 }
 
 .collections__pricing-icon img {
@@ -1644,7 +1670,10 @@ button:focus-visible .hover-text__track {
   font-weight: 500;
   line-height: 1.55em;
   letter-spacing: -0.03em;
-  color: var(--foreground);
+  background: var(--button-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .collections__price-rule {
@@ -1652,7 +1681,7 @@ button:focus-visible .hover-text__track {
   width: 10px;
   height: 1px;
   flex-shrink: 0;
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--border);
 }
 
 .collections__all {
@@ -1662,7 +1691,7 @@ button:focus-visible .hover-text__track {
   flex-shrink: 0;
   padding: 8px 15px;
   border-radius: 999px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 12px;
   font-weight: 400;
@@ -1802,7 +1831,10 @@ button:focus-visible .hover-text__track {
 /* —— Customer Reviews —— */
 .customer-reviews {
   background: var(--background);
-  color: var(--foreground);
+  background: var(--button-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   padding: 86px 0;
 }
 
@@ -1840,7 +1872,7 @@ button:focus-visible .hover-text__track {
   gap: 6px;
   padding: 3px 14px 3px 3px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -1855,7 +1887,7 @@ button:focus-visible .hover-text__track {
   width: 24px;
   height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   flex-shrink: 0;
 }
@@ -1890,7 +1922,7 @@ button:focus-visible .hover-text__track {
   max-width: 950px;
   padding: 80px 0 0;
   border-radius: 12px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
 }
 
 .customer-reviews__rating {
@@ -1910,7 +1942,8 @@ button:focus-visible .hover-text__track {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  color: var(--accent);
+  color:#ff6a00
+  ;
 }
 
 .customer-reviews__rating-label {
@@ -2020,7 +2053,7 @@ button:focus-visible .hover-text__track {
   margin: 0;
   padding: 0;
   border: 0;
-  background: #eeeeee;
+  background: var(--surface-tint);
   cursor: pointer;
   transition: background-color 200ms ease;
 }
@@ -2168,7 +2201,7 @@ button:focus-visible .hover-text__track {
   gap: 6px;
   padding: 3px 14px 3px 3px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -2183,7 +2216,7 @@ button:focus-visible .hover-text__track {
   width: 24px;
   height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   flex-shrink: 0;
 }
@@ -2229,7 +2262,7 @@ button:focus-visible .hover-text__track {
   height: 100%;
   padding: 22px 20px 20px;
   border-radius: 20px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   overflow: clip;
 }
 
@@ -2306,7 +2339,7 @@ button:focus-visible .hover-text__track {
 .features__divider {
   width: 100%;
   height: 1px;
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--border);
   flex-shrink: 0;
 }
 
@@ -2326,7 +2359,7 @@ button:focus-visible .hover-text__track {
   gap: 4px;
   padding: 4px 10px;
   border-radius: 70px;
-  background: #eeeeee;
+  background: var(--surface-tint);
 }
 
 .features__tag-icon {
@@ -2436,7 +2469,7 @@ button:focus-visible .hover-text__track {
   gap: 6px;
   padding: 3px 14px 3px 3px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -2451,7 +2484,7 @@ button:focus-visible .hover-text__track {
   width: 24px;
   height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   flex-shrink: 0;
 }
@@ -2473,7 +2506,7 @@ button:focus-visible .hover-text__track {
   flex-shrink: 0;
   padding: 8px 15px;
   border-radius: 999px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
   font-weight: 500;
@@ -2510,7 +2543,7 @@ button:focus-visible .hover-text__track {
 
 .blog__card--small {
   grid-template-columns: 1fr 1fr;
-  background: #eeeeee;
+  background: var(--surface-tint);
 }
 
 .blog__secondary {
@@ -2567,7 +2600,7 @@ button:focus-visible .hover-text__track {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #eeeeee;
+  background: var(--surface-tint);
   min-width: 0;
 }
 
@@ -2598,7 +2631,7 @@ button:focus-visible .hover-text__track {
   align-self: flex-start;
   padding: 6px 15px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -2679,7 +2712,7 @@ button:focus-visible .hover-text__track {
 
 .blog__meta-line {
   width: 1px;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--overlay-soft);
   flex-shrink: 0;
 }
 
@@ -2836,7 +2869,7 @@ button:focus-visible .hover-text__track {
   gap: 6px;
   padding: 3px 14px 3px 3px;
   border-radius: 70px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5em;
@@ -2851,7 +2884,7 @@ button:focus-visible .hover-text__track {
   width: 24px;
   height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   flex-shrink: 0;
 }
@@ -2903,7 +2936,7 @@ button:focus-visible .hover-text__track {
 }
 
 .social-gallery__btn--solid {
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
 }
 
@@ -2986,7 +3019,7 @@ button:focus-visible .hover-text__track {
   border-radius: 20px;
   overflow: hidden;
   transform-style: preserve-3d;
-  background: #eeeeee;
+  background: var(--surface-tint);
   pointer-events: none;
 }
 
@@ -3071,7 +3104,7 @@ button:focus-visible .hover-text__track {
 .brand-story__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--overlay-soft);
   pointer-events: none;
 }
 
@@ -3303,7 +3336,7 @@ button:focus-visible .hover-text__track {
 
 /* —— Newsletter —— */
 .newsletter {
-  background: #000000;
+  background: var(--footer-dark);
   color: #ffffff;
   padding: 86px 0 0;
   overflow: clip;
@@ -3373,7 +3406,7 @@ button:focus-visible .hover-text__track {
   padding: 14px 25px;
   border: none;
   border-radius: 999px;
-  background: #1f1f1f;
+  background: var(--footer-input);
   color: #ffffff;
   font-family: var(--font-sans);
   font-size: 16px;
@@ -3403,8 +3436,8 @@ button:focus-visible .hover-text__track {
   padding: 15px 24px;
   border: none;
   border-radius: 999px;
-  background: #ffffff;
-  color: #000000;
+  background: var(--button-gradient);
+  color: #ffffff;
   font-family: var(--font-sans);
   font-size: 16px;
   font-weight: 500;
@@ -3416,12 +3449,12 @@ button:focus-visible .hover-text__track {
 .newsletter__divider {
   width: 100%;
   height: 1px;
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--footer-divider);
 }
 
 /* —— Footer —— */
 .footer {
-  background: #000000;
+  background: var(--footer-dark);
   color: #ffffff;
   padding: 58px 0 15px;
   overflow: clip;
@@ -3489,8 +3522,8 @@ button:focus-visible .hover-text__track {
   gap: 10px;
   padding: 8px 15px;
   border-radius: 999px;
-  background: #ffffff;
-  color: #000000;
+  background: var(--button-gradient);
+  color: #ffffff;
   text-decoration: none;
   font-family: var(--font-sans);
   font-size: 15px;
@@ -3500,7 +3533,7 @@ button:focus-visible .hover-text__track {
 }
 
 .footer__contact-btn .hover-text {
-  color: #000000;
+  color: #ffffff;
 }
 
 .footer__links {
@@ -3609,18 +3642,27 @@ button:focus-visible .hover-text__track {
 
 .footer__watermark {
   display: block;
-  width: 100%;
+  /* width: 100%; */
   line-height: 0;
   text-decoration: none;
+  overflow: hidden;
 }
 
-.footer__watermark-img {
-  width: 100% !important;
-  height: auto !important;
-  max-width: none;
-  aspect-ratio: 1190 / 289.2;
-  object-fit: fill;
-  filter: invert(1);
+.footer__watermark-text {
+  display: block;
+  width: 100%;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(48px, 14vw, 202px);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  white-space: nowrap;
+  background: var(--button-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0.35;
 }
 
 @media (min-width: 810px) and (max-width: 1199.98px) {

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { assets } from "@/data/assets";
 import {
@@ -8,6 +7,7 @@ import {
   footerSocialLinks,
 } from "@/data/footer";
 import HoverText from "./HoverText";
+import Image from "next/image";
 
 function EmailIcon() {
   return (
@@ -214,15 +214,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <Link href="/" className="footer__watermark" aria-label="Wearix home">
-          <Image
-            src={assets.logo}
-            alt=""
-            width={1190}
-            height={289}
-            className="footer__watermark-img"
-            aria-hidden="true"
-          />
+        <Link href="/" className="footer__watermark" aria-label="RnB Collection home">
+          <span className="footer__watermark-text" aria-hidden="true">
+            RnB Collection
+          </span>
         </Link>
       </div>
     </footer>

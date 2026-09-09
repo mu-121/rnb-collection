@@ -19,7 +19,7 @@ function PauseIcon() {
       aria-hidden="true"
       focusable="false"
     >
-      <g fill="#000" stroke="#000" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <g fill="#020A1D" stroke="#020A1D" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
         <path
           d="M 0.75 16.5 C 0.336 16.5 0 16.164 0 15.75 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 4.5 0 C 4.914 0 5.25 0.336 5.25 0.75 L 5.25 15.75 C 5.25 16.164 4.914 16.5 4.5 16.5 Z"
           transform="translate(4.5 3.75)"
@@ -47,8 +47,8 @@ function PlayIcon() {
       <path
         d="M 0 0.736 L 0 17.259 C 0.005 17.527 0.153 17.772 0.388 17.902 C 0.623 18.031 0.91 18.025 1.139 17.886 L 14.647 9.625 C 14.866 9.492 15 9.254 15 8.997 C 15 8.741 14.866 8.503 14.647 8.37 L 1.139 0.109 C 0.91 -0.03 0.623 -0.036 0.388 0.093 C 0.153 0.222 0.005 0.468 0 0.736 Z"
         transform="translate(6.75 3.003)"
-        fill="#000"
-        stroke="#000"
+        fill="#020A1D"
+        stroke="#020A1D"
         strokeWidth={1.5}
         strokeLinecap="round"
         strokeLinejoin="round"

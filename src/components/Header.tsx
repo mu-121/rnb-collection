@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useState } from "react";
-import { assets } from "@/data/assets";
 import HoverText from "./HoverText";
 import MobileMenu, { LINKS } from "./MobileMenu";
 
@@ -26,12 +25,12 @@ export default function Header() {
     <>
       <header className="site-header">
         <div className="site-header__inner">
-          <Link href="/" className="site-header__logo" aria-label="Wearix home">
+          <Link href="/" className="site-header__logo" aria-label="RnB Collection home">
             <Image
-              src={assets.logo}
-              alt="Wearix"
-              width={67}
-              height={23}
+              src="/Images/logo.svg"
+              alt="RnB Collection"
+              width={136}
+              height={25}
               priority
             />
           </Link>
