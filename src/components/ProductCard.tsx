@@ -119,6 +119,9 @@ type ProductCardProps = {
 };
 
 export default function ProductCard({ product }: ProductCardProps) {
+  const remotePrimary = product.hoverImage.startsWith("http");
+  const remoteHover = product.image.startsWith("http");
+
   return (
     <Link href={`/shop/${product.slug}`} className="product-card">
       <div className="product-card__media">
@@ -129,6 +132,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           fill
           sizes="(max-width: 809.98px) 100vw, (max-width: 1199.98px) 50vw, 373px"
           className="product-card__image product-card__image--primary"
+          unoptimized={remotePrimary}
         />
         <Image
           src={product.image}
@@ -136,6 +140,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           fill
           sizes="(max-width: 809.98px) 100vw, (max-width: 1199.98px) 50vw, 373px"
           className="product-card__image product-card__image--hover"
+          unoptimized={remoteHover}
         />
 
         {product.badge ? (
@@ -187,6 +192,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                   width={30}
                   height={30}
                   className="product-card__swatch-image"
+                  unoptimized={remotePrimary}
                 />
               </span>
             </span>
@@ -198,6 +204,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                   width={30}
                   height={30}
                   className="product-card__swatch-image"
+                  unoptimized={remoteHover}
                 />
               </span>
             </span>

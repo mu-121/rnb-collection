@@ -1,0 +1,52 @@
+{
+  "title": "About — RnB Collection",
+  "h1": {
+    "w": 600,
+    "h": 138.9,
+    "y": 231.8,
+    "fontSize": "62px",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "padding": "0px"
+  },
+  "h1Text": "Timeless design, modern wearability",
+  "hero": {
+    "w": 1200,
+    "h": 592.3,
+    "y": 33.6,
+    "fontSize": "16px",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgb(2, 10, 29)",
+    "padding": "150px 0px 120px"
+  },
+  "overflowX": false,
+  "scrollWidth": 1200,
+  "sections": [
+    {
+      "cls": "about-hero",
+      "h": 592.3
+    },
+    {
+      "cls": "about-trust",
+      "h": 125.8
+    },
+    {
+      "cls": "about-mission",
+      "h": 731.8
+    },
+    {
+      "cls": "social-gallery",
+      "h": 830.7
+    },
+    {
+      "cls": "newsletter",
+      "h": 232.8
+    }
+  ],
+  "headings": [
+    "Timeless design, modern wearability",
+    "More than fashion, Wearix is a commitment to intentional design. Our curated col",
+    "See our community in modern silhouettes",
+    "Subscribe to our news later"
+  ]
+}

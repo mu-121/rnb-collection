@@ -1,0 +1,923 @@
+{
+  "local": [
+    {
+      "label": "local",
+      "w": 1440,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1440,
+          "h": 592.3,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 600,
+          "h": 138.9,
+          "fontSize": "62px",
+          "lineHeight": "69.44px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 480,
+          "h": 54,
+          "fontSize": "18px",
+          "lineHeight": "27px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 277,
+            "h": 300,
+            "x": 145
+          },
+          {
+            "value": "98%",
+            "w": 277,
+            "h": 300,
+            "x": 436
+          },
+          {
+            "value": "300+",
+            "w": 277,
+            "h": 300,
+            "x": 727
+          },
+          {
+            "value": "500K+",
+            "w": 277,
+            "h": 300,
+            "x": 1018
+          }
+        ],
+        "gaps": [
+          14,
+          14,
+          14
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 1024,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1024,
+          "h": 569.7,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 600,
+          "h": 125.4,
+          "fontSize": "56px",
+          "lineHeight": "62.72px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 480,
+          "h": 48,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 483,
+            "h": 300,
+            "x": 22
+          },
+          {
+            "value": "98%",
+            "w": 483,
+            "h": 300,
+            "x": 519
+          },
+          {
+            "value": "300+",
+            "w": 483,
+            "h": 300,
+            "x": 22
+          },
+          {
+            "value": "500K+",
+            "w": 483,
+            "h": 300,
+            "x": 519
+          }
+        ],
+        "gaps": [
+          14,
+          -980,
+          14
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 390,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 390,
+          "h": 560,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 350,
+          "h": 89.6,
+          "fontSize": "40px",
+          "lineHeight": "44.8px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 350,
+          "h": 72,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "98%",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "300+",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "500K+",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          }
+        ],
+        "gaps": [
+          -350,
+          -350,
+          -350
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 320,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 320,
+          "h": 602.6,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 280,
+          "h": 134.4,
+          "fontSize": "40px",
+          "lineHeight": "44.8px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 280,
+          "h": 72,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 280,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "98%",
+            "w": 280,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "300+",
+            "w": 280,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "500K+",
+            "w": 280,
+            "h": 300,
+            "x": 20
+          }
+        ],
+        "gaps": [
+          -280,
+          -280,
+          -280
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 375,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 375,
+          "h": 560,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 335,
+          "h": 89.6,
+          "fontSize": "40px",
+          "lineHeight": "44.8px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 335,
+          "h": 72,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 335,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "98%",
+            "w": 335,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "300+",
+            "w": 335,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "500K+",
+            "w": 335,
+            "h": 300,
+            "x": 20
+          }
+        ],
+        "gaps": [
+          -335,
+          -335,
+          -335
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 768,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 768,
+          "h": 560,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 350,
+          "h": 89.6,
+          "fontSize": "40px",
+          "lineHeight": "44.8px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 350,
+          "h": 72,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 728,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "98%",
+            "w": 728,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "300+",
+            "w": 728,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "500K+",
+            "w": 728,
+            "h": 300,
+            "x": 20
+          }
+        ],
+        "gaps": [
+          -728,
+          -728,
+          -728
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 810,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 810,
+          "h": 569.7,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 600,
+          "h": 125.4,
+          "fontSize": "56px",
+          "lineHeight": "62.72px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 480,
+          "h": 48,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 376,
+            "h": 300,
+            "x": 22
+          },
+          {
+            "value": "98%",
+            "w": 376,
+            "h": 300,
+            "x": 412
+          },
+          {
+            "value": "300+",
+            "w": 376,
+            "h": 300,
+            "x": 22
+          },
+          {
+            "value": "500K+",
+            "w": 376,
+            "h": 300,
+            "x": 412
+          }
+        ],
+        "gaps": [
+          14,
+          -766,
+          14
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 1200,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1200,
+          "h": 592.3,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "150px 0px 120px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "h1": {
+          "w": 600,
+          "h": 138.9,
+          "fontSize": "62px",
+          "lineHeight": "69.44px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "body": {
+          "w": 480,
+          "h": 54,
+          "fontSize": "18px",
+          "lineHeight": "27px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "Sansation, system-ui, sans-serif"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 277,
+            "h": 300,
+            "x": 25
+          },
+          {
+            "value": "98%",
+            "w": 277,
+            "h": 300,
+            "x": 316
+          },
+          {
+            "value": "300+",
+            "w": 277,
+            "h": 300,
+            "x": 607
+          },
+          {
+            "value": "500K+",
+            "w": 277,
+            "h": 300,
+            "x": 898
+          }
+        ],
+        "gaps": [
+          14,
+          14,
+          14
+        ],
+        "sections": [
+          "about-hero",
+          "about-trust",
+          "about-mission",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasFooter": true,
+        "starColor": "rgb(255, 106, 0)"
+      },
+      "errors": []
+    }
+  ],
+  "live": [
+    {
+      "label": "live",
+      "w": 1440,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1440,
+          "h": 591.7,
+          "fontSize": "12px",
+          "lineHeight": "normal",
+          "padding": "150px 0px 120px",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "sans-serif"
+        },
+        "h1": {
+          "w": 600,
+          "h": 138.9,
+          "fontSize": "62px",
+          "lineHeight": "69.44px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Ronzino, \"Ronzino Placeholder\", sans-serif"
+        },
+        "body": {
+          "w": 480,
+          "h": 54,
+          "fontSize": "18px",
+          "lineHeight": "27px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sa"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 277,
+            "h": 300,
+            "x": 145
+          },
+          {
+            "value": "98%",
+            "w": 277,
+            "h": 300,
+            "x": 436
+          },
+          {
+            "value": "300+",
+            "w": 277,
+            "h": 300,
+            "x": 727
+          },
+          {
+            "value": "500K+",
+            "w": 277,
+            "h": 300,
+            "x": 1018
+          }
+        ],
+        "gaps": [
+          14,
+          14,
+          14
+        ],
+        "sections": [
+          "hero",
+          "trust",
+          "mission",
+          "social",
+          "newsletter",
+          "footer"
+        ],
+        "hasFooter": true,
+        "starColor": null
+      },
+      "errors": []
+    },
+    {
+      "label": "live",
+      "w": 1024,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1024,
+          "h": 569.7,
+          "fontSize": "12px",
+          "lineHeight": "normal",
+          "padding": "150px 0px 120px",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "sans-serif"
+        },
+        "h1": {
+          "w": 600,
+          "h": 125.4,
+          "fontSize": "56px",
+          "lineHeight": "62.72px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Ronzino, \"Ronzino Placeholder\", sans-serif"
+        },
+        "body": {
+          "w": 480,
+          "h": 48,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sa"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 483,
+            "h": 300,
+            "x": 22
+          },
+          {
+            "value": "98%",
+            "w": 483,
+            "h": 300,
+            "x": 519
+          },
+          {
+            "value": "300+",
+            "w": 483,
+            "h": 300,
+            "x": 22
+          },
+          {
+            "value": "500K+",
+            "w": 483,
+            "h": 300,
+            "x": 519
+          }
+        ],
+        "gaps": [
+          14,
+          -980,
+          14
+        ],
+        "sections": [
+          "hero",
+          "trust",
+          "mission",
+          "social",
+          "newsletter",
+          "footer"
+        ],
+        "hasFooter": true,
+        "starColor": null
+      },
+      "errors": []
+    },
+    {
+      "label": "live",
+      "w": 390,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 390,
+          "h": 560.4,
+          "fontSize": "12px",
+          "lineHeight": "normal",
+          "padding": "150px 0px 120px",
+          "color": "rgb(0, 0, 0)",
+          "fontFamily": "sans-serif"
+        },
+        "h1": {
+          "w": 350,
+          "h": 89.6,
+          "fontSize": "40px",
+          "lineHeight": "44.8px",
+          "padding": "0px",
+          "color": "rgb(255, 255, 255)",
+          "fontFamily": "Ronzino, \"Ronzino Placeholder\", sans-serif"
+        },
+        "body": {
+          "w": 350,
+          "h": 72,
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "padding": "0px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Placeholder\", sa"
+        },
+        "stats": [
+          {
+            "value": "10M+",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "98%",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "300+",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          },
+          {
+            "value": "500K+",
+            "w": 350,
+            "h": 300,
+            "x": 20
+          }
+        ],
+        "gaps": [
+          -350,
+          -350,
+          -350
+        ],
+        "sections": [
+          "hero",
+          "trust",
+          "mission",
+          "social",
+          "newsletter",
+          "footer"
+        ],
+        "hasFooter": true,
+        "starColor": null
+      },
+      "errors": []
+    }
+  ],
+  "home": [
+    {
+      "w": 1440,
+      "data": {
+        "overflowX": false,
+        "order": [
+          "announce",
+          "header",
+          "hero",
+          "newArrivals",
+          "brandStory",
+          "bestSellers",
+          "collections",
+          "reviews",
+          "features",
+          "blog",
+          "social",
+          "newsletter",
+          "footer"
+        ],
+        "hero": {
+          "h": 866,
+          "y": 33.6
+        },
+        "announce": {
+          "h": 33.6,
+          "y": 0
+        }
+      }
+    },
+    {
+      "w": 1024,
+      "data": {
+        "overflowX": false,
+        "order": [
+          "announce",
+          "header",
+          "hero",
+          "newArrivals",
+          "brandStory",
+          "bestSellers",
+          "collections",
+          "reviews",
+          "features",
+          "blog",
+          "social",
+          "newsletter",
+          "footer"
+        ],
+        "hero": {
+          "h": 766,
+          "y": 33.6
+        },
+        "announce": {
+          "h": 33.6,
+          "y": 0
+        }
+      }
+    },
+    {
+      "w": 390,
+      "data": {
+        "overflowX": false,
+        "order": [
+          "announce",
+          "header",
+          "hero",
+          "newArrivals",
+          "brandStory",
+          "bestSellers",
+          "collections",
+          "reviews",
+          "features",
+          "blog",
+          "social",
+          "newsletter",
+          "footer"
+        ],
+        "hero": {
+          "h": 725.6,
+          "y": 30.3
+        },
+        "announce": {
+          "h": 30.3,
+          "y": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1015 @@
+{
+  "local": [
+    {
+      "label": "local",
+      "w": 1440,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1440,
+          "h": 592.3,
+          "y": 33.6,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 600,
+          "h": 138.9,
+          "y": 231.8,
+          "fontSize": "62px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 480,
+          "h": 54,
+          "y": 388.7,
+          "fontSize": "18px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 1150,
+          "h": 74,
+          "y": 711.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 1150,
+          "h": 3654.6,
+          "y": 835.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "372.656px 372.672px 372.656px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 372.7,
+          "h": 495.8,
+          "y": 835.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 1024,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1024,
+          "h": 569.7,
+          "y": 33.6,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 600,
+          "h": 125.4,
+          "y": 228.6,
+          "fontSize": "56px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 480,
+          "h": 48,
+          "y": 372,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 980,
+          "h": 74,
+          "y": 661.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 980,
+          "h": 5214,
+          "y": 771.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "482px 482px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 482,
+          "h": 495.8,
+          "y": 771.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 390,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 390,
+          "h": 560,
+          "y": 30.3,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 350,
+          "h": 89.6,
+          "y": 225.3,
+          "fontSize": "40px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 350,
+          "h": 48,
+          "y": 332.9,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 350,
+          "h": 118,
+          "y": 648.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 350,
+          "h": 10411.9,
+          "y": 794.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "350px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 350,
+          "h": 495.8,
+          "y": 794.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 320,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 320,
+          "h": 602.6,
+          "y": 30.3,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 280,
+          "h": 134.4,
+          "y": 225.3,
+          "fontSize": "40px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 280,
+          "h": 72,
+          "y": 377.7,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 280,
+          "h": 118,
+          "y": 690.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 280,
+          "h": 10436.7,
+          "y": 836.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "280px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 280,
+          "h": 495.8,
+          "y": 836.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 375,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 375,
+          "h": 560,
+          "y": 30.3,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 335,
+          "h": 89.6,
+          "y": 225.3,
+          "fontSize": "40px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 335,
+          "h": 48,
+          "y": 332.9,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 335,
+          "h": 118,
+          "y": 648.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 335,
+          "h": 10411.9,
+          "y": 794.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "335px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 335,
+          "h": 495.8,
+          "y": 794.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 768,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 768,
+          "h": 560,
+          "y": 30.3,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 350,
+          "h": 89.6,
+          "y": 225.3,
+          "fontSize": "40px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 350,
+          "h": 48,
+          "y": 332.9,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 728,
+          "h": 118,
+          "y": 648.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 728,
+          "h": 10411.9,
+          "y": 794.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "728px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 728,
+          "h": 495.8,
+          "y": 794.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 810,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 810,
+          "h": 569.7,
+          "y": 33.6,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 600,
+          "h": 125.4,
+          "y": 228.6,
+          "fontSize": "56px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 480,
+          "h": 48,
+          "y": 372,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 766,
+          "h": 74,
+          "y": 661.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 766,
+          "h": 5214,
+          "y": 771.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "375px 375px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 375,
+          "h": 495.8,
+          "y": 771.3,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "local",
+      "w": 1200,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1200,
+          "h": 592.3,
+          "y": 33.6,
+          "fontSize": "16px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "150px 0px 120px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgb(2, 10, 29)"
+        },
+        "h1": {
+          "w": 600,
+          "h": 138.9,
+          "y": 231.8,
+          "fontSize": "62px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 480,
+          "h": 54,
+          "y": 388.7,
+          "fontSize": "18px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 1150,
+          "h": 74,
+          "y": 711.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgb(236, 236, 234)"
+        },
+        "grid": {
+          "w": 1150,
+          "h": 3654.6,
+          "y": 835.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px 0px 40px",
+          "gap": "24px 16px",
+          "gridCols": "372.656px 372.672px 372.656px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 372.7,
+          "h": 495.8,
+          "y": 835.9,
+          "fontSize": "16px",
+          "color": "rgb(2, 10, 29)",
+          "padding": "0px",
+          "gap": "18px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "shop-hero",
+          "shop-catalog",
+          "social-gallery",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    }
+  ],
+  "live": [
+    {
+      "label": "live",
+      "w": 1440,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1440,
+          "h": 591.7,
+          "y": 0,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "150px 0px 120px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1": {
+          "w": 600,
+          "h": 138.9,
+          "y": 199.6,
+          "fontSize": "62px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 480,
+          "h": 54,
+          "y": 352.5,
+          "fontSize": "18px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 1150,
+          "h": 74,
+          "y": 677.7,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "275px 275px 275px 275px",
+          "bg": "rgb(238, 238, 238)"
+        },
+        "grid": {
+          "w": 1150,
+          "h": 3614.6,
+          "y": 783.7,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px",
+          "gap": "24px 16px",
+          "gridCols": "372.656px 372.672px 372.656px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 372.7,
+          "h": 495.8,
+          "y": 833.7,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 238)",
+          "padding": "0px",
+          "gap": "18px 16px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "hero",
+          "catalog",
+          "social",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "live",
+      "w": 1024,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 1024,
+          "h": 569.7,
+          "y": 0,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "150px 0px 120px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1": {
+          "w": 600,
+          "h": 125.4,
+          "y": 197,
+          "fontSize": "56px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 480,
+          "h": 48,
+          "y": 336.4,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 980,
+          "h": 74,
+          "y": 655.7,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "232.5px 232.5px 232.5px 232.5px",
+          "bg": "rgb(238, 238, 238)"
+        },
+        "grid": {
+          "w": 980,
+          "h": 5174,
+          "y": 761.7,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px",
+          "gap": "24px 16px",
+          "gridCols": "482px 482px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 482,
+          "h": 495.8,
+          "y": 811.7,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 238)",
+          "padding": "0px",
+          "gap": "18px 16px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "hero",
+          "catalog",
+          "social",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    },
+    {
+      "label": "live",
+      "w": 390,
+      "data": {
+        "overflowX": false,
+        "hero": {
+          "w": 390,
+          "h": 560.4,
+          "y": 0,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "150px 0px 120px",
+          "gap": "10px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1": {
+          "w": 350,
+          "h": 89.6,
+          "y": 199.6,
+          "fontSize": "40px",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "h1Text": "Elevate your daily wardrobe with ease",
+        "body": {
+          "w": 350,
+          "h": 72,
+          "y": 303.2,
+          "fontSize": "16px",
+          "color": "rgba(255, 255, 255, 0.8)",
+          "padding": "0px",
+          "gap": "normal",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "filters": {
+          "w": 350,
+          "h": 266,
+          "y": 646.4,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "10px",
+          "gap": "10px",
+          "gridCols": "330px",
+          "bg": "rgb(238, 238, 238)"
+        },
+        "grid": {
+          "w": 350,
+          "h": 10371.9,
+          "y": 944.4,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px",
+          "gap": "24px 16px",
+          "gridCols": "350px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "productCount": 20,
+        "firstCard": {
+          "w": 350,
+          "h": 495.8,
+          "y": 994.4,
+          "fontSize": "12px",
+          "color": "rgb(0, 0, 238)",
+          "padding": "0px",
+          "gap": "18px 16px",
+          "gridCols": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "mediaH": 420,
+        "sections": [
+          "hero",
+          "catalog",
+          "social",
+          "newsletter"
+        ],
+        "hasSocial": true,
+        "hasFooter": true,
+        "starOrange": false
+      },
+      "errors": []
+    }
+  ],
+  "home": [
+    {
+      "h1": "Premium wear for modern living",
+      "hasAboutLink": true,
+      "hasShopLink": true,
+      "overflow": false,
+      "sections": [
+        {
+          "s": ".announce",
+          "present": true
+        },
+        {
+          "s": ".hero",
+          "present": true
+        },
+        {
+          "s": ".new-arrivals",
+          "present": true
+        },
+        {
+          "s": ".brand-story",
+          "present": true
+        },
+        {
+          "s": ".about-hero",
+          "present": false
+        },
+        {
+          "s": ".shop-hero",
+          "present": false
+        }
+      ]
+    },
+    {
+      "about": {
+        "h1": "Timeless design, modern wearability",
+        "hasAboutHero": true,
+        "hasShopHero": false
+      }
+    }
+  ],
+  "routes": [
+    {
+      "r": "/",
+      "status": 200
+    },
+    {
+      "r": "/about",
+      "status": 200
+    },
+    {
+      "r": "/shop",
+      "status": 200
+    },
+    {
+      "r": "/contact",
+      "status": 404
+    },
+    {
+      "r": "/blog",
+      "status": 404
+    }
+  ]
+}

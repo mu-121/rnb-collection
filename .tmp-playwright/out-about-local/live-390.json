@@ -1,0 +1,46 @@
+{
+  "title": "About - Wearix Modern Clothing E-commerce Framer Template",
+  "h1": {
+    "w": 350,
+    "h": 89.6,
+    "y": 199.6,
+    "fontSize": "40px",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "padding": "0px"
+  },
+  "h1Text": "Timeless design, modern wearability",
+  "hero": {
+    "w": 390,
+    "h": 560.4,
+    "y": 0,
+    "fontSize": "12px",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "padding": "150px 0px 120px"
+  },
+  "overflowX": false,
+  "scrollWidth": 390,
+  "sections": [
+    {
+      "cls": "framer-64Hse framer-GqYvS framer-abj6Y f",
+      "h": 216
+    },
+    {
+      "cls": "",
+      "h": 32
+    },
+    {
+      "cls": "framer-unhk0 framer-pRCf4 framer-UKwSM f",
+      "h": 816.2
+    }
+  ],
+  "headings": [
+    "Timeless design, modern wearability",
+    "10M+",
+    "98%",
+    "300+",
+    "500K+",
+    "See our community in modern silhouettes"
+  ]
+}
