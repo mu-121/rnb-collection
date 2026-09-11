@@ -1,0 +1,524 @@
+{
+  "title": "Blog - Wearix Modern Clothing E-commerce Framer Template",
+  "h1": {
+    "tag": "H1",
+    "name": null,
+    "text": "The craft behind every single stitch",
+    "w": 600,
+    "h": 138.9,
+    "y": 199.6,
+    "fontSize": "62px",
+    "fw": "500",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "display": "block",
+    "gap": "normal",
+    "pad": "0px",
+    "radius": "0px",
+    "grid": "none"
+  },
+  "hero": {
+    "tag": "HEADER",
+    "name": "Hero section",
+    "text": "Blog Read our stories The craft behind every single stitch Discover the detailed process of creating premium garments fr",
+    "w": 1440,
+    "h": 591.7,
+    "y": 0,
+    "fontSize": "12px",
+    "fw": "400",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "display": "flex",
+    "gap": "10px",
+    "pad": "150px 0px 120px",
+    "radius": "0px",
+    "grid": "none"
+  },
+  "bodyCandidates": [
+    {
+      "text": "Discover the detailed process of creating premium garments from our sustainable materials.",
+      "fontSize": "18px",
+      "y": 352.5,
+      "w": 480
+    },
+    {
+      "text": "Build a timeless, comfortable wardrobe with high-quality fabrics, muted tones, and effortless oversized fits.",
+      "fontSize": "16px",
+      "y": 1024.6,
+      "w": 500
+    },
+    {
+      "text": "Elevate everyday outfits using modern minimalist styling",
+      "fontSize": "20px",
+      "y": 1344.2,
+      "w": 267.5
+    },
+    {
+      "text": "Build a capsule wardrobe that works year round",
+      "fontSize": "20px",
+      "y": 1344.2,
+      "w": 267.5
+    },
+    {
+      "text": "Refine casual streetwear with thoughtful styling choices",
+      "fontSize": "20px",
+      "y": 1610.2,
+      "w": 267.5
+    },
+    {
+      "text": "Style outfits confidently using seasonal color palettes",
+      "fontSize": "20px",
+      "y": 1610.2,
+      "w": 267.5
+    },
+    {
+      "text": "Discover timeless essentials that shape modern wardrobes",
+      "fontSize": "20px",
+      "y": 1876.2,
+      "w": 267.5
+    },
+    {
+      "text": "Build a strong fashion identity through consistency",
+      "fontSize": "20px",
+      "y": 1876.2,
+      "w": 267.5
+    }
+  ],
+  "articles": [
+    {
+      "href": "./blog/how-to-master-the-art-of-minimal-street-style",
+      "text": "Style Guide How to master the art of minimal street style Build a timeless, comfortable wardrobe with high-quality fabrics, muted tones, and effortless oversized fits. 8 min read Jan 29, 2026",
+      "w": 1230,
+      "h": 432.2,
+      "y": 833.7,
+      "img": {
+        "src": "https://framerusercontent.com/images/UVxenUklVk5C5hRgP2zTRqEdMPk.jpg?width=1152&height=1728",
+        "w": 615,
+        "h": 432.234375
+      }
+    },
+    {
+      "href": "./blog/elevate-everyday-outfits-using-modern-minimalist-styling",
+      "text": "Fashion Tips Elevate everyday outfits using modern minimalist styling 8 min read 12/30/25",
+      "w": 607,
+      "h": 250,
+      "y": 1282,
+      "img": {
+        "src": "https://framerusercontent.com/images/UdKyQkva2vLQZ0vNuYpmKAdtzw.png?width=800&height=873",
+        "w": 303.5,
+        "h": 250
+      }
+    },
+    {
+      "href": "./blog/build-a-capsule-wardrobe-that-works-year-round",
+      "text": "Style Guide Build a capsule wardrobe that works year round 5 min read 11/22/25",
+      "w": 607,
+      "h": 250,
+      "y": 1282,
+      "img": {
+        "src": "https://framerusercontent.com/images/v4WTQ9WoN7RxeC3vNiZP9SvQcQ.png?width=1200&height=904",
+        "w": 303.5,
+        "h": 250
+      }
+    },
+    {
+      "href": "./blog/refine-casual-streetwear-with-thoughtful-styling-choices",
+      "text": "Fashion Tips Refine casual streetwear with thoughtful styling choices 8 min read 10/12/25",
+      "w": 607,
+      "h": 250,
+      "y": 1548,
+      "img": {
+        "src": "https://framerusercontent.com/images/Rgl552fnphzXIpke91z265iosU.png?width=960&height=1200",
+        "w": 303.5,
+        "h": 250
+      }
+    },
+    {
+      "href": "./blog/style-outfits-confidently-using-seasonal-color-palettes",
+      "text": "Style Guide Style outfits confidently using seasonal color palettes 9 min read 10/24/25",
+      "w": 607,
+      "h": 250,
+      "y": 1548,
+      "img": {
+        "src": "https://framerusercontent.com/images/YRHt9c7e9X3xKQWj3EtnUpPEdcY.png?width=900&height=953",
+        "w": 303.5,
+        "h": 250
+      }
+    },
+    {
+      "href": "./blog/discover-timeless-essentials-that-shape-modern-wardrobes",
+      "text": "Style Guide Discover timeless essentials that shape modern wardrobes 8 min read 12/21/25",
+      "w": 607,
+      "h": 250,
+      "y": 1814,
+      "img": {
+        "src": "https://framerusercontent.com/images/bfKnYz5PM2SU3fPvsCyVCnuFsY.png?width=1200&height=904",
+        "w": 303.5,
+        "h": 250
+      }
+    },
+    {
+      "href": "./blog/build-a-strong-fashion-identity-through-consistency",
+      "text": "Brand Stories Build a strong fashion identity through consistency 6 min read 10/16/24",
+      "w": 607,
+      "h": 250,
+      "y": 1814,
+      "img": {
+        "src": "https://framerusercontent.com/images/VjeS4g3bothn3ykWlAjDWS5giK0.png?width=960&height=880",
+        "w": 303.5,
+        "h": 250
+      }
+    },
+    {
+      "href": "./blog/design-intentional-outfits-that-feel-effortless-daily",
+      "text": "Brand Stories Design intentional outfits that feel effortless daily 7 min read 12/24/25",
+      "w": 607,
+      "h": 250,
+      "y": 2080,
+      "img": {
+        "src": "https://framerusercontent.com/images/gWNl9J30vKv4SW0ITunuKmvtfW0.jpeg?width=816&height=1440",
+        "w": 303.5,
+        "h": 250
+      }
+    },
+    {
+      "href": "./blog/use-texture-to-elevate-everyday-outfit-styling",
+      "text": "Fashion Tips Use texture to elevate everyday outfit styling 5 min read 10/24/25",
+      "w": 607,
+      "h": 250,
+      "y": 2080,
+      "img": {
+        "src": "https://framerusercontent.com/images/ySVxzwG1Y66iKkI0QESKXxQk8Jw.png?width=900&height=1200",
+        "w": 303.5,
+        "h": 250
+      }
+    }
+  ],
+  "articleCount": 9,
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/35jbjH7zEBW0GXGMbgGlejxpwB0.jpeg?width=1280&height=1280",
+      "alt": "Woman in stylish pose",
+      "w": 1440,
+      "h": 591.7,
+      "y": 0
+    },
+    {
+      "src": "https://framerusercontent.com/images/UVxenUklVk5C5hRgP2zTRqEdMPk.jpg?scale-down-to=1024&width=1152&height=1728",
+      "alt": "Low anlgle shot of the woman in black dress",
+      "w": 615,
+      "h": 432.2,
+      "y": 833.7
+    },
+    {
+      "src": "https://framerusercontent.com/images/UdKyQkva2vLQZ0vNuYpmKAdtzw.png?width=800&height=873",
+      "alt": "Woman in grey blazzer",
+      "w": 303.5,
+      "h": 250,
+      "y": 1282
+    },
+    {
+      "src": "https://framerusercontent.com/images/v4WTQ9WoN7RxeC3vNiZP9SvQcQ.png?scale-down-to=512&width=1200&height=904",
+      "alt": "Color shirts hanging on the wardrobe",
+      "w": 303.5,
+      "h": 250,
+      "y": 1282
+    },
+    {
+      "src": "https://framerusercontent.com/images/Rgl552fnphzXIpke91z265iosU.png?scale-down-to=1024&width=960&height=1200",
+      "alt": "Shot of the person's legs wearing the brownish paints",
+      "w": 303.5,
+      "h": 250,
+      "y": 1548
+    },
+    {
+      "src": "https://framerusercontent.com/images/YRHt9c7e9X3xKQWj3EtnUpPEdcY.png?width=900&height=953",
+      "alt": "Women in red dress doing the pose",
+      "w": 303.5,
+      "h": 250,
+      "y": 1548
+    },
+    {
+      "src": "https://framerusercontent.com/images/bfKnYz5PM2SU3fPvsCyVCnuFsY.png?scale-down-to=512&width=1200&height=904",
+      "alt": "T-shirts wardrobe",
+      "w": 303.5,
+      "h": 250,
+      "y": 1814
+    },
+    {
+      "src": "https://framerusercontent.com/images/VjeS4g3bothn3ykWlAjDWS5giK0.png?scale-down-to=512&width=960&height=880",
+      "alt": "Woman in stylish balck dress",
+      "w": 303.5,
+      "h": 250,
+      "y": 1814
+    },
+    {
+      "src": "https://framerusercontent.com/images/gWNl9J30vKv4SW0ITunuKmvtfW0.jpeg?scale-down-to=1024&width=816&height=1440",
+      "alt": "Handsome boy in the black blazzer wearing the white high-neck",
+      "w": 303.5,
+      "h": 250,
+      "y": 2080
+    },
+    {
+      "src": "https://framerusercontent.com/images/ySVxzwG1Y66iKkI0QESKXxQk8Jw.png?scale-down-to=1024&width=900&height=1200",
+      "alt": "Woman in the patterns coat",
+      "w": 303.5,
+      "h": 250,
+      "y": 2080
+    },
+    {
+      "src": "https://framerusercontent.com/images/3BJsJKp6d3GMb73lMFLvun3bVxE.png?scale-down-to=1024&width=1082&height=1200",
+      "alt": "Woman in dark greenish dress",
+      "w": 1857.1,
+      "h": 2642.9,
+      "y": 1603.2
+    },
+    {
+      "src": "https://framerusercontent.com/images/3BJsJKp6d3GMb73lMFLvun3bVxE.png?scale-down-to=1024&width=1082&height=1200",
+      "alt": "Woman in dark greenish dress",
+      "w": 121.5,
+      "h": 172.9,
+      "y": 2838.2
+    },
+    {
+      "src": "https://framerusercontent.com/images/Q2qaxWvHcpcMDMRF6r6oA7jcK9Q.jpg?scale-down-to=512&width=920&height=878",
+      "alt": "Kid sit on stole in stylish pose",
+      "w": 4255.8,
+      "h": 3155.1,
+      "y": 1347.1
+    },
+    {
+      "src": "https://framerusercontent.com/images/Q2qaxWvHcpcMDMRF6r6oA7jcK9Q.jpg?scale-down-to=512&width=920&height=878",
+      "alt": "Kid sit on stole in stylish pose",
+      "w": 132.6,
+      "h": 199.2,
+      "y": 2825
+    },
+    {
+      "src": "https://framerusercontent.com/images/jz6J8tN19rBotBJ08ib9LED2s8.png?scale-down-to=1024&width=900&height=1200",
+      "alt": "Woman in white red dress",
+      "w": 1243.3,
+      "h": 1806.3,
+      "y": 2021.5
+    },
+    {
+      "src": "https://framerusercontent.com/images/jz6J8tN19rBotBJ08ib9LED2s8.png?scale-down-to=1024&width=900&height=1200",
+      "alt": "Woman in white red dress",
+      "w": 176.4,
+      "h": 275.1,
+      "y": 2787.1
+    },
+    {
+      "src": "https://framerusercontent.com/images/U7CtuDK0AXUNTwGdENumrlmdyk.png?width=965&height=1024",
+      "alt": "Low angle shot of the man in white shirt",
+      "w": 318.4,
+      "h": 500,
+      "y": 2674.6
+    },
+    {
+      "src": "https://framerusercontent.com/images/U7CtuDK0AXUNTwGdENumrlmdyk.png?width=965&height=1024",
+      "alt": "Low angle shot of the man in white shirt",
+      "w": 317.3,
+      "h": 500,
+      "y": 2674.6
+    },
+    {
+      "src": "https://framerusercontent.com/images/PhQ0ou5z6Mj6gzpcsLLi5rS6E0.png?width=619&height=777",
+      "alt": "Woman having dark glasses in grey dress",
+      "w": 317.3,
+      "h": 500,
+      "y": 2674.6
+    },
+    {
+      "src": "https://framerusercontent.com/images/PhQ0ou5z6Mj6gzpcsLLi5rS6E0.png?width=619&height=777",
+      "alt": "Woman having dark glasses in grey dress",
+      "w": 318.4,
+      "h": 500,
+      "y": 2674.6
+    },
+    {
+      "src": "https://framerusercontent.com/images/ftObEL64RY81LvY92K11dTejqZ4.png?width=675&height=938",
+      "alt": "Black jacket ",
+      "w": 1236.6,
+      "h": 1806.3,
+      "y": 2021.5
+    },
+    {
+      "src": "https://framerusercontent.com/images/ftObEL64RY81LvY92K11dTejqZ4.png?width=675&height=938",
+      "alt": "Black jacket ",
+      "w": 176.8,
+      "h": 275.1,
+      "y": 2787.1
+    },
+    {
+      "src": "https://framerusercontent.com/images/IEB9QLOzy0qlnSdGfn5jQsBFFVo.png?scale-down-to=512&width=1200&height=1200",
+      "alt": "Boy in black hoodie",
+      "w": 4240.3,
+      "h": 3155.1,
+      "y": 1347.1
+    },
+    {
+      "src": "https://framerusercontent.com/images/IEB9QLOzy0qlnSdGfn5jQsBFFVo.png?scale-down-to=512&width=1200&height=1200",
+      "alt": "Boy in black hoodie",
+      "w": 132.7,
+      "h": 199.2,
+      "y": 2825
+    },
+    {
+      "src": "https://framerusercontent.com/images/k3mQgskzRmcKKsc3Urx85y2azU.svg?width=67&height=23",
+      "alt": "",
+      "w": 1190,
+      "h": 289.2,
+      "y": 3772.3
+    }
+  ],
+  "buttons": [
+    {
+      "text": "About About",
+      "href": "./about",
+      "w": 43.6,
+      "h": 24.8,
+      "y": 55.2
+    },
+    {
+      "text": "Shop Shop",
+      "href": "./shop",
+      "w": 37.6,
+      "h": 24.8,
+      "y": 55.2
+    },
+    {
+      "text": "Shop all items Shop all items",
+      "href": "./shop",
+      "w": 122.7,
+      "h": 39.3,
+      "y": 48
+    },
+    {
+      "text": "About us About us",
+      "href": "./about",
+      "w": 90,
+      "h": 39.3,
+      "y": 432.5
+    },
+    {
+      "text": "Style Guide How to master the art of minimal street style Build a timeless, comfortable wardrobe with high-quality fabri",
+      "href": "./blog/how-to-master-the-art-of-minimal-street-style",
+      "w": 1230,
+      "h": 432.2,
+      "y": 833.7
+    },
+    {
+      "text": "Fashion Tips Elevate everyday outfits using modern minimalist styling 8 min read 12/30/25",
+      "href": "./blog/elevate-everyday-outfits-using-modern-minimalist-styling",
+      "w": 607,
+      "h": 250,
+      "y": 1282
+    },
+    {
+      "text": "Style Guide Build a capsule wardrobe that works year round 5 min read 11/22/25",
+      "href": "./blog/build-a-capsule-wardrobe-that-works-year-round",
+      "w": 607,
+      "h": 250,
+      "y": 1282
+    },
+    {
+      "text": "Fashion Tips Refine casual streetwear with thoughtful styling choices 8 min read 10/12/25",
+      "href": "./blog/refine-casual-streetwear-with-thoughtful-styling-choices",
+      "w": 607,
+      "h": 250,
+      "y": 1548
+    },
+    {
+      "text": "Style Guide Style outfits confidently using seasonal color palettes 9 min read 10/24/25",
+      "href": "./blog/style-outfits-confidently-using-seasonal-color-palettes",
+      "w": 607,
+      "h": 250,
+      "y": 1548
+    },
+    {
+      "text": "Style Guide Discover timeless essentials that shape modern wardrobes 8 min read 12/21/25",
+      "href": "./blog/discover-timeless-essentials-that-shape-modern-wardrobes",
+      "w": 607,
+      "h": 250,
+      "y": 1814
+    },
+    {
+      "text": "Brand Stories Build a strong fashion identity through consistency 6 min read 10/16/24",
+      "href": "./blog/build-a-strong-fashion-identity-through-consistency",
+      "w": 607,
+      "h": 250,
+      "y": 1814
+    },
+    {
+      "text": "Brand Stories Design intentional outfits that feel effortless daily 7 min read 12/24/25",
+      "href": "./blog/design-intentional-outfits-that-feel-effortless-daily",
+      "w": 607,
+      "h": 250,
+      "y": 2080
+    },
+    {
+      "text": "Fashion Tips Use texture to elevate everyday outfit styling 5 min read 10/24/25",
+      "href": "./blog/use-texture-to-elevate-everyday-outfit-styling",
+      "w": 607,
+      "h": 250,
+      "y": 2080
+    },
+    {
+      "text": "About",
+      "href": "./about",
+      "w": 43.6,
+      "h": 24.8,
+      "y": 3562.3
+    },
+    {
+      "text": "Shop",
+      "href": "./shop",
+      "w": 37.6,
+      "h": 24.8,
+      "y": 3627.9
+    }
+  ],
+  "tabs": [],
+  "sections": [
+    {
+      "name": "Hero section",
+      "text": "Blog Read our stories The craft behind every single stitch Discover the detailed",
+      "w": 1440,
+      "h": 591.7,
+      "y": 0
+    },
+    {
+      "name": "Blog",
+      "text": "All Blogs All Blogs Style Guide Style Guide Fashion Tips Fashion Tips Brand Stor",
+      "w": 1440,
+      "h": 1774.2,
+      "y": 591.7
+    },
+    {
+      "name": "Tabs",
+      "text": "All Blogs All Blogs Style Guide Style Guide Fashion Tips Fashion Tips Brand Stor",
+      "w": 1230,
+      "h": 74,
+      "y": 677.7
+    },
+    {
+      "name": "Blog items wrapper",
+      "text": "Style Guide How to master the art of minimal street style Build a timeless, comf",
+      "w": 1230,
+      "h": 1496.2,
+      "y": 783.7
+    },
+    {
+      "name": "Dark (Featured)",
+      "text": "8 min read Jan 29, 2026",
+      "w": 551,
+      "h": 24.8,
+      "y": 1209.2
+    }
+  ],
+  "hasNewsletter": false,
+  "hasSocial": true,
+  "overflowX": false,
+  "pageH": 4077
+}

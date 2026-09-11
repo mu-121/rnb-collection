@@ -1,0 +1,29 @@
+{
+  "name": "Blog",
+  "tag": "SECTION",
+  "w": 1440,
+  "h": 1774.2,
+  "display": "flex",
+  "gap": "10px",
+  "grid": "none",
+  "flexDir": "column",
+  "flexWrap": "nowrap",
+  "pad": "86px 0px",
+  "childCount": 1,
+  "kids": [
+    {
+      "name": "Container",
+      "tag": "DIV",
+      "w": 1280,
+      "h": 1602.2,
+      "display": "flex",
+      "gap": "58px",
+      "grid": "none",
+      "flexDir": "column",
+      "flexWrap": "nowrap",
+      "pad": "0px 25px",
+      "childCount": 1,
+      "kids": []
+    }
+  ]
+}

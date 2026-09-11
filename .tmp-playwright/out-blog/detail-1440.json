@@ -1,0 +1,1178 @@
+{
+  "hero": {
+    "name": "Hero section",
+    "text": "Blog Read our stories The craft behind every single stitch Discover the detailed process of creating premium garments from our sustainable materials. Browse collections Browse collections About us Abo",
+    "w": 1440,
+    "h": 591.7,
+    "y": 0,
+    "fontSize": "12px",
+    "fw": "400",
+    "lh": "normal",
+    "color": "rgb(0, 0, 0)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "pad": "150px 0px 120px",
+    "gap": "10px",
+    "display": "flex",
+    "radius": "0px",
+    "grid": "none",
+    "flexDir": "column",
+    "align": "center",
+    "justify": "flex-end",
+    "maxW": "none"
+  },
+  "h1": {
+    "name": null,
+    "text": "The craft behind every single stitch",
+    "w": 600,
+    "h": 138.9,
+    "y": 199.6,
+    "fontSize": "62px",
+    "fw": "500",
+    "lh": "69.44px",
+    "color": "rgb(255, 255, 255)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "pad": "0px",
+    "gap": "normal",
+    "display": "block",
+    "radius": "0px",
+    "grid": "none",
+    "flexDir": "row",
+    "align": "normal",
+    "justify": "normal",
+    "maxW": "none"
+  },
+  "chips": [
+    {
+      "text": "Blog Blog",
+      "name": null,
+      "w": 32.2,
+      "h": 24.8,
+      "y": 55.2,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "display": "block",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "normal",
+      "justify": "normal",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog Blog",
+      "name": "White",
+      "w": 32.2,
+      "h": 24.8,
+      "y": 55.2,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "10px",
+      "display": "flex",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "column",
+      "align": "center",
+      "justify": "center",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog",
+      "name": null,
+      "w": 32.2,
+      "h": 24.8,
+      "y": 55.2,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "display": "flex",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "column",
+      "align": "normal",
+      "justify": "flex-start",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog",
+      "name": null,
+      "w": 32.2,
+      "h": 24.8,
+      "y": 55.2,
+      "fontSize": "16px",
+      "fw": "500",
+      "lh": "24.8px",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "display": "block",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "normal",
+      "justify": "normal",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog",
+      "name": null,
+      "w": 32.2,
+      "h": 24.8,
+      "y": 77.2,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "display": "flex",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "column",
+      "align": "normal",
+      "justify": "flex-start",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog",
+      "name": null,
+      "w": 32.2,
+      "h": 24.8,
+      "y": 77.2,
+      "fontSize": "16px",
+      "fw": "500",
+      "lh": "24.8px",
+      "color": "rgba(255, 255, 255, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "display": "block",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "normal",
+      "justify": "normal",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog Read our stories",
+      "name": "Section tag",
+      "w": 163.6,
+      "h": 29.6,
+      "y": 150,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "display": "block",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "normal",
+      "justify": "normal",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog Read our stories",
+      "name": "Transparent",
+      "w": 163.6,
+      "h": 29.6,
+      "y": 150,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(255, 255, 255, 0.15)",
+      "pad": "3px 14px 3px 3px",
+      "gap": "8px",
+      "display": "flex",
+      "radius": "70px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "center",
+      "justify": "flex-start",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog",
+      "name": "Tag text",
+      "w": 41.9,
+      "h": 23.6,
+      "y": 153,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "pad": "4px 9px",
+      "gap": "10px",
+      "display": "flex",
+      "radius": "30px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "center",
+      "justify": "center",
+      "maxW": "none"
+    },
+    {
+      "text": "Blog",
+      "name": null,
+      "w": 23.9,
+      "h": 15.6,
+      "y": 157,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "display": "flex",
+      "radius": "0px",
+      "grid": "none",
+      "flexDir": "column",
+      "align": "normal",
+      "justify": "flex-start",
+      "maxW": "none"
+    }
+  ],
+  "ctas": [
+    {
+      "href": "./shop",
+      "text": "Shop all items Shop all items",
+      "name": "White",
+      "w": 122.7,
+      "h": 39.3,
+      "y": 48,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(255, 255, 255)",
+      "pad": "8px 15px",
+      "gap": "10px",
+      "display": "flex",
+      "radius": "999px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "center",
+      "justify": "center",
+      "maxW": "none"
+    },
+    {
+      "href": "./shop",
+      "text": "Browse collections Browse collections",
+      "name": "White",
+      "w": 155.8,
+      "h": 39.3,
+      "y": 432.5,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgb(255, 255, 255)",
+      "pad": "8px 15px",
+      "gap": "10px",
+      "display": "flex",
+      "radius": "999px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "center",
+      "justify": "center",
+      "maxW": "none"
+    },
+    {
+      "href": "./about",
+      "text": "About us About us",
+      "name": "Transparent",
+      "w": 90,
+      "h": 39.3,
+      "y": 432.5,
+      "fontSize": "12px",
+      "fw": "400",
+      "lh": "normal",
+      "color": "rgb(0, 0, 238)",
+      "bg": "rgba(255, 255, 255, 0.15)",
+      "pad": "8px 15px",
+      "gap": "10px",
+      "display": "flex",
+      "radius": "999px",
+      "grid": "none",
+      "flexDir": "row",
+      "align": "center",
+      "justify": "center",
+      "maxW": "none"
+    }
+  ],
+  "cards": [
+    {
+      "i": 0,
+      "href": "./blog/how-to-master-the-art-of-minimal-street-style",
+      "card": {
+        "name": "Desktop",
+        "text": "Style Guide How to master the art of minimal street style Build a timeless, comfortable wardrobe with high-quality fabrics, muted tones, and effortless oversized fits. 8 min read Jan 29, 2026",
+        "w": 1230,
+        "h": 432.2,
+        "y": 833.7,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "615px 615px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/UVxenUklVk5C5hRgP2zTRqEdMPk.jpg?scale-down-to=1024&width=1152&height=1728",
+        "w": 615,
+        "h": 432.2,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Style Guide How to master the art of minimal street style Build a timeless, comfortable wardrobe wit",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style Guide",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "How to master the art of minimal street style Build a timeless, comfortable wardrobe with high-quali",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "How to master the art of minimal street style",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Build a timeless, comfortable wardrobe with high-quality fabrics, muted tones, and effortless oversi",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read Jan 29, 2026",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Jan 29, 2026",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 1230
+    },
+    {
+      "i": 1,
+      "href": "./blog/elevate-everyday-outfits-using-modern-minimalist-styling",
+      "card": {
+        "name": "Desktop",
+        "text": "Fashion Tips Elevate everyday outfits using modern minimalist styling 8 min read 12/30/25",
+        "w": 607,
+        "h": 250,
+        "y": 1282,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/UdKyQkva2vLQZ0vNuYpmKAdtzw.png?width=800&height=873",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips Elevate everyday outfits using modern minimalist styling 8 min read 12/30/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips Elevate everyday outfits using modern minimalist styling",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Elevate everyday outfits using modern minimalist styling",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read 12/30/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "12/30/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    },
+    {
+      "i": 2,
+      "href": "./blog/build-a-capsule-wardrobe-that-works-year-round",
+      "card": {
+        "name": "Desktop",
+        "text": "Style Guide Build a capsule wardrobe that works year round 5 min read 11/22/25",
+        "w": 607,
+        "h": 250,
+        "y": 1282,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/v4WTQ9WoN7RxeC3vNiZP9SvQcQ.png?scale-down-to=512&width=1200&height=904",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Style Guide Build a capsule wardrobe that works year round 5 min read 11/22/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style Guide Build a capsule wardrobe that works year round",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style Guide",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Build a capsule wardrobe that works year round",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "5 min read 11/22/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "5 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "11/22/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    },
+    {
+      "i": 3,
+      "href": "./blog/refine-casual-streetwear-with-thoughtful-styling-choices",
+      "card": {
+        "name": "Desktop",
+        "text": "Fashion Tips Refine casual streetwear with thoughtful styling choices 8 min read 10/12/25",
+        "w": 607,
+        "h": 250,
+        "y": 1548,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/Rgl552fnphzXIpke91z265iosU.png?scale-down-to=1024&width=960&height=1200",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips Refine casual streetwear with thoughtful styling choices 8 min read 10/12/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips Refine casual streetwear with thoughtful styling choices",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Refine casual streetwear with thoughtful styling choices",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read 10/12/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "10/12/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    },
+    {
+      "i": 4,
+      "href": "./blog/style-outfits-confidently-using-seasonal-color-palettes",
+      "card": {
+        "name": "Desktop",
+        "text": "Style Guide Style outfits confidently using seasonal color palettes 9 min read 10/24/25",
+        "w": 607,
+        "h": 250,
+        "y": 1548,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/YRHt9c7e9X3xKQWj3EtnUpPEdcY.png?width=900&height=953",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Style Guide Style outfits confidently using seasonal color palettes 9 min read 10/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style Guide Style outfits confidently using seasonal color palettes",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style Guide",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style outfits confidently using seasonal color palettes",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "9 min read 10/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "9 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "10/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    },
+    {
+      "i": 5,
+      "href": "./blog/discover-timeless-essentials-that-shape-modern-wardrobes",
+      "card": {
+        "name": "Desktop",
+        "text": "Style Guide Discover timeless essentials that shape modern wardrobes 8 min read 12/21/25",
+        "w": 607,
+        "h": 250,
+        "y": 1814,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/bfKnYz5PM2SU3fPvsCyVCnuFsY.png?scale-down-to=512&width=1200&height=904",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Style Guide Discover timeless essentials that shape modern wardrobes 8 min read 12/21/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style Guide Discover timeless essentials that shape modern wardrobes",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Style Guide",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Discover timeless essentials that shape modern wardrobes",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read 12/21/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "8 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "12/21/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    },
+    {
+      "i": 6,
+      "href": "./blog/build-a-strong-fashion-identity-through-consistency",
+      "card": {
+        "name": "Desktop",
+        "text": "Brand Stories Build a strong fashion identity through consistency 6 min read 10/16/24",
+        "w": 607,
+        "h": 250,
+        "y": 1814,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/VjeS4g3bothn3ykWlAjDWS5giK0.png?scale-down-to=512&width=960&height=880",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Brand Stories Build a strong fashion identity through consistency 6 min read 10/16/24",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Brand Stories Build a strong fashion identity through consistency",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Brand Stories",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Build a strong fashion identity through consistency",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "6 min read 10/16/24",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "6 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "10/16/24",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    },
+    {
+      "i": 7,
+      "href": "./blog/design-intentional-outfits-that-feel-effortless-daily",
+      "card": {
+        "name": "Desktop",
+        "text": "Brand Stories Design intentional outfits that feel effortless daily 7 min read 12/24/25",
+        "w": 607,
+        "h": 250,
+        "y": 2080,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/gWNl9J30vKv4SW0ITunuKmvtfW0.jpeg?scale-down-to=1024&width=816&height=1440",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Brand Stories Design intentional outfits that feel effortless daily 7 min read 12/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Brand Stories Design intentional outfits that feel effortless daily",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Brand Stories",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Design intentional outfits that feel effortless daily",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "7 min read 12/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "7 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "12/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    },
+    {
+      "i": 8,
+      "href": "./blog/use-texture-to-elevate-everyday-outfit-styling",
+      "card": {
+        "name": "Desktop",
+        "text": "Fashion Tips Use texture to elevate everyday outfit styling 5 min read 10/24/25",
+        "w": 607,
+        "h": 250,
+        "y": 2080,
+        "fontSize": "12px",
+        "fw": "400",
+        "lh": "normal",
+        "color": "rgb(0, 0, 238)",
+        "bg": "rgb(238, 238, 238)",
+        "pad": "0px",
+        "gap": "0px",
+        "display": "grid",
+        "radius": "12px",
+        "grid": "303.5px 303.5px",
+        "flexDir": "row",
+        "align": "normal",
+        "justify": "center",
+        "maxW": "none"
+      },
+      "img": {
+        "src": "https://framerusercontent.com/images/ySVxzwG1Y66iKkI0QESKXxQk8Jw.png?scale-down-to=1024&width=900&height=1200",
+        "w": 303.5,
+        "h": 250,
+        "objectFit": "cover"
+      },
+      "texts": [
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips Use texture to elevate everyday outfit styling 5 min read 10/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips Use texture to elevate everyday outfit styling",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Fashion Tips",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "Use texture to elevate everyday outfit styling",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "5 min read 10/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "5 min read",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        },
+        {
+          "tag": "DIV",
+          "text": "10/24/25",
+          "fontSize": "12px",
+          "fw": "400",
+          "color": "rgb(0, 0, 238)"
+        }
+      ],
+      "parentDisplay": "block",
+      "parentGrid": "none",
+      "parentGap": "normal",
+      "parentPad": "0px",
+      "parentW": 607
+    }
+  ],
+  "sectionNames": [
+    "Desktop",
+    "Container",
+    "Desktop Transparent",
+    "Content wrapper",
+    "Logo wrapper",
+    "White",
+    "Image",
+    "Links wrapper",
+    "Menu Wrapper",
+    "Search bar",
+    "Transparent",
+    "Seach bar",
+    "Text wrapper",
+    "Hero section",
+    "Text wrappper",
+    "Section tag",
+    "Tag text",
+    "Heading wrapper",
+    "Buttons wrapper",
+    "Over lay",
+    "Mask",
+    "Blog",
+    "All - Desktop",
+    "Tabs",
+    "Active",
+    "Inactive",
+    "Blog items wrapper",
+    "Image wrapper",
+    "Text content",
+    "Tag",
+    "Dark (Featured)",
+    "Time",
+    "Line",
+    "Date",
+    "Dark (Small)",
+    "Smooth scroll",
+    "Ranking",
+    "Button wrapper",
+    "Black",
+    "Carousel",
+    "Arms",
+    "Arm 1",
+    "Arm 2",
+    "Arm 3",
+    "Arm 4",
+    "Arm 5",
+    "Arm 6",
+    "Arm 7",
+    "Link wrapper",
+    "Variant 1",
+    "Quick links",
+    "Light",
+    "Backdrop",
+    "Content",
+    "Logo",
+    "Text",
+    "Bottom",
+    "Border"
+  ],
+  "footerLike": true,
+  "socialY": 2504
+}
