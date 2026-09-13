@@ -3777,7 +3777,7 @@ button:focus-visible .hover-text__track {
 
 .footer__watermark:hover .footer__watermark-text,
 .footer__watermark:focus-visible .footer__watermark-text {
-  opacity: 1;
+  opacity: 0.1;
 }
 
 @media (prefers-reduced-motion: reduce) {
