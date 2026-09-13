@@ -1,0 +1,663 @@
+{
+  "base": "http://localhost:3000",
+  "products": [
+    {
+      "slug": "textured-knitted-shirt",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Textured Knitted Shirt",
+        "badge": "New",
+        "wear": "Men's Wear",
+        "price": "$59.00",
+        "compare": "$79.00",
+        "description": "A premium knit construction offering a refined silhouette and breathable comfort for sophisticated everyday summer styling.",
+        "material": "Premium organic cotton textured knit",
+        "care": "Machine wash cold, lay flat",
+        "warranty": "One year full quality guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-023.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Textured Knitted Shirt",
+        "price": 59,
+        "material": "Premium organic cotton textured knit"
+      },
+      "errors": []
+    },
+    {
+      "slug": "structured-trench-coat",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Structured Trench Coat",
+        "badge": "New",
+        "wear": "Women's Wear",
+        "price": "$210.00",
+        "compare": "$280.00",
+        "description": "Timeless double-breasted design with a removable belt and water-repellent protection.",
+        "material": "Twill weave cotton with coating",
+        "care": "Wipe stains with damp cloth",
+        "warranty": "Two year outerwear protection warranty",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-031.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Structured Trench Coat",
+        "price": 210,
+        "material": "Twill weave cotton with coating"
+      },
+      "errors": []
+    },
+    {
+      "slug": "heavyweight-oversized-hoodie",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Heavyweight Oversized Hoodie",
+        "badge": "Best seller",
+        "wear": "Women's Wear",
+        "price": "$85.00",
+        "compare": "$110.00",
+        "description": "Engineered with ultra-soft fleece and a dropped shoulder for the ultimate modern aesthetic and warmth.",
+        "material": "Heavy gauge brushed fleece cotton",
+        "care": "Wash inside out, cold water",
+        "warranty": "Lifetime seam and stitch warranty",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-073.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Heavyweight Oversized Hoodie",
+        "price": 85,
+        "material": "Heavy gauge brushed fleece cotton"
+      },
+      "errors": []
+    },
+    {
+      "slug": "mini-denim-overalls",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Mini Denim Overalls",
+        "badge": "New",
+        "wear": "Children's Wear",
+        "price": "$45.00",
+        "compare": "$60.00",
+        "description": "Durable washed denim with adjustable straps designed to withstand active playtime and frequent laundry cycles.",
+        "material": "Durable soft wash indigo denim",
+        "care": "Machine wash with dark colors",
+        "warranty": "Playground proof fabric quality warranty",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-037.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Mini Denim Overalls",
+        "price": 45,
+        "material": "Durable soft wash indigo denim"
+      },
+      "errors": []
+    },
+    {
+      "slug": "riviera-collar-shirt",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Riviera Collar Shirt",
+        "badge": "New",
+        "wear": "Children's Wear",
+        "price": "$45.00",
+        "compare": "$60.00",
+        "description": "Lightweight linen blend with a vintage-inspired open collar perfect for warm weather and coastal vacations.",
+        "material": "Italian linen and silk blend",
+        "care": "Dry clean for best results",
+        "warranty": "Full replacement for fabric defects",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-043.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Riviera Collar Shirt",
+        "price": 45,
+        "material": "Italian linen and silk blend"
+      },
+      "errors": []
+    },
+    {
+      "slug": "patterned-knit-sweater",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Patterned Knit Sweater",
+        "badge": "Best seller",
+        "wear": "Children's Wear",
+        "price": "$45.00",
+        "compare": "$90.00",
+        "description": "Fun geometric patterns on a soft cotton-knit base, perfect for school days and family gatherings alike.",
+        "material": "Soft touch cotton jacquard knit",
+        "care": "Wash cold, reshape while wet",
+        "warranty": "Non-itchy comfort and color guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-077.png&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Patterned Knit Sweater",
+        "price": 45,
+        "material": "Soft touch cotton jacquard knit"
+      },
+      "errors": []
+    },
+    {
+      "slug": "stretch-jersey-tee",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Stretch Jersey Tee",
+        "badge": "New",
+        "wear": "Children's Wear",
+        "price": "$65.00",
+        "compare": "$95.00",
+        "description": "Super-stretch fabric and flat seams to prevent irritation, ensuring maximum comfort for growing active children.",
+        "material": "Flexible cotton and spandex jersey",
+        "care": "Daily wash, tumble dry high",
+        "warranty": "Stretch recovery and seam guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-049.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Stretch Jersey Tee",
+        "price": 65,
+        "material": "Flexible cotton and spandex jersey"
+      },
+      "errors": []
+    },
+    {
+      "slug": "urban-utility-cargo",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Urban Utility Cargo",
+        "badge": "New",
+        "wear": "Men's Wear",
+        "price": "$90.00",
+        "compare": "$120.00",
+        "description": "Tactical design meeting modern street style with multiple pockets and durable water-resistant fabric for active men.",
+        "material": "Water resistant technical nylon fabric",
+        "care": "Wipe clean with damp cloth",
+        "warranty": "02 year rugged use guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-054.png&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Urban Utility Cargo",
+        "price": 90,
+        "material": "Water resistant technical nylon fabric"
+      },
+      "errors": []
+    },
+    {
+      "slug": "classic-boxy-tee",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Classic Boxy Tee",
+        "badge": "New",
+        "wear": "Men's Wear",
+        "price": "$35.00",
+        "compare": "$45.00",
+        "description": "High-density organic cotton featuring a structured fit that retains its shape wash after wash consistently.",
+        "material": "Thick premium weight combed cotton",
+        "care": "Cool wash with similar colors",
+        "warranty": "Color fastness and shape guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-060.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Classic Boxy Tee",
+        "price": 35,
+        "material": "Thick premium weight combed cotton"
+      },
+      "errors": []
+    },
+    {
+      "slug": "quilted-bomber-jacket",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Quilted Bomber Jacket",
+        "badge": "Best seller",
+        "wear": "Men's Wear",
+        "price": "$145.00",
+        "compare": "$180.00",
+        "description": "Sleek outerwear featuring diamond quilting and insulated lining for a lightweight yet incredibly warm seasonal layer.",
+        "material": "Recycled polyester with satin lining",
+        "care": "Gentle cycle, do not bleach",
+        "warranty": "Insulation loft and heat warranty",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-081.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Quilted Bomber Jacket",
+        "price": 145,
+        "material": "Recycled polyester with satin lining"
+      },
+      "errors": []
+    },
+    {
+      "slug": "pleated-smart-trousers",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Pleated Smart Trousers",
+        "badge": "New",
+        "wear": "Men's Wear",
+        "price": "$76.00",
+        "compare": "$100.00",
+        "description": "Expertly tailored with a subtle front pleat to bridge the gap between formal and casual attire.",
+        "material": "Fine wool and elastane mixture",
+        "care": "Professional dry clean only recommended",
+        "warranty": "Tailored fit and finish guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-064.png&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Pleated Smart Trousers",
+        "price": 76,
+        "material": "Fine wool and elastane mixture"
+      },
+      "errors": []
+    },
+    {
+      "slug": "french-terry-shorts",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "French Terry Shorts",
+        "badge": "New",
+        "wear": "Men's Wear",
+        "price": "$40.00",
+        "compare": "$55.00",
+        "description": "Premium lounge shorts designed with a relaxed hem and adjustable drawstring for maximum weekend comfort.",
+        "material": "Soft loopback french terry cotton",
+        "care": "Easy machine wash, tumble dry",
+        "warranty": "Comfort and fit satisfaction guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-067.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "French Terry Shorts",
+        "price": 40,
+        "material": "Soft loopback french terry cotton"
+      },
+      "errors": []
+    },
+    {
+      "slug": "relaxed-tapered-chinos",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Relaxed Tapered Chinos",
+        "badge": "New",
+        "wear": "Men's Wear",
+        "price": "$65.00",
+        "compare": "$80.00",
+        "description": "Versatile cotton-twill trousers featuring a clean taper and stretch fabric for all-day comfort and sharp looks.",
+        "material": "Durable stretch cotton twill blend",
+        "care": "Tumble dry low, warm iron",
+        "warranty": "Standard 30 day return policy",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "https://framerusercontent.com/images/THn1NjXFwjPh3Ajy1FKR7oTjeg.jpg",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Relaxed Tapered Chinos",
+        "price": 65,
+        "material": "Durable stretch cotton twill blend"
+      },
+      "errors": []
+    },
+    {
+      "slug": "hooded-puffer-vest",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Hooded Puffer Vest",
+        "badge": "Best seller",
+        "wear": "Children's Wear",
+        "price": "$45.00",
+        "compare": "$75.00",
+        "description": "Lightweight synthetic down insulation for core warmth without restricting movement during active play.",
+        "material": "Polyester shell with faux down",
+        "care": "Machine wash cold, air dry",
+        "warranty": "Zipper and warmth performance guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-085.png&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Hooded Puffer Vest",
+        "price": 45,
+        "material": "Polyester shell with faux down"
+      },
+      "errors": []
+    },
+    {
+      "slug": "v-neck-satin-cami",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "V-Neck Satin Cami",
+        "badge": "New",
+        "wear": "Women's Wear",
+        "price": "$65.00",
+        "compare": "$90.00",
+        "description": "Delicate adjustable straps and a shimmering satin finish make this a versatile piece for elegant layering.",
+        "material": "Lustrous lightweight polyester satin blend",
+        "care": "Machine wash on delicate cycle",
+        "warranty": "Color shine and finish guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "https://framerusercontent.com/images/NMhqS5KLNF9CvhAGAMKgjg9vlRI.png",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "V-Neck Satin Cami",
+        "price": 65,
+        "material": "Lustrous lightweight polyester satin blend"
+      },
+      "errors": []
+    },
+    {
+      "slug": "vegan-leather-leggings",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Vegan Leather Leggings",
+        "badge": "Best seller",
+        "wear": "Children's Wear",
+        "price": "$75.00",
+        "compare": "$99.00",
+        "description": "Soft-touch synthetic leather with high-stretch recovery to provide a sleek, polished look and all-day comfort.",
+        "material": "Premium four way stretch polyurethane",
+        "care": "Hand wash cold, air dry",
+        "warranty": "Anti-peel and crack surface guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-091.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Vegan Leather Leggings",
+        "price": 75,
+        "material": "Premium four way stretch polyurethane"
+      },
+      "errors": []
+    },
+    {
+      "slug": "ribbed-knit-midi",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Ribbed Knit Midi",
+        "badge": "New",
+        "wear": "Women's Wear",
+        "price": "$95.00",
+        "compare": "$125.00",
+        "description": "Figure-hugging ribbed texture in a sophisticated midi length that offers both comfort and feminine style.",
+        "material": "Elasticated ribbed viscose knit fabric",
+        "care": "Machine wash cold, dry flat",
+        "warranty": "Stretch and shape retention guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "https://framerusercontent.com/images/k6NfKWjk6lwvBolOwhZnCJefQf8.png",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Ribbed Knit Midi",
+        "price": 95,
+        "material": "Elasticated ribbed viscose knit fabric"
+      },
+      "errors": []
+    },
+    {
+      "slug": "cropped-boxy-blazer",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Cropped Boxy Blazer",
+        "badge": "Best seller",
+        "wear": "Women's Wear",
+        "price": "$130.00",
+        "compare": "$175.00",
+        "description": "Sharp tailoring meets a contemporary cropped length, perfect for transitioning from the office to dinner.",
+        "material": "Structured polyester and rayon blend",
+        "care": "Dry clean only, hang carefully",
+        "warranty": "One year stitching quality warranty",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "/_next/image?url=%2FImages%2Fwearix-096.jpg&w=3840&q=75",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Cropped Boxy Blazer",
+        "price": 130,
+        "material": "Structured polyester and rayon blend"
+      },
+      "errors": []
+    },
+    {
+      "slug": "high-waisted-palazzo",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "High Waisted Palazzo",
+        "badge": "New",
+        "wear": "Women's Wear",
+        "price": "$85.00",
+        "compare": "$110.00",
+        "description": "Wide-leg trousers crafted from breathable crepe fabric to ensure a flattering and elongated leg silhouette.",
+        "material": "Flowy breathable viscose crepe blend",
+        "care": "Steam only, do not iron",
+        "warranty": "Thirty day perfect fit guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "https://framerusercontent.com/images/FrA5bSsrmynLt6GrVugUXMlc.png",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "High Waisted Palazzo",
+        "price": 85,
+        "material": "Flowy breathable viscose crepe blend"
+      },
+      "errors": []
+    },
+    {
+      "slug": "silk-slip-dress",
+      "status": 200,
+      "pass": true,
+      "data": {
+        "title": "Silk Slip Dress",
+        "badge": "New",
+        "wear": "Women's Wear",
+        "price": "$120.00",
+        "compare": "$160.00",
+        "description": "Elegant biased-cut silk providing a fluid drape and luxurious feel for evening events or layering.",
+        "material": "Pure mulberry silk satin fabric",
+        "care": "Delicate hand wash, cool iron",
+        "warranty": "Luxury fabric and drape guarantee",
+        "orderText": "Order NowOrder Now",
+        "orderHref": "https://framer.link/nasir-nawaz",
+        "trustCount": 4,
+        "social": true,
+        "footer": true,
+        "galleryCount": 6,
+        "mainImg": "https://framerusercontent.com/images/PDtETHYXl4xYc9YmOm3BoCWo.png",
+        "overflowX": false,
+        "broken": 0
+      },
+      "expected": {
+        "name": "Silk Slip Dress",
+        "price": 120,
+        "material": "Pure mulberry silk satin fabric"
+      },
+      "errors": []
+    }
+  ],
+  "pages": {
+    "/": {
+      "status": 200,
+      "shopCount": null
+    },
+    "/about": {
+      "status": 200,
+      "shopCount": null
+    },
+    "/shop": {
+      "status": 200,
+      "shopCount": 20
+    },
+    "/blog": {
+      "status": 200,
+      "shopCount": null
+    },
+    "/contact": {
+      "status": 200,
+      "shopCount": null
+    }
+  },
+  "console": [],
+  "responsive_1440": {
+    "overflowX": false,
+    "orderVisible": true,
+    "title": "Textured Knitted Shirt"
+  },
+  "responsive_1024": {
+    "overflowX": false,
+    "orderVisible": true,
+    "title": "Textured Knitted Shirt"
+  },
+  "responsive_390": {
+    "overflowX": false,
+    "orderVisible": true,
+    "title": "Textured Knitted Shirt"
+  }
+}

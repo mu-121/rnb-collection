@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "textured-knitted-shirt",
+    "name": "Textured Knitted Shirt",
+    "wearLabel": "Men's Wear",
+    "badge": "New",
+    "price": 59,
+    "compareAtPrice": 79,
+    "description": "A premium knit construction offering a refined silhouette and breathable comfort for sophisticated everyday summer styling.",
+    "material": "Premium organic cotton textured knit",
+    "care": "Machine wash cold, lay flat",
+    "warranty": "One year full quality guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-023.jpg",
+      "/Images/wearix-020.jpg",
+      "https://framerusercontent.com/images/dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+      "https://framerusercontent.com/images/lvt1WlyrgirePb8z3BSlF9OY.jpg",
+      "https://framerusercontent.com/images/wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg"
+    ]
+  },
+  {
+    "slug": "structured-trench-coat",
+    "name": "Structured Trench Coat",
+    "wearLabel": "Women's Wear",
+    "badge": "New",
+    "price": 210,
+    "compareAtPrice": 280,
+    "description": "Timeless double-breasted design with a removable belt and water-repellent protection.",
+    "material": "Twill weave cotton with coating",
+    "care": "Wipe stains with damp cloth",
+    "warranty": "Two year outerwear protection warranty",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-031.jpg",
+      "/Images/wearix-028.jpg",
+      "https://framerusercontent.com/images/5KzsTe2EnPlNeHEEFMr7iGl8Q.jpg",
+      "https://framerusercontent.com/images/eY6Dmvy1WrbgKmBxjcRhwuXCs.jpg",
+      "https://framerusercontent.com/images/KrCSfaETf8NLpkShtQ8QlZDhpM.jpg"
+    ]
+  },
+  {
+    "slug": "heavyweight-oversized-hoodie",
+    "name": "Heavyweight Oversized Hoodie",
+    "wearLabel": "Women's Wear",
+    "badge": "Best seller",
+    "price": 85,
+    "compareAtPrice": 110,
+    "description": "Engineered with ultra-soft fleece and a dropped shoulder for the ultimate modern aesthetic and warmth.",
+    "material": "Heavy gauge brushed fleece cotton",
+    "care": "Wash inside out, cold water",
+    "warranty": "Lifetime seam and stitch warranty",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-073.jpg",
+      "/Images/wearix-069.jpg",
+      "https://framerusercontent.com/images/XHQtokxpBrRieMyXVFgUTB7KS0.jpg",
+      "https://framerusercontent.com/images/GTy2Bbh36uTYPS8F34SC1dV1cI.jpg",
+      "https://framerusercontent.com/images/wbShIU6uUlTxH6fofGMub3EhfM.jpg"
+    ]
+  },
+  {
+    "slug": "mini-denim-overalls",
+    "name": "Mini Denim Overalls",
+    "wearLabel": "Children's Wear",
+    "badge": "New",
+    "price": 45,
+    "compareAtPrice": 60,
+    "description": "Durable washed denim with adjustable straps designed to withstand active playtime and frequent laundry cycles.",
+    "material": "Durable soft wash indigo denim",
+    "care": "Machine wash with dark colors",
+    "warranty": "Playground proof fabric quality warranty",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-037.jpg",
+      "/Images/wearix-034.jpg",
+      "https://framerusercontent.com/images/cUK0QrnnYh9fZ9CgITBVrpOVqbc.jpg",
+      "https://framerusercontent.com/images/XKBImpA6SUFBTNUtQrmzAkMmj0.jpg",
+      "https://framerusercontent.com/images/KHIv5lmWVaJ79p3nZHtyv89AcKA.jpg"
+    ]
+  },
+  {
+    "slug": "riviera-collar-shirt",
+    "name": "Riviera Collar Shirt",
+    "wearLabel": "Children's Wear",
+    "badge": "New",
+    "price": 45,
+    "compareAtPrice": 60,
+    "description": "Lightweight linen blend with a vintage-inspired open collar perfect for warm weather and coastal vacations.",
+    "material": "Italian linen and silk blend",
+    "care": "Dry clean for best results",
+    "warranty": "Full replacement for fabric defects",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-043.jpg",
+      "/Images/wearix-040.jpg",
+      "https://framerusercontent.com/images/GfaKKpFbbr7OaFyCvPWaUE9M.jpg",
+      "https://framerusercontent.com/images/kanGnrYimBokWcnvmRshQIhToM.jpg",
+      "https://framerusercontent.com/images/ujQsOST17JwMTpd3VQdRH5KseAE.jpg"
+    ]
+  },
+  {
+    "slug": "patterned-knit-sweater",
+    "name": "Patterned Knit Sweater",
+    "wearLabel": "Children's Wear",
+    "badge": "Best seller",
+    "price": 45,
+    "compareAtPrice": 90,
+    "description": "Fun geometric patterns on a soft cotton-knit base, perfect for school days and family gatherings alike.",
+    "material": "Soft touch cotton jacquard knit",
+    "care": "Wash cold, reshape while wet",
+    "warranty": "Non-itchy comfort and color guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-077.png",
+      "/Images/wearix-075.png",
+      "https://framerusercontent.com/images/5n60PDud9wC2hKZ67RqkdLdEnOM.png",
+      "https://framerusercontent.com/images/Dh3OA7nlrSTKU7GkFh7IpzC704M.png",
+      "https://framerusercontent.com/images/ku166m834pqT7R9c4XWtduk4.jpg"
+    ]
+  },
+  {
+    "slug": "stretch-jersey-tee",
+    "name": "Stretch Jersey Tee",
+    "wearLabel": "Children's Wear",
+    "badge": "New",
+    "price": 65,
+    "compareAtPrice": 95,
+    "description": "Super-stretch fabric and flat seams to prevent irritation, ensuring maximum comfort for growing active children.",
+    "material": "Flexible cotton and spandex jersey",
+    "care": "Daily wash, tumble dry high",
+    "warranty": "Stretch recovery and seam guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-049.jpg",
+      "/Images/wearix-046.jpg",
+      "https://framerusercontent.com/images/srFy8sCNq5IkDCNHign0ZVGFg.jpg",
+      "https://framerusercontent.com/images/m7vGnEDcM9ENme6wUOVRTjDCo.jpg",
+      "https://framerusercontent.com/images/2WoeUzwiKS8hQ12VNcNXB0xYDNw.jpg"
+    ]
+  },
+  {
+    "slug": "urban-utility-cargo",
+    "name": "Urban Utility Cargo",
+    "wearLabel": "Men's Wear",
+    "badge": "New",
+    "price": 90,
+    "compareAtPrice": 120,
+    "description": "Tactical design meeting modern street style with multiple pockets and durable water-resistant fabric for active men.",
+    "material": "Water resistant technical nylon fabric",
+    "care": "Wipe clean with damp cloth",
+    "warranty": "02 year rugged use guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-054.png",
+      "/Images/wearix-051.png",
+      "https://framerusercontent.com/images/WOb9Yp9Wh2uVGLxsCjRDhswPSk.png",
+      "https://framerusercontent.com/images/5kuNHZXwFk1bRFFCgtwzxcvg.png",
+      "https://framerusercontent.com/images/F2QH0lTeQUXPw7gzdXSkN3fJjk.jpg"
+    ]
+  },
+  {
+    "slug": "classic-boxy-tee",
+    "name": "Classic Boxy Tee",
+    "wearLabel": "Men's Wear",
+    "badge": "New",
+    "price": 35,
+    "compareAtPrice": 45,
+    "description": "High-density organic cotton featuring a structured fit that retains its shape wash after wash consistently.",
+    "material": "Thick premium weight combed cotton",
+    "care": "Cool wash with similar colors",
+    "warranty": "Color fastness and shape guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-060.jpg",
+      "/Images/wearix-057.jpg",
+      "https://framerusercontent.com/images/7ubgMQu9djFMVIvDIXChqxrUQcQ.jpg",
+      "https://framerusercontent.com/images/eZoLuRRyYkwjVZaofIyewyScswc.jpg",
+      "https://framerusercontent.com/images/A216I2Qn8KIjeMcIztWpD4sNI3I.jpg"
+    ]
+  },
+  {
+    "slug": "quilted-bomber-jacket",
+    "name": "Quilted Bomber Jacket",
+    "wearLabel": "Men's Wear",
+    "badge": "Best seller",
+    "price": 145,
+    "compareAtPrice": 180,
+    "description": "Sleek outerwear featuring diamond quilting and insulated lining for a lightweight yet incredibly warm seasonal layer.",
+    "material": "Recycled polyester with satin lining",
+    "care": "Gentle cycle, do not bleach",
+    "warranty": "Insulation loft and heat warranty",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-081.jpg",
+      "/Images/wearix-079.webp",
+      "https://framerusercontent.com/images/wtLmzE2wAi9yJrXcWCnR857MSwQ.jpg",
+      "https://framerusercontent.com/images/UBz7Wqq5xr8G3Dd1Gqsc3otaozI.webp",
+      "https://framerusercontent.com/images/D1sK2oXQzjvkkfdVwHkwh6Vvlo.jpg"
+    ]
+  },
+  {
+    "slug": "pleated-smart-trousers",
+    "name": "Pleated Smart Trousers",
+    "wearLabel": "Men's Wear",
+    "badge": "New",
+    "price": 76,
+    "compareAtPrice": 100,
+    "description": "Expertly tailored with a subtle front pleat to bridge the gap between formal and casual attire.",
+    "material": "Fine wool and elastane mixture",
+    "care": "Professional dry clean only recommended",
+    "warranty": "Tailored fit and finish guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-064.png",
+      "/Images/wearix-062.webp",
+      "https://framerusercontent.com/images/IEfg9X5HmPz0q0vEgmXVpAGMTT8.png",
+      "https://framerusercontent.com/images/dw0YCuifIa91zywXckPrBHJmk.webp",
+      "https://framerusercontent.com/images/nN44VGXKogGlBrCjwLSczqSe5w.jpg"
+    ]
+  },
+  {
+    "slug": "french-terry-shorts",
+    "name": "French Terry Shorts",
+    "wearLabel": "Men's Wear",
+    "badge": "New",
+    "price": 40,
+    "compareAtPrice": 55,
+    "description": "Premium lounge shorts designed with a relaxed hem and adjustable drawstring for maximum weekend comfort.",
+    "material": "Soft loopback french terry cotton",
+    "care": "Easy machine wash, tumble dry",
+    "warranty": "Comfort and fit satisfaction guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-067.jpg",
+      "/Images/wearix-066.webp",
+      "https://framerusercontent.com/images/nCWS7ZqkJVj2BcbIcUsLXJyqDw.jpg",
+      "https://framerusercontent.com/images/7J7eSRwqb6hQlWc1WH1nwv01II.webp",
+      "https://framerusercontent.com/images/o43U3e9fMDFqfaUplbyzsTPnoOo.jpg"
+    ]
+  },
+  {
+    "slug": "relaxed-tapered-chinos",
+    "name": "Relaxed Tapered Chinos",
+    "wearLabel": "Men's Wear",
+    "badge": "New",
+    "price": 65,
+    "compareAtPrice": 80,
+    "description": "Versatile cotton-twill trousers featuring a clean taper and stretch fabric for all-day comfort and sharp looks.",
+    "material": "Durable stretch cotton twill blend",
+    "care": "Tumble dry low, warm iron",
+    "warranty": "Standard 30 day return policy",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "https://framerusercontent.com/images/THn1NjXFwjPh3Ajy1FKR7oTjeg.jpg",
+      "https://framerusercontent.com/images/LvEon9zPQUG7aIBRaGJKca677s.jpg",
+      "https://framerusercontent.com/images/lqcrJbN2waZ7YNstJ5dNb3zJ8.jpg",
+      "https://framerusercontent.com/images/fmjelhJ9ypO1AlDlANsKpOg7tbc.jpg",
+      "https://framerusercontent.com/images/08NoBArONGaRPYIGpIX2JAoiiI.jpg"
+    ]
+  },
+  {
+    "slug": "hooded-puffer-vest",
+    "name": "Hooded Puffer Vest",
+    "wearLabel": "Children's Wear",
+    "badge": "Best seller",
+    "price": 45,
+    "compareAtPrice": 75,
+    "description": "Lightweight synthetic down insulation for core warmth without restricting movement during active play.",
+    "material": "Polyester shell with faux down",
+    "care": "Machine wash cold, air dry",
+    "warranty": "Zipper and warmth performance guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-085.png",
+      "/Images/wearix-083.png",
+      "https://framerusercontent.com/images/XlozFfsresg9IzMgSZFB3KFT1lg.png",
+      "https://framerusercontent.com/images/VelxipZlAypDaKEGR9UWVL51G0.png",
+      "https://framerusercontent.com/images/oJ5cOYRmxIePY7eyjcElx29orBk.jpg"
+    ]
+  },
+  {
+    "slug": "v-neck-satin-cami",
+    "name": "V-Neck Satin Cami",
+    "wearLabel": "Women's Wear",
+    "badge": "New",
+    "price": 65,
+    "compareAtPrice": 90,
+    "description": "Delicate adjustable straps and a shimmering satin finish make this a versatile piece for elegant layering.",
+    "material": "Lustrous lightweight polyester satin blend",
+    "care": "Machine wash on delicate cycle",
+    "warranty": "Color shine and finish guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "https://framerusercontent.com/images/NMhqS5KLNF9CvhAGAMKgjg9vlRI.png",
+      "https://framerusercontent.com/images/Dtyqi5aiUjHF5XUXmjf8MMxG3l8.png",
+      "https://framerusercontent.com/images/LZVtmu3YktGDIcXzJEP9Vi8A8l8.png",
+      "https://framerusercontent.com/images/GNbk1BmuAehw9W9ftbDMS9oYE.jpg",
+      "https://framerusercontent.com/images/fD72gNjfT5zhjIQbspQuess0RE.jpg"
+    ]
+  },
+  {
+    "slug": "vegan-leather-leggings",
+    "name": "Vegan Leather Leggings",
+    "wearLabel": "Children's Wear",
+    "badge": "Best seller",
+    "price": 75,
+    "compareAtPrice": 99,
+    "description": "Soft-touch synthetic leather with high-stretch recovery to provide a sleek, polished look and all-day comfort.",
+    "material": "Premium four way stretch polyurethane",
+    "care": "Hand wash cold, air dry",
+    "warranty": "Anti-peel and crack surface guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-091.jpg",
+      "/Images/wearix-088.jpg",
+      "https://framerusercontent.com/images/ycSkGEOzXXNIxBrt6AdcjgVnQgE.jpg",
+      "https://framerusercontent.com/images/7zAqtP593wdouaqYoeCcOQ86zM.jpg",
+      "https://framerusercontent.com/images/RODfI0Rl8tPTChJ84WpP5IeXsI.jpg"
+    ]
+  },
+  {
+    "slug": "ribbed-knit-midi",
+    "name": "Ribbed Knit Midi",
+    "wearLabel": "Women's Wear",
+    "badge": "New",
+    "price": 95,
+    "compareAtPrice": 125,
+    "description": "Figure-hugging ribbed texture in a sophisticated midi length that offers both comfort and feminine style.",
+    "material": "Elasticated ribbed viscose knit fabric",
+    "care": "Machine wash cold, dry flat",
+    "warranty": "Stretch and shape retention guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "https://framerusercontent.com/images/k6NfKWjk6lwvBolOwhZnCJefQf8.png",
+      "https://framerusercontent.com/images/JEW217EDs5BciD7V70HzZsMMmo.jpg",
+      "https://framerusercontent.com/images/PZujwpiSux9NT4b9bScPNYUPHmg.jpg",
+      "https://framerusercontent.com/images/MHKRKnIJNy3CeklgtCMpeo.jpg",
+      "https://framerusercontent.com/images/TpgNS3pphDdRZqKkURIGgeobEsM.png"
+    ]
+  },
+  {
+    "slug": "cropped-boxy-blazer",
+    "name": "Cropped Boxy Blazer",
+    "wearLabel": "Women's Wear",
+    "badge": "Best seller",
+    "price": 130,
+    "compareAtPrice": 175,
+    "description": "Sharp tailoring meets a contemporary cropped length, perfect for transitioning from the office to dinner.",
+    "material": "Structured polyester and rayon blend",
+    "care": "Dry clean only, hang carefully",
+    "warranty": "One year stitching quality warranty",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "/Images/wearix-096.jpg",
+      "/Images/wearix-093.jpg",
+      "https://framerusercontent.com/images/okk2lkiJuugsHxV1sOdrhb14.jpg",
+      "https://framerusercontent.com/images/Yg7heWlymsUl0XNuDnDMxv1ndQ.jpg",
+      "https://framerusercontent.com/images/4bg2Oj8FbogT4fTDReyIUFokfg.jpg"
+    ]
+  },
+  {
+    "slug": "high-waisted-palazzo",
+    "name": "High Waisted Palazzo",
+    "wearLabel": "Women's Wear",
+    "badge": "New",
+    "price": 85,
+    "compareAtPrice": 110,
+    "description": "Wide-leg trousers crafted from breathable crepe fabric to ensure a flattering and elongated leg silhouette.",
+    "material": "Flowy breathable viscose crepe blend",
+    "care": "Steam only, do not iron",
+    "warranty": "Thirty day perfect fit guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "https://framerusercontent.com/images/FrA5bSsrmynLt6GrVugUXMlc.png",
+      "https://framerusercontent.com/images/wWTguaGHI6EENzduLYEvPq7xVs.png",
+      "https://framerusercontent.com/images/UA2c7reLlLj8jmY8MjRQMfK2pE.jpg",
+      "https://framerusercontent.com/images/rwx6EK3OLQ5sQmNpGKFyPHGCqE.jpg",
+      "https://framerusercontent.com/images/wydIsorgwlf8On30BSXUS6VjxQ.jpg"
+    ]
+  },
+  {
+    "slug": "silk-slip-dress",
+    "name": "Silk Slip Dress",
+    "wearLabel": "Women's Wear",
+    "badge": "New",
+    "price": 120,
+    "compareAtPrice": 160,
+    "description": "Elegant biased-cut silk providing a fluid drape and luxurious feel for evening events or layering.",
+    "material": "Pure mulberry silk satin fabric",
+    "care": "Delicate hand wash, cool iron",
+    "warranty": "Luxury fabric and drape guarantee",
+    "orderHref": "https://framer.link/nasir-nawaz",
+    "gallery": [
+      "https://framerusercontent.com/images/PDtETHYXl4xYc9YmOm3BoCWo.png",
+      "https://framerusercontent.com/images/iOnE7MkZLh1IZqj9HZpECdgQXE.jpg",
+      "https://framerusercontent.com/images/244zvDmIYCqrLAi3Fs32SUjnU0.jpg",
+      "https://framerusercontent.com/images/nWMBoUiER7oYr01HtCoFPyIwcnE.jpg",
+      "https://framerusercontent.com/images/nqH9ZUwhMMeKQMSJIESQEszCk.jpg"
+    ]
+  }
+]
