@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { assets } from "@/data/assets";
 import {
   footerBrandDescription,
   footerContactLinks,
@@ -8,6 +7,7 @@ import {
 } from "@/data/footer";
 import HoverText from "./HoverText";
 import Image from "next/image";
+import Newsletter from "./Newsletter";
 
 function EmailIcon() {
   return (
@@ -135,19 +135,27 @@ const contactIcons = {
   location: LocationIcon,
 };
 
-export default function Footer() {
+export default function Footer({
+  showNewsletter = true,
+}: {
+  showNewsletter?: boolean;
+}) {
   return (
-    <footer className="footer">
+    <footer
+      className={`footer${showNewsletter ? " footer--with-newsletter" : ""}`}
+    >
       <div className="footer__inner">
+        {showNewsletter ? <Newsletter embedded /> : null}
+
         <div className="footer__grid">
           <div className="footer__brand">
             <div className="footer__brand-logo">
               <Image
-                src={assets.logo}
-                alt="Wearix"
-                width={90}
-                height={22}
-                className="footer__brand-logo-img"
+                src="/Images/logo.svg"
+                alt="RnB Collection"
+                width={136}
+                height={25}
+                className="footer__brand-logo-img11"
               />
             </div>
             <p className="footer__brand-desc">{footerBrandDescription}</p>

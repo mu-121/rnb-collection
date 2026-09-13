@@ -26,7 +26,7 @@ export default function BlogPage() {
       </div>
       <BlogCatalogSection />
       <SocialGallery />
-      <Footer />
+      <Footer showNewsletter={false} />
     </>
   );
 }

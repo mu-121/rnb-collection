@@ -7,7 +7,6 @@ import {
   AboutTrust,
 } from "@/components/AboutPage";
 import SocialGallery from "@/components/SocialGallery";
-import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -29,7 +28,6 @@ export default function About() {
       <AboutTrust />
       <AboutMission />
       <SocialGallery />
-      <Newsletter />
       <Footer />
     </>
   );

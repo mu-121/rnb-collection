@@ -23,8 +23,8 @@ function StarIcon({ size = 14 }: { size?: number }) {
   );
 }
 
-/** Framer symbol #505080380 — clock (About Wearix eyebrow). */
-function ClockIcon({ size = 14 }: { size?: number }) {
+/** Info “i” glyph — About Wearix eyebrow (Figma). */
+function InfoIcon({ size = 14 }: { size?: number }) {
   return (
     <svg
       width={size}
@@ -33,28 +33,12 @@ function ClockIcon({ size = 14 }: { size?: number }) {
       fill="none"
       aria-hidden="true"
     >
+      <circle cx="12" cy="7.25" r="1.35" fill="currentColor" />
       <path
-        d="M 0 9 C 0 4.029 4.029 0 9 0 C 13.971 0 18 4.029 18 9 C 18 13.971 13.971 18 9 18 C 4.029 18 0 13.971 0 9 Z"
-        transform="translate(3 3)"
-        fill="none"
+        d="M12 10.5v7"
         stroke="currentColor"
-        strokeWidth={1.8}
+        strokeWidth={2.2}
         strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 0 C 0.414 0 0.75 0.336 0.75 0.75 L 0.75 4.5 C 0.75 4.914 1.086 5.25 1.5 5.25"
-        transform="translate(11.25 11.25)"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth={1.8}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 1.125 C 0 0.504 0.504 0 1.125 0 C 1.746 0 2.25 0.504 2.25 1.125 C 2.25 1.746 1.746 2.25 1.125 2.25 C 0.504 2.25 0 1.746 0 1.125 Z"
-        transform="translate(10.5 6.75)"
-        fill="currentColor"
       />
     </svg>
   );
@@ -326,7 +310,7 @@ export function AboutMission() {
         <header className="about-mission__header">
           <span className="about-mission__eyebrow">
             <span className="about-mission__eyebrow-mark" aria-hidden="true">
-              <ClockIcon size={14} />
+              <InfoIcon size={14} />
             </span>
             <span className="about-mission__eyebrow-label">
               {aboutMission.eyebrow}

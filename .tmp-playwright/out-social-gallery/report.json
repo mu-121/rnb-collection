@@ -1,0 +1,339 @@
+{
+  "base": "http://localhost:3000",
+  "widths": {
+    "320": {
+      "label": "320",
+      "overflowX": false,
+      "docW": 320,
+      "winW": 320,
+      "scale": ".26",
+      "rotation": 4.15717,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 96.1875,
+      "sectionInView": true
+    },
+    "375": {
+      "label": "375",
+      "overflowX": false,
+      "docW": 375,
+      "winW": 375,
+      "scale": ".3",
+      "rotation": 7.2763,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 111,
+      "sectionInView": true
+    },
+    "390": {
+      "label": "390",
+      "overflowX": false,
+      "docW": 390,
+      "winW": 390,
+      "scale": ".3",
+      "rotation": 10.5157,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 111,
+      "sectionInView": true
+    },
+    "414": {
+      "label": "414",
+      "overflowX": false,
+      "docW": 414,
+      "winW": 414,
+      "scale": ".34",
+      "rotation": 14.1142,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 125.796875,
+      "sectionInView": true
+    },
+    "480": {
+      "label": "480",
+      "overflowX": false,
+      "docW": 480,
+      "winW": 480,
+      "scale": ".38",
+      "rotation": 18.2995,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 140.59375,
+      "sectionInView": true
+    },
+    "540": {
+      "label": "540",
+      "overflowX": false,
+      "docW": 540,
+      "winW": 540,
+      "scale": ".48",
+      "rotation": 22.3494,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 177.59375,
+      "sectionInView": true
+    },
+    "768": {
+      "label": "768",
+      "overflowX": false,
+      "docW": 768,
+      "winW": 768,
+      "scale": ".48",
+      "rotation": 25.7989,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 177.59375,
+      "sectionInView": true
+    },
+    "810": {
+      "label": "810",
+      "overflowX": false,
+      "docW": 810,
+      "winW": 810,
+      "scale": ".58",
+      "rotation": 29.1441,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 214.59375,
+      "sectionInView": true
+    },
+    "834": {
+      "label": "834",
+      "overflowX": false,
+      "docW": 834,
+      "winW": 834,
+      "scale": ".58",
+      "rotation": 32.369,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 214.59375,
+      "sectionInView": true
+    },
+    "912": {
+      "label": "912",
+      "overflowX": false,
+      "docW": 912,
+      "winW": 912,
+      "scale": ".7",
+      "rotation": 36.059,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 259,
+      "sectionInView": true
+    },
+    "1024": {
+      "label": "1024",
+      "overflowX": false,
+      "docW": 1024,
+      "winW": 1024,
+      "scale": ".7",
+      "rotation": 40.0657,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 259,
+      "sectionInView": true
+    },
+    "1200": {
+      "label": "1200",
+      "overflowX": false,
+      "docW": 1200,
+      "winW": 1200,
+      "scale": ".86",
+      "rotation": 42.8257,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 318.1875,
+      "sectionInView": true
+    },
+    "1280": {
+      "label": "1280",
+      "overflowX": false,
+      "docW": 1280,
+      "winW": 1280,
+      "scale": ".94",
+      "rotation": 46.8597,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 347.796875,
+      "sectionInView": true
+    },
+    "1366": {
+      "label": "1366",
+      "overflowX": false,
+      "docW": 1366,
+      "winW": 1366,
+      "scale": ".94",
+      "rotation": 50.4302,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 347.796875,
+      "sectionInView": true
+    },
+    "1440": {
+      "label": "1440",
+      "overflowX": false,
+      "docW": 1440,
+      "winW": 1440,
+      "scale": "1",
+      "rotation": 54.2555,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 370,
+      "sectionInView": true
+    },
+    "1600": {
+      "label": "1600",
+      "overflowX": false,
+      "docW": 1600,
+      "winW": 1600,
+      "scale": "1",
+      "rotation": 57.7195,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 370,
+      "sectionInView": true
+    },
+    "1920": {
+      "label": "1920",
+      "overflowX": false,
+      "docW": 1920,
+      "winW": 1920,
+      "scale": "1",
+      "rotation": 60.8106,
+      "headingOverflow": false,
+      "bodyOverflow": false,
+      "actionsH": 39.25,
+      "carouselH": 370,
+      "sectionInView": true
+    }
+  },
+  "autoRotation": {
+    "samples": [
+      1.66647,
+      2.50654,
+      3.10546,
+      3.8102,
+      4.65099,
+      5.37013,
+      6.08998,
+      6.93005,
+      7.5153,
+      8.35537
+    ],
+    "avgDeltaPer100ms": 0.7432111111111113,
+    "pass": true
+  },
+  "drag": {
+    "start": 8.35537,
+    "afterMove": 26.5168,
+    "moved": true,
+    "pauseWhileHeldStill": true
+  },
+  "inertia": {
+    "samples": [
+      41.1702,
+      42.3206,
+      43.7237,
+      45.1237,
+      45.9064,
+      46.5159,
+      46.9904,
+      47.36,
+      47.6478,
+      47.8718,
+      48.0463,
+      48.1822
+    ],
+    "pass": true
+  },
+  "pauseWhileInteracting": {
+    "pass": true,
+    "samples": [
+      9.2368,
+      9.2368,
+      9.2368,
+      9.2368,
+      9.2368
+    ]
+  },
+  "resumeAfter": {
+    "resumeAvgPer100ms": 0.7347714285714285,
+    "samples": [
+      53.5453,
+      54.3847,
+      55.1045,
+      55.7042,
+      56.5291,
+      57.249,
+      57.9688,
+      58.6887
+    ],
+    "pass": true
+  },
+  "intersectionObserver": {
+    "pausedOffscreen": true,
+    "resumedOnscreen": true,
+    "pass": true
+  },
+  "reducedMotion": {
+    "autoDisabled": true,
+    "dragWorks": true,
+    "pass": true
+  },
+  "consoleErrors": [],
+  "pages": {
+    "/": {
+      "status": 200,
+      "hasGallery": 1,
+      "autoMoving": true,
+      "errors": []
+    },
+    "/about": {
+      "status": 200,
+      "hasGallery": 1,
+      "autoMoving": true,
+      "errors": []
+    },
+    "/shop": {
+      "status": 200,
+      "hasGallery": 1,
+      "autoMoving": true,
+      "errors": []
+    },
+    "/blog": {
+      "status": 200,
+      "hasGallery": 1,
+      "autoMoving": true,
+      "errors": []
+    }
+  },
+  "touch": {
+    "label": "iphone12",
+    "overflowX": false,
+    "docW": 390,
+    "winW": 390,
+    "scale": ".3",
+    "rotation": 1.79964,
+    "headingOverflow": false,
+    "bodyOverflow": false,
+    "actionsH": 39.25,
+    "carouselH": 111,
+    "sectionInView": true
+  }
+}

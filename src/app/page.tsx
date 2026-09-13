@@ -9,7 +9,6 @@ import CustomerReviews from "@/components/CustomerReviews";
 import Features from "@/components/Features";
 import Blog from "@/components/Blog";
 import SocialGallery from "@/components/SocialGallery";
-import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -30,7 +29,6 @@ export default function Home() {
       <Features />
       <Blog />
       <SocialGallery />
-      <Newsletter />
       <Footer />
     </>
   );

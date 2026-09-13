@@ -2840,7 +2840,8 @@ button:focus-visible .hover-text__track {
   background: var(--background);
   color: var(--foreground);
   padding: 86px 0 150px;
-  overflow: clip;
+  overflow-x: clip;
+  overflow-y: visible;
 }
 
 .social-gallery__inner {
@@ -2951,25 +2952,33 @@ button:focus-visible .hover-text__track {
 }
 
 .social-gallery__carousel {
+  --sg-scale: 1;
   position: relative;
   width: 100%;
-  height: 240px;
-  display: flex;
-  justify-content: center;
+  max-width: 100%;
+  height: calc(370px * var(--sg-scale));
+  overflow: visible;
 }
 
 .social-gallery__viewport {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
   width: 1200px;
   height: 240px;
-  flex-shrink: 0;
+  margin-left: -600px;
+  margin-top: -120px;
+  transform: scale(var(--sg-scale));
+  transform-origin: center center;
 }
 
 .social-gallery__stage {
   position: relative;
   width: 1200px;
   height: 240px;
+  transform: perspective(500px) rotateY(0deg);
   transform-style: preserve-3d;
+  will-change: transform;
 }
 
 .social-gallery__hit {
@@ -3042,9 +3051,23 @@ button:focus-visible .hover-text__track {
   -webkit-user-drag: none;
 }
 
+/* Preserve approved desktop scale at ≥1440; step down below. */
+@media (max-width: 1439.98px) {
+  .social-gallery__carousel {
+    --sg-scale: 0.94;
+  }
+}
+
+@media (max-width: 1279.98px) {
+  .social-gallery__carousel {
+    --sg-scale: 0.86;
+  }
+}
+
 @media (min-width: 810px) and (max-width: 1199.98px) {
   .social-gallery__inner {
     padding: 0 22px;
+    gap: 48px;
   }
 
   .social-gallery__eyebrow-label {
@@ -3054,11 +3077,31 @@ button:focus-visible .hover-text__track {
   .social-gallery__heading {
     font-size: 44px;
   }
+
+  .social-gallery__carousel {
+    --sg-scale: 0.7;
+  }
+}
+
+@media (min-width: 810px) and (max-width: 911.98px) {
+  .social-gallery__carousel {
+    --sg-scale: 0.58;
+  }
 }
 
 @media (max-width: 809.98px) {
+  .social-gallery {
+    padding: 64px 0 96px;
+  }
+
   .social-gallery__inner {
     padding: 0 20px;
+    gap: 36px;
+  }
+
+  .social-gallery__header {
+    gap: 16px;
+    max-width: 100%;
   }
 
   .social-gallery__eyebrow {
@@ -3067,10 +3110,66 @@ button:focus-visible .hover-text__track {
 
   .social-gallery__heading {
     font-size: 32px;
+    line-height: 1.2em;
   }
 
   .social-gallery__body {
     max-width: none;
+    font-size: 15px;
+  }
+
+  .social-gallery__actions {
+    gap: 10px;
+  }
+
+  .social-gallery__carousel {
+    --sg-scale: 0.48;
+  }
+}
+
+@media (max-width: 539.98px) {
+  .social-gallery__heading {
+    font-size: 28px;
+  }
+
+  .social-gallery__carousel {
+    --sg-scale: 0.38;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .social-gallery__carousel {
+    --sg-scale: 0.34;
+  }
+}
+
+@media (max-width: 413.98px) {
+  .social-gallery__heading {
+    font-size: 26px;
+  }
+
+  .social-gallery__body {
+    font-size: 14px;
+  }
+
+  .social-gallery__carousel {
+    --sg-scale: 0.3;
+  }
+}
+
+@media (max-width: 359.98px) {
+  .social-gallery__heading {
+    font-size: 24px;
+  }
+
+  .social-gallery__carousel {
+    --sg-scale: 0.26;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .social-gallery__stage {
+    will-change: auto;
   }
 }
 
@@ -3342,6 +3441,13 @@ button:focus-visible .hover-text__track {
   overflow: clip;
 }
 
+.newsletter--embedded {
+  background: transparent;
+  padding: 0;
+  overflow: visible;
+  width: 100%;
+}
+
 .newsletter__inner {
   width: 100%;
   max-width: 1240px;
@@ -3349,7 +3455,7 @@ button:focus-visible .hover-text__track {
   padding: 0 25px;
   display: flex;
   flex-direction: column;
-  gap: 58px;
+  gap: 0;
 }
 
 .newsletter__row {
@@ -3358,6 +3464,8 @@ button:focus-visible .hover-text__track {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  border-bottom: 1px solid #30B1FD;
+  padding-bottom: 58px;
 }
 
 .newsletter__heading {
@@ -3446,18 +3554,18 @@ button:focus-visible .hover-text__track {
   cursor: pointer;
 }
 
-.newsletter__divider {
-  width: 100%;
-  height: 1px;
-  background: var(--footer-divider);
-}
-
 /* —— Footer —— */
 .footer {
   background: var(--footer-dark);
   color: #ffffff;
   padding: 58px 0 15px;
   overflow: clip;
+  border: 0;
+  box-shadow: none;
+}
+
+.footer--with-newsletter {
+  padding-top: 86px;
 }
 
 .footer__inner {
@@ -3468,7 +3576,9 @@ button:focus-visible .hover-text__track {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 54px;
+  gap: 58px;
+  border: 0;
+  box-shadow: none;
 }
 
 .footer__grid {
@@ -3642,7 +3752,6 @@ button:focus-visible .hover-text__track {
 
 .footer__watermark {
   display: block;
-  /* width: 100%; */
   line-height: 0;
   text-decoration: none;
   overflow: hidden;
@@ -3663,6 +3772,18 @@ button:focus-visible .hover-text__track {
   background-clip: text;
   color: transparent;
   opacity: 0.35;
+  transition: opacity 0.55s ease;
+}
+
+.footer__watermark:hover .footer__watermark-text,
+.footer__watermark:focus-visible .footer__watermark-text {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer__watermark-text {
+    transition: none;
+  }
 }
 
 @media (min-width: 810px) and (max-width: 1199.98px) {
@@ -4106,17 +4227,21 @@ button:focus-visible .hover-text__track {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 3px 14px 3px 3px;
+  border-radius: 70px;
+  background: var(--surface-tint);
 }
 
 .about-mission__eyebrow-mark {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
+  flex-shrink: 0;
 }
 
 .about-mission__eyebrow-label {
@@ -4510,7 +4635,7 @@ button:focus-visible .hover-text__track {
   width: 100%;
   padding: 10px;
   border-radius: 9999px;
-  background: var(--secondary-background);
+  background: #F0F9FF;
 }
 
 .shop-filters__tab {
@@ -4532,13 +4657,13 @@ button:focus-visible .hover-text__track {
 }
 
 .shop-filters__tab--active {
-  background: var(--foreground);
+background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   color: var(--surface-white);
 }
 
 .shop-filters__tab:hover,
 .shop-filters__tab:focus-visible {
-  background: rgba(2, 10, 29, 0.08);
+  background:#FFFFFF;
 }
 
 .shop-filters__tab--active:hover,

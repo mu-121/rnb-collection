@@ -6,7 +6,6 @@ import {
   ContactHeroSection,
 } from "@/components/ContactPage";
 import SocialGallery from "@/components/SocialGallery";
-import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -27,7 +26,6 @@ export default function ContactPage() {
       </div>
       <ContactBodySection />
       <SocialGallery />
-      <Newsletter />
       <Footer />
     </>
   );

@@ -6,7 +6,6 @@ import {
   ShopHeroSection,
 } from "@/components/ShopPage";
 import SocialGallery from "@/components/SocialGallery";
-import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -27,7 +26,6 @@ export default function Shop() {
       </div>
       <ShopCatalogSection />
       <SocialGallery />
-      <Newsletter />
       <Footer />
     </>
   );
