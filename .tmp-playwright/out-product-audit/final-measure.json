@@ -1,0 +1,110 @@
+{
+  "live_1440": {
+    "stage": null,
+    "info": null,
+    "title": null,
+    "order": null,
+    "trust": null,
+    "overflowX": false
+  },
+  "local_1440": {
+    "stage": {
+      "w": 575,
+      "h": 601.5,
+      "y": 128.8
+    },
+    "info": {
+      "w": 507,
+      "h": 479.1,
+      "y": 128.8
+    },
+    "title": {
+      "w": 507,
+      "h": 48,
+      "y": 183.8
+    },
+    "order": {
+      "w": 507,
+      "h": 54,
+      "y": 372.4
+    },
+    "trust": {
+      "w": 1150,
+      "h": 172,
+      "y": 788.3
+    },
+    "overflowX": false
+  },
+  "live_1024": {
+    "stage": null,
+    "info": null,
+    "title": null,
+    "order": null,
+    "trust": null,
+    "overflowX": false
+  },
+  "local_1024": {
+    "stage": {
+      "w": 980,
+      "h": 500,
+      "y": 128.8
+    },
+    "info": {
+      "w": 980,
+      "h": 439.1,
+      "y": 656.8
+    },
+    "title": {
+      "w": 980,
+      "h": 40.8,
+      "y": 703.8
+    },
+    "order": {
+      "w": 980,
+      "h": 54,
+      "y": 860.4
+    },
+    "trust": {
+      "w": 980,
+      "h": 320,
+      "y": 1143.9
+    },
+    "overflowX": false
+  },
+  "live_390": {
+    "stage": null,
+    "info": null,
+    "title": null,
+    "order": null,
+    "trust": null,
+    "overflowX": false
+  },
+  "local_390": {
+    "stage": {
+      "w": 350,
+      "h": 414.7,
+      "y": 111.3
+    },
+    "info": {
+      "w": 350,
+      "h": 556.9,
+      "y": 554
+    },
+    "title": {
+      "w": 350,
+      "h": 31.2,
+      "y": 601
+    },
+    "order": {
+      "w": 350,
+      "h": 54,
+      "y": 790
+    },
+    "trust": {
+      "w": 350,
+      "h": 742,
+      "y": 1151
+    },
+    "overflowX": false
+  }
+}

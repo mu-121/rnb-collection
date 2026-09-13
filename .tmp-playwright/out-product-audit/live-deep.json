@@ -1,0 +1,983 @@
+{
+  "390": {
+    "width": 390,
+    "data": {
+      "badge": {
+        "w": 0,
+        "h": 0,
+        "x": 0,
+        "y": 0,
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "contents",
+        "gap": "normal",
+        "p": "0px 0px 0px 0px",
+        "overflow": "visible/visible"
+      },
+      "badgeText": "New",
+      "shopPill": {
+        "text": "Shop",
+        "box": {
+          "w": 37.6,
+          "h": 24.8,
+          "x": 176.2,
+          "y": 92.1,
+          "radius": "0px",
+          "bg": "rgba(0, 0, 0, 0)",
+          "display": "flex",
+          "gap": "normal",
+          "p": "0px 0px 0px 0px",
+          "overflow": "visible/visible"
+        },
+        "parentBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "pad": "0px"
+      },
+      "thumbs": [
+        {
+          "src": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "w": 81.9,
+          "h": 60,
+          "x": 51,
+          "y": 456,
+          "top": 456,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 138.9,
+          "y": 456,
+          "top": 456,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 190.5,
+          "y": 456,
+          "top": 456,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 242,
+          "y": 456,
+          "top": 456,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "w": 45.5,
+          "h": 60,
+          "x": 293.5,
+          "y": 456,
+          "top": 456,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        }
+      ],
+      "mains": [
+        {
+          "src": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "w": 346,
+          "h": 410,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "w": 346,
+          "h": 410,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "w": 346,
+          "h": 410,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "w": 346,
+          "h": 410,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "w": 346,
+          "h": 410,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        }
+      ],
+      "grayCards": [],
+      "trustTitles": [
+        {
+          "title": "Trusted Quality",
+          "box": {
+            "w": 306,
+            "h": 85.6,
+            "x": 42,
+            "y": 1441,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        },
+        {
+          "title": "Real Time Tracking",
+          "box": {
+            "w": 306,
+            "h": 85.6,
+            "x": 42,
+            "y": 1662.6,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        },
+        {
+          "title": "Secure Payments",
+          "box": {
+            "w": 306,
+            "h": 85.6,
+            "x": 42,
+            "y": 1884.2,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        },
+        {
+          "title": "Easy Returns",
+          "box": {
+            "w": 306,
+            "h": 85.6,
+            "x": 42,
+            "y": 2105.8,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        }
+      ],
+      "order": {
+        "w": 346,
+        "h": 54,
+        "x": 22,
+        "y": 844.3,
+        "radius": "999px",
+        "bg": "rgb(0, 0, 0)",
+        "display": "flex",
+        "gap": "10px",
+        "p": "8px 15px 8px 15px",
+        "overflow": "hidden/hidden"
+      },
+      "title": {
+        "w": 346,
+        "h": 33,
+        "x": 22,
+        "y": 636.8,
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "gap": "normal",
+        "p": "0px 0px 0px 0px",
+        "overflow": "visible/visible"
+      },
+      "materialLabel": {
+        "text": "Material",
+        "box": {
+          "w": 160,
+          "h": 24.8,
+          "x": 22,
+          "y": 1010.6,
+          "radius": "0px",
+          "bg": "rgba(0, 0, 0, 0)",
+          "display": "flex",
+          "gap": "10px",
+          "p": "0px 0px 0px 0px",
+          "overflow": "visible/visible"
+        },
+        "parentHTML": "<div class=\"framer-1d9j3wn\" data-framer-name=\"Wrapper\" style=\"opacity: 1;\"><svg class=\"framer-p3lRU framer-k1o923\" role=\"presentation\" style=\"--1m6trwb: 1; --21h8s6: var(--token-085f51a4-5ed4-4881-a634-fa297861f05c, rgb(0, 0, 0)); --pgex8v: 1.5; opacity: 1;\" viewBox=\"0 0 24 24\"><use href=\"#3494739676\"></use></svg><div class=\"framer-8lyc2j\" style=\"--extracted-r6o4lv: var(--token-085f51a4-5ed4-4881-"
+      }
+    },
+    "thumbInfo": {
+      "thumbCount": 5,
+      "results": [
+        {
+          "thumbSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 81.9375,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        }
+      ]
+    }
+  },
+  "1024": {
+    "width": 1024,
+    "data": {
+      "badge": {
+        "w": 0,
+        "h": 0,
+        "x": 0,
+        "y": 0,
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "contents",
+        "gap": "normal",
+        "p": "0px 0px 0px 0px",
+        "overflow": "visible/visible"
+      },
+      "badgeText": "New",
+      "shopPill": {
+        "text": "Shop",
+        "box": {
+          "w": 37.6,
+          "h": 24.8,
+          "x": 472.2,
+          "y": 55.2,
+          "radius": "0px",
+          "bg": "rgba(0, 0, 0, 0)",
+          "display": "flex",
+          "gap": "normal",
+          "p": "0px 0px 0px 0px",
+          "overflow": "visible/visible"
+        },
+        "parentBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "pad": "0px"
+      },
+      "thumbs": [
+        {
+          "src": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "w": 81.9,
+          "h": 60,
+          "x": 368,
+          "y": 546,
+          "top": 546,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 455.9,
+          "y": 546,
+          "top": 546,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 507.5,
+          "y": 546,
+          "top": 546,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 559,
+          "y": 546,
+          "top": 546,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "w": 45.5,
+          "h": 60,
+          "x": 610.5,
+          "y": 546,
+          "top": 546,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        }
+      ],
+      "mains": [
+        {
+          "src": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "w": 980,
+          "h": 500,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "w": 980,
+          "h": 500,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "w": 980,
+          "h": 500,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "w": 980,
+          "h": 500,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "w": 980,
+          "h": 500,
+          "x": 22,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "Q2qaxWvHcpcMDMRF6r6oA7jcK9Q.jpg",
+          "w": 4255.8,
+          "h": 3155.1,
+          "x": -958.3,
+          "y": 694.3,
+          "top": 694.3,
+          "opacity": "1",
+          "radius": "20px",
+          "parent": ""
+        }
+      ],
+      "grayCards": [
+        {
+          "bg": "rgb(248, 248, 248)",
+          "radius": "0px",
+          "w": 1024,
+          "h": 3563.8,
+          "x": 0,
+          "y": 0,
+          "className": "framer-BGi5b framer-1afr2p0"
+        }
+      ],
+      "trustTitles": [
+        {
+          "title": "Trusted Quality",
+          "box": {
+            "w": 483,
+            "h": 182.8,
+            "x": 22,
+            "y": 1314.9,
+            "radius": "12px",
+            "bg": "rgb(238, 238, 238)",
+            "display": "flex",
+            "gap": "38px",
+            "p": "20px 20px 20px 20px",
+            "overflow": "clip/clip"
+          }
+        },
+        {
+          "title": "Real Time Tracking",
+          "box": {
+            "w": 483,
+            "h": 182.8,
+            "x": 519,
+            "y": 1314.9,
+            "radius": "12px",
+            "bg": "rgb(238, 238, 238)",
+            "display": "flex",
+            "gap": "38px",
+            "p": "20px 20px 20px 20px",
+            "overflow": "clip/clip"
+          }
+        },
+        {
+          "title": "Secure Payments",
+          "box": {
+            "w": 483,
+            "h": 182.8,
+            "x": 22,
+            "y": 1511.7,
+            "radius": "12px",
+            "bg": "rgb(238, 238, 238)",
+            "display": "flex",
+            "gap": "38px",
+            "p": "20px 20px 20px 20px",
+            "overflow": "clip/clip"
+          }
+        },
+        {
+          "title": "Easy Returns",
+          "box": {
+            "w": 483,
+            "h": 182.8,
+            "x": 519,
+            "y": 1511.7,
+            "radius": "12px",
+            "bg": "rgb(238, 238, 238)",
+            "display": "flex",
+            "gap": "38px",
+            "p": "20px 20px 20px 20px",
+            "overflow": "clip/clip"
+          }
+        }
+      ],
+      "order": {
+        "w": 980,
+        "h": 54,
+        "x": 22,
+        "y": 894.5,
+        "radius": "999px",
+        "bg": "rgb(0, 0, 0)",
+        "display": "flex",
+        "gap": "10px",
+        "p": "8px 15px 8px 15px",
+        "overflow": "hidden/hidden"
+      },
+      "title": {
+        "w": 980,
+        "h": 41.3,
+        "x": 22,
+        "y": 726.8,
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "gap": "normal",
+        "p": "0px 0px 0px 0px",
+        "overflow": "visible/visible"
+      },
+      "materialLabel": {
+        "text": "Material",
+        "box": {
+          "w": 160,
+          "h": 24.8,
+          "x": 22,
+          "y": 1048.5,
+          "radius": "0px",
+          "bg": "rgba(0, 0, 0, 0)",
+          "display": "flex",
+          "gap": "10px",
+          "p": "0px 0px 0px 0px",
+          "overflow": "visible/visible"
+        },
+        "parentHTML": "<div class=\"framer-1d9j3wn\" data-framer-name=\"Wrapper\" style=\"opacity: 1;\"><svg class=\"framer-p3lRU framer-k1o923\" role=\"presentation\" style=\"--1m6trwb: 1; --21h8s6: var(--token-085f51a4-5ed4-4881-a634-fa297861f05c, rgb(0, 0, 0)); --pgex8v: 1.5; opacity: 1;\" viewBox=\"0 0 24 24\"><use href=\"#3494739676\"></use></svg><div class=\"framer-8lyc2j\" style=\"--extracted-r6o4lv: var(--token-085f51a4-5ed4-4881-"
+      }
+    },
+    "thumbInfo": {
+      "thumbCount": 5,
+      "results": [
+        {
+          "thumbSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 81.9375,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        }
+      ]
+    }
+  },
+  "1440": {
+    "width": 1440,
+    "data": {
+      "badge": {
+        "w": 0,
+        "h": 0,
+        "x": 0,
+        "y": 0,
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "contents",
+        "gap": "normal",
+        "p": "0px 0px 0px 0px",
+        "overflow": "visible/visible"
+      },
+      "badgeText": "New",
+      "shopPill": {
+        "text": "Shop",
+        "box": {
+          "w": 37.6,
+          "h": 24.8,
+          "x": 680.2,
+          "y": 55.2,
+          "radius": "0px",
+          "bg": "rgba(0, 0, 0, 0)",
+          "display": "flex",
+          "gap": "normal",
+          "p": "0px 0px 0px 0px",
+          "overflow": "visible/visible"
+        },
+        "parentBg": "rgba(0, 0, 0, 0)",
+        "radius": "0px",
+        "pad": "0px"
+      },
+      "thumbs": [
+        {
+          "src": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "w": 81.9,
+          "h": 60,
+          "x": 288.5,
+          "y": 647.5,
+          "top": 647.5,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 376.4,
+          "y": 647.5,
+          "top": 647.5,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 428,
+          "y": 647.5,
+          "top": 647.5,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "w": 45.5,
+          "h": 60,
+          "x": 479.5,
+          "y": 647.5,
+          "top": 647.5,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "w": 45.5,
+          "h": 60,
+          "x": 531,
+          "y": 647.5,
+          "top": 647.5,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        }
+      ],
+      "mains": [
+        {
+          "src": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "w": 575,
+          "h": 601.5,
+          "x": 145,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "w": 575,
+          "h": 601.5,
+          "x": 145,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "w": 575,
+          "h": 601.5,
+          "x": 145,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "w": 575,
+          "h": 601.5,
+          "x": 145,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "w": 575,
+          "h": 601.5,
+          "x": 145,
+          "y": 130,
+          "top": 130,
+          "opacity": "1",
+          "radius": "0px",
+          "parent": ""
+        },
+        {
+          "src": "3BJsJKp6d3GMb73lMFLvun3bVxE.png",
+          "w": 1857.1,
+          "h": 2642.9,
+          "x": -208.6,
+          "y": 312.4,
+          "top": 312.4,
+          "opacity": "1",
+          "radius": "20px",
+          "parent": ""
+        }
+      ],
+      "grayCards": [
+        {
+          "bg": "rgb(248, 248, 248)",
+          "radius": "0px",
+          "w": 1440,
+          "h": 2785.7,
+          "x": 0,
+          "y": 0,
+          "className": "framer-BGi5b framer-1afr2p0"
+        }
+      ],
+      "trustTitles": [
+        {
+          "title": "Trusted Quality",
+          "box": {
+            "w": 237,
+            "h": 85.6,
+            "x": 165,
+            "y": 891.5,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        },
+        {
+          "title": "Real Time Tracking",
+          "box": {
+            "w": 237,
+            "h": 85.6,
+            "x": 456,
+            "y": 891.5,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        },
+        {
+          "title": "Secure Payments",
+          "box": {
+            "w": 237,
+            "h": 85.6,
+            "x": 747,
+            "y": 891.5,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        },
+        {
+          "title": "Easy Returns",
+          "box": {
+            "w": 237,
+            "h": 85.6,
+            "x": 1038,
+            "y": 891.5,
+            "radius": "0px",
+            "bg": "rgba(0, 0, 0, 0)",
+            "display": "flex",
+            "gap": "8px",
+            "p": "0px 0px 0px 0px",
+            "overflow": "visible/visible"
+          }
+        }
+      ],
+      "order": {
+        "w": 507,
+        "h": 54,
+        "x": 754,
+        "y": 419.1,
+        "radius": "999px",
+        "bg": "rgb(0, 0, 0)",
+        "display": "flex",
+        "gap": "10px",
+        "p": "8px 15px 8px 15px",
+        "overflow": "hidden/hidden"
+      },
+      "title": {
+        "w": 507,
+        "h": 51.9,
+        "x": 754,
+        "y": 210.8,
+        "radius": "0px",
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "gap": "normal",
+        "p": "0px 0px 0px 0px",
+        "overflow": "visible/visible"
+      },
+      "materialLabel": {
+        "text": "Material",
+        "box": {
+          "w": 160,
+          "h": 24.8,
+          "x": 754,
+          "y": 573.1,
+          "radius": "0px",
+          "bg": "rgba(0, 0, 0, 0)",
+          "display": "flex",
+          "gap": "10px",
+          "p": "0px 0px 0px 0px",
+          "overflow": "visible/visible"
+        },
+        "parentHTML": "<div class=\"framer-1d9j3wn\" data-framer-name=\"Wrapper\" style=\"opacity: 1;\"><svg class=\"framer-p3lRU framer-k1o923\" role=\"presentation\" style=\"--1m6trwb: 1; --21h8s6: var(--token-085f51a4-5ed4-4881-a634-fa297861f05c, rgb(0, 0, 0)); --pgex8v: 1.5; opacity: 1;\" viewBox=\"0 0 24 24\"><use href=\"#3494739676\"></use></svg><div class=\"framer-8lyc2j\" style=\"--extracted-r6o4lv: var(--token-085f51a4-5ed4-4881-"
+      }
+    },
+    "thumbInfo": {
+      "thumbCount": 5,
+      "results": [
+        {
+          "thumbSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 81.9375,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "lvt1WlyrgirePb8z3BSlF9OY.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        },
+        {
+          "thumbSrc": "M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+          "mainSrc": "dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+          "thumbBorder": "0px none rgb(0, 0, 0)",
+          "thumbOutline": "rgb(0, 0, 0) none 3px",
+          "parentRadius": "0px",
+          "parentBox": {
+            "w": 45.515625,
+            "h": 60
+          }
+        }
+      ]
+    }
+  }
+}

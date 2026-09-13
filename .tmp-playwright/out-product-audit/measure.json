@@ -1,0 +1,1112 @@
+{
+  "live_1440": {
+    "label": "live_1440",
+    "winW": 1440,
+    "docW": 1440,
+    "overflowX": false,
+    "title": "Textured Knitted Shirt",
+    "order": {
+      "text": "Order NowOrder Now",
+      "href": "https://framer.link/nasir-nawaz",
+      "box": {
+        "w": 507,
+        "h": 54,
+        "x": 754,
+        "y": 419.1,
+        "radius": "999px",
+        "gap": "10px",
+        "display": "flex",
+        "overflowX": "hidden",
+        "overflowY": "hidden"
+      }
+    },
+    "productImgs": [
+      {
+        "src": "https://framerusercontent.com/images/dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 575,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "natW": 575,
+        "natH": 863,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/lvt1WlyrgirePb8z3BSlF9OY.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 575,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "natW": 575,
+        "natH": 863,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 575,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "natW": 575,
+        "natH": 863,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 575,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "natW": 575,
+        "natH": 863,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+        "alt": "Textured Knitted Shirt",
+        "w": 575,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "natW": 575,
+        "natH": 869,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/3BJsJKp6d3GMb73lMFLvun3bVxE.png",
+        "alt": "Woman in dark greenish dress",
+        "w": 1857.1,
+        "h": 2642.9,
+        "x": -208.6,
+        "y": 312.4,
+        "natW": 260,
+        "natH": 288,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/Q2qaxWvHcpcMDMRF6r6oA7jcK9Q.jpg",
+        "alt": "Kid sit on stole in stylish pose",
+        "w": 4255.8,
+        "h": 3155.1,
+        "x": -750.3,
+        "y": 56.2,
+        "natW": 260,
+        "natH": 248,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/jz6J8tN19rBotBJ08ib9LED2s8.png",
+        "alt": "Woman in white red dress",
+        "w": 1243.3,
+        "h": 1806.3,
+        "x": 1574.2,
+        "y": 730.6,
+        "natW": 260,
+        "natH": 346,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/ftObEL64RY81LvY92K11dTejqZ4.png",
+        "alt": "Black jacket ",
+        "w": 1236.6,
+        "h": 1806.3,
+        "x": -1367.7,
+        "y": 730.6,
+        "natW": 260,
+        "natH": 361,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/IEB9QLOzy0qlnSdGfn5jQsBFFVo.png",
+        "alt": "Boy in black hoodie",
+        "w": 4240.3,
+        "h": 3155.1,
+        "x": -2058.5,
+        "y": 56.2,
+        "natW": 260,
+        "natH": 260,
+        "parentClass": ""
+      }
+    ],
+    "galleryCandidates": [
+      {
+        "childImgs": 27,
+        "w": 1440,
+        "h": 2785.7,
+        "x": 0,
+        "y": 0,
+        "overflowX": "visible",
+        "display": "block",
+        "gap": "normal",
+        "className": ""
+      },
+      {
+        "childImgs": 27,
+        "w": 1440,
+        "h": 2785.7,
+        "x": 0,
+        "y": 0,
+        "overflowX": "clip",
+        "display": "flex",
+        "gap": "0px",
+        "className": "framer-BGi5b framer-1afr2p0"
+      },
+      {
+        "childImgs": 10,
+        "w": 1200,
+        "h": 867.1,
+        "x": 120,
+        "y": 130,
+        "overflowX": "clip",
+        "display": "flex",
+        "gap": "58px",
+        "className": "framer-vhge92"
+      },
+      {
+        "childImgs": 10,
+        "w": 1150,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "overflowX": "clip",
+        "display": "grid",
+        "gap": "16px 0px",
+        "className": "framer-1fnodqv"
+      },
+      {
+        "childImgs": 10,
+        "w": 575,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "overflowX": "visible",
+        "display": "block",
+        "gap": "normal",
+        "className": "framer-1f1bg1e-container"
+      },
+      {
+        "childImgs": 10,
+        "w": 575,
+        "h": 601.5,
+        "x": 145,
+        "y": 130,
+        "overflowX": "hidden",
+        "display": "flex",
+        "gap": "10px",
+        "className": "framer-nofaL framer-o3a90x framer-v-o3a90x"
+      },
+      {
+        "childImgs": 14,
+        "w": 1440,
+        "h": 828.7,
+        "x": 0,
+        "y": 1075.1,
+        "overflowX": "visible",
+        "display": "block",
+        "gap": "normal",
+        "className": "framer-1lverjz-container"
+      },
+      {
+        "childImgs": 14,
+        "w": 1440,
+        "h": 828.7,
+        "x": 0,
+        "y": 1075.1,
+        "overflowX": "clip",
+        "display": "flex",
+        "gap": "10px",
+        "className": "framer-unhk0 framer-pRCf4 framer-UKwSM framer-15nik8h framer-v-15nik8h"
+      }
+    ],
+    "localGallery": {
+      "main": null,
+      "thumbs": null,
+      "gallery": null,
+      "info": null,
+      "layout": null,
+      "trust": null
+    }
+  },
+  "local_1440": {
+    "label": "local_1440",
+    "winW": 1440,
+    "docW": 1440,
+    "overflowX": false,
+    "title": "Textured Knitted Shirt",
+    "order": {
+      "text": "Order NowOrder Now",
+      "href": "https://framer.link/nasir-nawaz",
+      "box": {
+        "w": 130.6,
+        "h": 48.8,
+        "x": 771.5,
+        "y": 388,
+        "radius": "999px",
+        "gap": "normal",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      }
+    },
+    "productImgs": [
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Textured Knitted Shirt — image 1",
+        "w": 578.5,
+        "h": 723.2,
+        "x": 145,
+        "y": 128.8,
+        "natW": 640,
+        "natH": 959,
+        "parentClass": "product-gallery__main"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Community member in modern layered streetwear",
+        "w": 1857.1,
+        "h": 2642.9,
+        "x": -208.6,
+        "y": 625.3,
+        "natW": 260,
+        "natH": 288,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Community member in a black hoodie portrait",
+        "w": 4255.8,
+        "h": 3155.1,
+        "x": -750.3,
+        "y": 369.1,
+        "natW": 260,
+        "natH": 247,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Child wearing a graphic long-sleeve tee",
+        "w": 1239.9,
+        "h": 1806.3,
+        "x": 1572.7,
+        "y": 1043.5,
+        "natW": 260,
+        "natH": 346,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Community member in an olive jacket profile",
+        "w": 1239.9,
+        "h": 1806.3,
+        "x": -1372.6,
+        "y": 1043.5,
+        "natW": 260,
+        "natH": 361,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Community member in a light knit sweater",
+        "w": 4255.8,
+        "h": 3155.1,
+        "x": -2065.5,
+        "y": 369.1,
+        "natW": 260,
+        "natH": 260,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      }
+    ],
+    "galleryCandidates": [
+      {
+        "childImgs": 6,
+        "w": 1200,
+        "h": 1096.2,
+        "x": 120,
+        "y": 128.8,
+        "overflowX": "visible",
+        "display": "flex",
+        "gap": "72px",
+        "className": "product-page__inner"
+      },
+      {
+        "childImgs": 6,
+        "w": 1150,
+        "h": 852.2,
+        "x": 145,
+        "y": 128.8,
+        "overflowX": "visible",
+        "display": "grid",
+        "gap": "48px",
+        "className": "product-page__layout"
+      },
+      {
+        "childImgs": 6,
+        "w": 578.5,
+        "h": 852.2,
+        "x": 145,
+        "y": 128.8,
+        "overflowX": "visible",
+        "display": "flex",
+        "gap": "14px",
+        "className": "product-gallery"
+      },
+      {
+        "childImgs": 5,
+        "w": 578.5,
+        "h": 115,
+        "x": 145,
+        "y": 866,
+        "overflowX": "auto",
+        "display": "flex",
+        "gap": "10px",
+        "className": "product-gallery__thumbs"
+      }
+    ],
+    "localGallery": {
+      "main": {
+        "w": 578.5,
+        "h": 723.2,
+        "x": 145,
+        "y": 128.8,
+        "radius": "24px",
+        "gap": "normal",
+        "display": "block",
+        "overflowX": "hidden",
+        "overflowY": "hidden"
+      },
+      "thumbs": {
+        "w": 578.5,
+        "h": 115,
+        "x": 145,
+        "y": 866,
+        "radius": "0px",
+        "gap": "10px",
+        "display": "flex",
+        "overflowX": "auto",
+        "overflowY": "auto"
+      },
+      "gallery": {
+        "w": 578.5,
+        "h": 852.2,
+        "x": 145,
+        "y": 128.8,
+        "radius": "0px",
+        "gap": "14px",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "info": {
+        "w": 523.5,
+        "h": 505.5,
+        "x": 771.5,
+        "y": 128.8,
+        "radius": "0px",
+        "gap": "18px",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "layout": {
+        "w": 1150,
+        "h": 852.2,
+        "x": 145,
+        "y": 128.8,
+        "radius": "0px",
+        "gap": "48px",
+        "display": "grid",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "trust": {
+        "w": 1150,
+        "h": 172,
+        "x": 145,
+        "y": 1053,
+        "radius": "0px",
+        "gap": "18px",
+        "display": "grid",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      }
+    }
+  },
+  "live_1024": {
+    "label": "live_1024",
+    "winW": 1024,
+    "docW": 1024,
+    "overflowX": false,
+    "title": "Textured Knitted Shirt",
+    "order": {
+      "text": "Order NowOrder Now",
+      "href": "https://framer.link/nasir-nawaz",
+      "box": {
+        "w": 980,
+        "h": 54,
+        "x": 22,
+        "y": 894.5,
+        "radius": "999px",
+        "gap": "10px",
+        "display": "flex",
+        "overflowX": "hidden",
+        "overflowY": "hidden"
+      }
+    },
+    "productImgs": [
+      {
+        "src": "https://framerusercontent.com/images/dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 980,
+        "h": 500,
+        "x": 22,
+        "y": 130,
+        "natW": 940,
+        "natH": 1410,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/lvt1WlyrgirePb8z3BSlF9OY.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 980,
+        "h": 500,
+        "x": 22,
+        "y": 130,
+        "natW": 940,
+        "natH": 1410,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 980,
+        "h": 500,
+        "x": 22,
+        "y": 130,
+        "natW": 940,
+        "natH": 1410,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 980,
+        "h": 500,
+        "x": 22,
+        "y": 130,
+        "natW": 940,
+        "natH": 1410,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+        "alt": "Textured Knitted Shirt",
+        "w": 980,
+        "h": 500,
+        "x": 22,
+        "y": 130,
+        "natW": 940,
+        "natH": 1421,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/3BJsJKp6d3GMb73lMFLvun3bVxE.png",
+        "alt": "Woman in dark greenish dress",
+        "w": 1857.1,
+        "h": 2642.9,
+        "x": -416.6,
+        "y": 950.4,
+        "natW": 260,
+        "natH": 288,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/Q2qaxWvHcpcMDMRF6r6oA7jcK9Q.jpg",
+        "alt": "Kid sit on stole in stylish pose",
+        "w": 4255.8,
+        "h": 3155.1,
+        "x": -958.3,
+        "y": 694.3,
+        "natW": 260,
+        "natH": 248,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/IEB9QLOzy0qlnSdGfn5jQsBFFVo.png",
+        "alt": "Boy in black hoodie",
+        "w": 4240.3,
+        "h": 3155.1,
+        "x": -2266.5,
+        "y": 694.3,
+        "natW": 260,
+        "natH": 260,
+        "parentClass": ""
+      }
+    ],
+    "galleryCandidates": [
+      {
+        "childImgs": 27,
+        "w": 1024,
+        "h": 3563.8,
+        "x": 0,
+        "y": 0,
+        "overflowX": "visible",
+        "display": "block",
+        "gap": "normal",
+        "className": ""
+      },
+      {
+        "childImgs": 27,
+        "w": 1024,
+        "h": 3563.8,
+        "x": 0,
+        "y": 0,
+        "overflowX": "clip",
+        "display": "flex",
+        "gap": "0px",
+        "className": "framer-BGi5b framer-1afr2p0"
+      },
+      {
+        "childImgs": 10,
+        "w": 1024,
+        "h": 1514.5,
+        "x": 0,
+        "y": 130,
+        "overflowX": "clip",
+        "display": "flex",
+        "gap": "58px",
+        "className": "framer-vhge92"
+      },
+      {
+        "childImgs": 10,
+        "w": 980,
+        "h": 1076.9,
+        "x": 22,
+        "y": 130,
+        "overflowX": "clip",
+        "display": "grid",
+        "gap": "16px 0px",
+        "className": "framer-1fnodqv"
+      },
+      {
+        "childImgs": 10,
+        "w": 980,
+        "h": 500,
+        "x": 22,
+        "y": 130,
+        "overflowX": "visible",
+        "display": "block",
+        "gap": "normal",
+        "className": "framer-1f1bg1e-container"
+      },
+      {
+        "childImgs": 10,
+        "w": 980,
+        "h": 500,
+        "x": 22,
+        "y": 130,
+        "overflowX": "hidden",
+        "display": "flex",
+        "gap": "10px",
+        "className": "framer-nofaL framer-o3a90x framer-v-o3a90x"
+      }
+    ],
+    "localGallery": {
+      "main": null,
+      "thumbs": null,
+      "gallery": null,
+      "info": null,
+      "layout": null,
+      "trust": null
+    }
+  },
+  "local_1024": {
+    "label": "local_1024",
+    "winW": 1024,
+    "docW": 1024,
+    "overflowX": false,
+    "title": "Textured Knitted Shirt",
+    "order": {
+      "text": "Order NowOrder Now",
+      "href": "https://framer.link/nasir-nawaz",
+      "box": {
+        "w": 130.6,
+        "h": 48.8,
+        "x": 551.7,
+        "y": 378.8,
+        "radius": "999px",
+        "gap": "normal",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      }
+    },
+    "productImgs": [
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Textured Knitted Shirt — image 1",
+        "w": 497.7,
+        "h": 622.1,
+        "x": 22,
+        "y": 128.8,
+        "natW": 563,
+        "natH": 843,
+        "parentClass": "product-gallery__main"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Community member in modern layered streetwear",
+        "w": 1300,
+        "h": 1850,
+        "x": -138,
+        "y": 977.8,
+        "natW": 200,
+        "natH": 221,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Community member in a black hoodie portrait",
+        "w": 2979.1,
+        "h": 2208.6,
+        "x": -517.2,
+        "y": 798.5,
+        "natW": 200,
+        "natH": 190,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      },
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Community member in a light knit sweater",
+        "w": 2979.1,
+        "h": 2208.6,
+        "x": -1437.9,
+        "y": 798.5,
+        "natW": 200,
+        "natH": 200,
+        "parentClass": "social-gallery__face social-gallery__face--a"
+      }
+    ],
+    "galleryCandidates": [
+      {
+        "childImgs": 6,
+        "w": 1024,
+        "h": 1127.1,
+        "x": 0,
+        "y": 128.8,
+        "overflowX": "visible",
+        "display": "flex",
+        "gap": "56px",
+        "className": "product-page__inner"
+      },
+      {
+        "childImgs": 6,
+        "w": 980,
+        "h": 751.1,
+        "x": 22,
+        "y": 128.8,
+        "overflowX": "visible",
+        "display": "grid",
+        "gap": "32px",
+        "className": "product-page__layout"
+      },
+      {
+        "childImgs": 6,
+        "w": 497.7,
+        "h": 751.1,
+        "x": 22,
+        "y": 128.8,
+        "overflowX": "visible",
+        "display": "flex",
+        "gap": "14px",
+        "className": "product-gallery"
+      },
+      {
+        "childImgs": 5,
+        "w": 497.7,
+        "h": 115,
+        "x": 22,
+        "y": 765,
+        "overflowX": "auto",
+        "display": "flex",
+        "gap": "10px",
+        "className": "product-gallery__thumbs"
+      }
+    ],
+    "localGallery": {
+      "main": {
+        "w": 497.7,
+        "h": 622.1,
+        "x": 22,
+        "y": 128.8,
+        "radius": "24px",
+        "gap": "normal",
+        "display": "block",
+        "overflowX": "hidden",
+        "overflowY": "hidden"
+      },
+      "thumbs": {
+        "w": 497.7,
+        "h": 115,
+        "x": 22,
+        "y": 765,
+        "radius": "0px",
+        "gap": "10px",
+        "display": "flex",
+        "overflowX": "auto",
+        "overflowY": "auto"
+      },
+      "gallery": {
+        "w": 497.7,
+        "h": 751.1,
+        "x": 22,
+        "y": 128.8,
+        "radius": "0px",
+        "gap": "14px",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "info": {
+        "w": 450.3,
+        "h": 496.3,
+        "x": 551.7,
+        "y": 128.8,
+        "radius": "0px",
+        "gap": "18px",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "layout": {
+        "w": 980,
+        "h": 751.1,
+        "x": 22,
+        "y": 128.8,
+        "radius": "0px",
+        "gap": "32px",
+        "display": "grid",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "trust": {
+        "w": 980,
+        "h": 320,
+        "x": 22,
+        "y": 936,
+        "radius": "0px",
+        "gap": "18px",
+        "display": "grid",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      }
+    }
+  },
+  "live_390": {
+    "label": "live_390",
+    "winW": 390,
+    "docW": 390,
+    "overflowX": false,
+    "title": "Textured Knitted Shirt",
+    "order": {
+      "text": "Order NowOrder Now",
+      "href": "https://framer.link/nasir-nawaz",
+      "box": {
+        "w": 346,
+        "h": 54,
+        "x": 22,
+        "y": 844.3,
+        "radius": "999px",
+        "gap": "10px",
+        "display": "flex",
+        "overflowX": "hidden",
+        "overflowY": "hidden"
+      }
+    },
+    "productImgs": [
+      {
+        "src": "https://framerusercontent.com/images/dfydRQ0hineaQjqYigxtJ3UUI.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 346,
+        "h": 410,
+        "x": 22,
+        "y": 130,
+        "natW": 306,
+        "natH": 459,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/lvt1WlyrgirePb8z3BSlF9OY.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 346,
+        "h": 410,
+        "x": 22,
+        "y": 130,
+        "natW": 306,
+        "natH": 459,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/wLQPzEAkPBNqeU5YJ0f7pjX7uQ.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 346,
+        "h": 410,
+        "x": 22,
+        "y": 130,
+        "natW": 306,
+        "natH": 459,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/KVUZzQptg8V1Zlr4aAOfp4UqnCs.jpg",
+        "alt": "Textured Knitted Shirt",
+        "w": 346,
+        "h": 410,
+        "x": 22,
+        "y": 130,
+        "natW": 306,
+        "natH": 459,
+        "parentClass": ""
+      },
+      {
+        "src": "https://framerusercontent.com/images/M4ZMtmdhO53WUmCxjjzyjcGZUQ.png",
+        "alt": "Textured Knitted Shirt",
+        "w": 346,
+        "h": 410,
+        "x": 22,
+        "y": 130,
+        "natW": 306,
+        "natH": 462,
+        "parentClass": ""
+      }
+    ],
+    "galleryCandidates": [
+      {
+        "childImgs": 27,
+        "w": 390,
+        "h": 4214.4,
+        "x": 0,
+        "y": 0,
+        "overflowX": "visible",
+        "display": "block",
+        "gap": "normal",
+        "className": ""
+      },
+      {
+        "childImgs": 27,
+        "w": 390,
+        "h": 4214.4,
+        "x": 0,
+        "y": 0,
+        "overflowX": "clip",
+        "display": "flex",
+        "gap": "0px",
+        "className": "framer-BGi5b framer-1afr2p0"
+      },
+      {
+        "childImgs": 10,
+        "w": 390,
+        "h": 2031.4,
+        "x": 0,
+        "y": 130,
+        "overflowX": "clip",
+        "display": "flex",
+        "gap": "58px",
+        "className": "framer-vhge92"
+      },
+      {
+        "childImgs": 10,
+        "w": 346,
+        "h": 1101,
+        "x": 22,
+        "y": 130,
+        "overflowX": "clip",
+        "display": "grid",
+        "gap": "16px 0px",
+        "className": "framer-1fnodqv"
+      },
+      {
+        "childImgs": 10,
+        "w": 346,
+        "h": 410,
+        "x": 22,
+        "y": 130,
+        "overflowX": "visible",
+        "display": "block",
+        "gap": "normal",
+        "className": "framer-1f1bg1e-container"
+      },
+      {
+        "childImgs": 10,
+        "w": 346,
+        "h": 410,
+        "x": 22,
+        "y": 130,
+        "overflowX": "hidden",
+        "display": "flex",
+        "gap": "10px",
+        "className": "framer-nofaL framer-o3a90x framer-v-o3a90x"
+      }
+    ],
+    "localGallery": {
+      "main": null,
+      "thumbs": null,
+      "gallery": null,
+      "info": null,
+      "layout": null,
+      "trust": null
+    }
+  },
+  "local_390": {
+    "label": "local_390",
+    "winW": 390,
+    "docW": 390,
+    "overflowX": false,
+    "title": "Textured Knitted Shirt",
+    "order": {
+      "text": "Order NowOrder Now",
+      "href": "https://framer.link/nasir-nawaz",
+      "box": {
+        "w": 350,
+        "h": 48.8,
+        "x": 20,
+        "y": 938.4,
+        "radius": "999px",
+        "gap": "normal",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      }
+    },
+    "productImgs": [
+      {
+        "src": "http://localhost:3000/_next/image",
+        "alt": "Textured Knitted Shirt — image 1",
+        "w": 350,
+        "h": 437.5,
+        "x": 20,
+        "y": 111.3,
+        "natW": 390,
+        "natH": 584,
+        "parentClass": "product-gallery__main"
+      }
+    ],
+    "galleryCandidates": [
+      {
+        "childImgs": 6,
+        "w": 390,
+        "h": 1948.9,
+        "x": 0,
+        "y": 111.3,
+        "overflowX": "visible",
+        "display": "flex",
+        "gap": "48px",
+        "className": "product-page__inner"
+      },
+      {
+        "childImgs": 6,
+        "w": 350,
+        "h": 1158.9,
+        "x": 20,
+        "y": 111.3,
+        "overflowX": "visible",
+        "display": "grid",
+        "gap": "28px",
+        "className": "product-page__layout"
+      },
+      {
+        "childImgs": 6,
+        "w": 350,
+        "h": 546.5,
+        "x": 20,
+        "y": 111.3,
+        "overflowX": "visible",
+        "display": "flex",
+        "gap": "14px",
+        "className": "product-gallery"
+      },
+      {
+        "childImgs": 5,
+        "w": 350,
+        "h": 95,
+        "x": 20,
+        "y": 562.8,
+        "overflowX": "auto",
+        "display": "flex",
+        "gap": "10px",
+        "className": "product-gallery__thumbs"
+      }
+    ],
+    "localGallery": {
+      "main": {
+        "w": 350,
+        "h": 437.5,
+        "x": 20,
+        "y": 111.3,
+        "radius": "18px",
+        "gap": "normal",
+        "display": "block",
+        "overflowX": "hidden",
+        "overflowY": "hidden"
+      },
+      "thumbs": {
+        "w": 350,
+        "h": 95,
+        "x": 20,
+        "y": 562.8,
+        "radius": "0px",
+        "gap": "10px",
+        "display": "flex",
+        "overflowX": "auto",
+        "overflowY": "auto"
+      },
+      "gallery": {
+        "w": 350,
+        "h": 546.5,
+        "x": 20,
+        "y": 111.3,
+        "radius": "0px",
+        "gap": "14px",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "info": {
+        "w": 350,
+        "h": 584.4,
+        "x": 20,
+        "y": 685.8,
+        "radius": "0px",
+        "gap": "18px",
+        "display": "flex",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "layout": {
+        "w": 350,
+        "h": 1158.9,
+        "x": 20,
+        "y": 111.3,
+        "radius": "0px",
+        "gap": "28px",
+        "display": "grid",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      },
+      "trust": {
+        "w": 350,
+        "h": 742,
+        "x": 20,
+        "y": 1318.2,
+        "radius": "0px",
+        "gap": "18px",
+        "display": "grid",
+        "overflowX": "visible",
+        "overflowY": "visible"
+      }
+    }
+  }
+}

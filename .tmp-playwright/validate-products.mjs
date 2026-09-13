@@ -34,22 +34,33 @@ async function main() {
       timeout: 60000,
     });
     await page.waitForTimeout(400);
-    const data = await page.evaluate(() => {
+      const data = await page.evaluate(() => {
       const text = (sel) =>
         (document.querySelector(sel)?.textContent || "")
           .replace(/\s+/g, " ")
           .trim();
-      const imgs = [...document.querySelectorAll(".product-gallery img")].map(
-        (img) => img.getAttribute("src") || img.currentSrc,
-      );
       const order = document.querySelector(".product-info__order");
+      const thumbs = [
+        ...document.querySelectorAll(".product-gallery__thumb"),
+      ].length;
+      const badgeOnGallery = !!document.querySelector(".product-gallery__badge");
       const broken = [...document.querySelectorAll("img")].filter(
         (img) => img.naturalWidth === 0 && img.complete,
       ).length;
+      const stage = document.querySelector(".product-gallery__stage");
+      const thumbsEl = document.querySelector(".product-gallery__thumbs");
+      const stageBox = stage?.getBoundingClientRect();
+      const thumbsBox = thumbsEl?.getBoundingClientRect();
+      const thumbsOverlay =
+        !!stageBox &&
+        !!thumbsBox &&
+        thumbsBox.top >= stageBox.top &&
+        thumbsBox.bottom <= stageBox.bottom + 1;
       return {
         title: text(".product-info__title"),
-        badge: text(".product-info__badge"),
-        wear: text(".product-info__crumb.is-current"),
+        badge: text(".product-gallery__badge"),
+        wear: text(".product-info__wear"),
+        shopPill: text(".product-info__shop-pill"),
         price: text(".product-info__price"),
         compare: text(".product-info__compare"),
         description: text(".product-info__description"),
@@ -58,11 +69,20 @@ async function main() {
         warranty: text(".product-details__row:nth-child(3) dd"),
         orderText: text(".product-info__order"),
         orderHref: order?.getAttribute("href") || null,
+        orderFullWidth: (() => {
+          const info = document.querySelector(".product-info");
+          if (!order || !info) return false;
+          return Math.abs(order.getBoundingClientRect().width - info.getBoundingClientRect().width) < 2;
+        })(),
         trustCount: document.querySelectorAll(".product-trust__card").length,
         social: !!document.querySelector(".social-gallery"),
         footer: !!document.querySelector(".footer"),
-        galleryCount: document.querySelectorAll(".product-gallery__thumb, .product-gallery__main-image").length,
-        mainImg: document.querySelector(".product-gallery__main-image")?.getAttribute("src"),
+        thumbs,
+        badgeOnGallery,
+        thumbsOverlay,
+        mainImg: document
+          .querySelector(".product-gallery__main-image")
+          ?.getAttribute("src"),
         overflowX:
           document.documentElement.scrollWidth > window.innerWidth + 1,
         broken,
@@ -72,8 +92,8 @@ async function main() {
     const pass =
       res?.status() === 200 &&
       data.title === p.name &&
-      data.price === `$${p.price.toFixed(2)}` &&
-      data.compare === `$${p.compareAtPrice.toFixed(2)}` &&
+      data.price === `USD $${p.price.toFixed(2)}` &&
+      data.compare === `USD $${p.compareAtPrice.toFixed(2)}` &&
       data.material === p.material &&
       data.care === p.care &&
       data.warranty === p.warranty &&
@@ -82,6 +102,10 @@ async function main() {
       data.trustCount === 4 &&
       data.social &&
       data.footer &&
+      data.thumbs === 5 &&
+      data.badgeOnGallery &&
+      data.thumbsOverlay &&
+      data.shopPill === "Shop" &&
       !data.overflowX &&
       data.broken === 0;
 
