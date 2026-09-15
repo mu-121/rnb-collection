@@ -5573,14 +5573,14 @@ button:focus-visible .hover-text__track {
 .contact-card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
   gap: 10px;
   padding: 22px 20px;
   border-radius: 16px;
-  background: var(--surface-white);
+  background: var(--surface-tint);
   color: var(--foreground);
   text-decoration: none;
-  transition: background 160ms ease, box-shadow 160ms ease;
 }
 
 .contact-card:hover,
@@ -5592,12 +5592,18 @@ button:focus-visible .hover-text__track {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
   border-radius: 14px;
-  background: var(--button-gradient);
-  color: var(--surface-white);
+  background: var(--surface-white);
   flex-shrink: 0;
+}
+
+.contact-card__icon-img {
+  display: block;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
 .contact-card__value {

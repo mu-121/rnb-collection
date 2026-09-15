@@ -12,64 +12,6 @@ import {
 } from "@/data/contact";
 import HoverText from "./HoverText";
 
-function EmailIcon() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path
-        d="M3 7.5 12 13.5 21 7.5"
-        stroke="currentColor"
-        strokeWidth="1.7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <rect
-        x="3"
-        y="5.5"
-        width="18"
-        height="13"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="1.7"
-      />
-    </svg>
-  );
-}
-
-function PhoneIcon() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path
-        d="M8.5 4.5h2.2l1.1 3.3-1.4 1.4a12.5 12.5 0 0 0 4.9 4.9l1.4-1.4 3.3 1.1v2.2c0 .9-.7 1.7-1.6 1.8-7.2.8-13.1-5.1-12.3-12.3.1-.9.9-1.6 1.8-1.6Z"
-        stroke="currentColor"
-        strokeWidth="1.7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function LocationIcon() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <path
-        d="M12 21s6-5.2 6-10.2A6 6 0 0 0 6 10.8C6 15.8 12 21 12 21Z"
-        stroke="currentColor"
-        strokeWidth="1.7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <circle cx="12" cy="10.5" r="2.2" stroke="currentColor" strokeWidth="1.7" />
-    </svg>
-  );
-}
-
-const infoIcons = {
-  email: EmailIcon,
-  phone: PhoneIcon,
-  location: LocationIcon,
-};
-
 function ContactHero() {
   return (
     <section className="contact-hero" aria-labelledby="contact-hero-heading">
@@ -125,7 +67,6 @@ function ContactHero() {
 }
 
 function InfoCard({ item }: { item: ContactInfoItem }) {
-  const Icon = infoIcons[item.icon];
   const external = item.href.startsWith("http");
 
   return (
@@ -135,7 +76,14 @@ function InfoCard({ item }: { item: ContactInfoItem }) {
       {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
     >
       <span className="contact-card__icon" aria-hidden="true">
-        <Icon />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={item.icon}
+          alt=""
+          width={28}
+          height={28}
+          className="contact-card__icon-img"
+        />
       </span>
       <span className="contact-card__value">{item.value}</span>
       <span className="contact-card__label">{item.label}</span>
