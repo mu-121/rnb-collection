@@ -151,11 +151,11 @@ export default function Footer({
           <div className="footer__brand">
             <div className="footer__brand-logo">
               <Image
-                src="/Images/logo.svg"
+                src="/Images/footerLogo.svg"
                 alt="RnB Collection"
                 width={136}
                 height={25}
-                className="footer__brand-logo-img11"
+                className="footer__brand-logo-img"
               />
             </div>
             <p className="footer__brand-desc">{footerBrandDescription}</p>
