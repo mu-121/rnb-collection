@@ -129,7 +129,7 @@ export default function CollectionCard({
           <div className="collections__pricing-info">
             <span className="collections__pricing-icon" aria-hidden="true">
               <Image
-                src="/Images/wearix-105.svg"
+                src="/Images/dollar.svg"
                 alt=""
                 width={28}
                 height={28}
@@ -143,7 +143,9 @@ export default function CollectionCard({
                 <span className="collections__price">
                   {formatPrice(collection.priceFrom)}
                 </span>
-                <span className="collections__price-rule" aria-hidden="true" />
+                <span className="collections__price-sep" aria-hidden="true">
+                  —
+                </span>
                 <span className="collections__price">
                   {formatPrice(collection.priceTo)}
                 </span>

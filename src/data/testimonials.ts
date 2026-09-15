@@ -1,5 +1,6 @@
 export type Testimonial = {
   id: string;
+  /** Plain quote; wrap emphasized phrases in **like this**. */
   quote: string;
   author: string;
   role: string;
@@ -18,12 +19,13 @@ export type Testimonial = {
 /**
  * Live Wearix Reviews carousel (5 logo tabs).
  * Local MD5 matches used where available; Framer CDN for unmatched light logos / avatars.
+ * Emphasized quote phrases (Figma black/bold) are wrapped in **...**.
  */
 export const testimonials: Testimonial[] = [
   {
     id: "t-01",
     quote:
-      "The premium quality of the men's collection is truly unmatched lately. The fabrics feel incredibly premium and soft. This specific tailored fit is perfect for my busy office. A very sharp look. I love it every day.",
+      "The premium quality of the men's collection is truly unmatched lately. **The fabrics feel incredibly premium and soft.** This specific tailored fit is perfect for my busy office. **A very sharp look.** I love it every day.",
     author: "James Carter",
     role: "Creative Director",
     rating: 4.9,
@@ -37,7 +39,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t-02",
     quote:
-      "I am obsessed with the elegant modern daily wear. The tailoring is exceptionally modern and sharp. Every piece feels curated for my professional life. Beautiful and versatile style. Truly great quality.",
+      "I am obsessed with the elegant modern daily wear. **The tailoring is exceptionally modern and sharp.** Every piece feels curated for my professional life. **Beautiful and versatile style.** Truly great quality.",
     author: "Sarah Jenkins",
     role: "Fashion Blogger",
     rating: 4.8,
@@ -53,7 +55,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t-03",
     quote:
-      "Finding clothes that last through many washes is hard. These pieces are exceptionally durable and strong. They hold their deep color and original shape. A great weekend choice. Very reliable brand.",
+      "Finding clothes that last through many washes is hard. **These pieces are exceptionally durable and strong.** They hold their deep color and original shape. **A great weekend choice.** Very reliable brand.",
     author: "David Miller",
     role: "Software Engineer",
     rating: 4.9,
@@ -70,7 +72,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t-04",
     quote:
-      "The children's line is a lifesaver for growing kids. The styles are fresh and very cool. It handles every playground adventure with total ease. Soft and gentle fabric. Best for kids.",
+      "The children's line is a lifesaver for growing kids. **The styles are fresh and very cool.** It handles every playground adventure with total ease. **Soft and gentle fabric.** Best for kids.",
     author: "Elena Rodriguez",
     role: "Designer",
     rating: 4.8,
@@ -86,7 +88,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t-05",
     quote:
-      "I appreciate the structured design of the new coats. The silhouette is professional and very clean. It provides a sophisticated look for my meetings. A true staple piece. Highly recommend this.",
+      "I appreciate the structured design of the new coats. **The silhouette is professional and very clean.** It provides a sophisticated look for my meetings. **A true staple piece.** Highly recommend this.",
     author: "Michael Ross",
     role: "Architecture Lead",
     rating: 4.9,

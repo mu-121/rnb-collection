@@ -63,6 +63,25 @@ function isRemote(src: string) {
   return src.startsWith("http");
 }
 
+/** Renders quote with **emphasized** phrases as Figma black/bold spans. */
+function QuoteText({ quote }: { quote: string }) {
+  const parts = quote.split(/(\*\*[^*]+\*\*)/g);
+  return (
+    <>
+      {parts.map((part, index) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+          return (
+            <strong key={index} className="customer-reviews__quote-em">
+              {part.slice(2, -2)}
+            </strong>
+          );
+        }
+        return <span key={index}>{part}</span>;
+      })}
+    </>
+  );
+}
+
 export default function CustomerReviews() {
   const [active, setActive] = useState(0);
   const review = testimonials[active];
@@ -139,7 +158,9 @@ export default function CustomerReviews() {
             </div>
 
             <blockquote className="customer-reviews__quote">
-              <p>{review.quote}</p>
+              <p>
+                <QuoteText quote={review.quote} />
+              </p>
             </blockquote>
           </div>
 

@@ -13,7 +13,7 @@
   font-family: "Sansation";
   src: url("/fonts/Sansation-Bold.ttf") format("truetype");
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-display: swap;
 }
 
@@ -169,7 +169,7 @@ ol {
 .announce__item {
   font-family: var(--font-sans);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -233,7 +233,7 @@ ol {
 
 .site-header__link {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: var(--nav-link-on-dark);
@@ -280,7 +280,7 @@ ol {
   background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -420,7 +420,7 @@ ol {
 
 .mobile-menu__link {
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.2;
   color: var(--nav-link-on-dark);
@@ -441,7 +441,7 @@ ol {
   background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.035em;
 }
 
@@ -553,7 +553,7 @@ ol {
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -567,7 +567,7 @@ ol {
 
 .hero__heading {
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 40px;
   line-height: 1.12em;
   letter-spacing: -0.03em;
@@ -603,7 +603,7 @@ ol {
   padding: 8px 15px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   transition: opacity 160ms ease, background 160ms ease;
@@ -698,7 +698,7 @@ ol {
   z-index: 2;
   padding: 0 4px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.025em;
   line-height: 1.4;
   text-align: center;
@@ -840,7 +840,7 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -860,7 +860,7 @@ button:focus-visible .hover-text__track {
 
 .new-arrivals__heading {
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 48px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
@@ -877,7 +877,7 @@ button:focus-visible .hover-text__track {
   background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -964,7 +964,7 @@ button:focus-visible .hover-text__track {
 
 .product-card__badge-text {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.03em;
 }
@@ -1028,7 +1028,7 @@ button:focus-visible .hover-text__track {
 .product-card__name {
   font-family: var(--font-sans);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -1043,8 +1043,8 @@ button:focus-visible .hover-text__track {
 
 .product-card__price {
   font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 21.2px;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   background: var(--button-gradient);
@@ -1230,7 +1230,7 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -1250,11 +1250,12 @@ button:focus-visible .hover-text__track {
 
 .best-sellers__heading {
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 45.2px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
   color: var(--foreground);
+  max-width: 400px
 }
 
 .best-sellers__cta {
@@ -1267,7 +1268,7 @@ button:focus-visible .hover-text__track {
   background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -1380,7 +1381,7 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -1404,8 +1405,8 @@ button:focus-visible .hover-text__track {
 
 .collections__heading {
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 45px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -1420,8 +1421,8 @@ button:focus-visible .hover-text__track {
   border-radius: 999px;
   background: var(--button-gradient);
   color: var(--surface-white);
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 700;
   line-height: 23px;
   letter-spacing: normal;
   white-space: nowrap;
@@ -1564,10 +1565,10 @@ button:focus-visible .hover-text__track {
   justify-content: center;
   padding: 4px 9px;
   border-radius: 30px;
-  background: var(--foreground);
+  background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3em;
   letter-spacing: -0.03em;
   white-space: nowrap;
@@ -1575,7 +1576,7 @@ button:focus-visible .hover-text__track {
 
 .collections__chip-name {
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.4em;
   letter-spacing: -0.025em;
   color: var(--foreground);
@@ -1592,8 +1593,8 @@ button:focus-visible .hover-text__track {
 
 .collections__title {
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 44px;
+  font-weight: 700;
+  font-size: 41px;
   line-height: 1.18em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -1602,7 +1603,7 @@ button:focus-visible .hover-text__track {
 
 .collections__desc {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -1634,14 +1635,14 @@ button:focus-visible .hover-text__track {
   flex-shrink: 0;
   width: 52px;
   height: 52px;
-  border-radius: 7px;
-  background:#F0F9FF;
+  border-radius: 10px;
+  background: var(--surface-tint);
 }
 
 .collections__pricing-icon img {
+  display: block;
   width: 28px;
   height: 28px;
-  display: block;
 }
 
 .collections__pricing-text {
@@ -1653,7 +1654,7 @@ button:focus-visible .hover-text__track {
 
 .collections__pricing-label {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: rgb(120, 120, 120);
@@ -1667,21 +1668,18 @@ button:focus-visible .hover-text__track {
 
 .collections__price {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
-  background: var(--button-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--foreground);
 }
 
-.collections__price-rule {
-  display: block;
-  width: 10px;
-  height: 1px;
+.collections__price-sep {
   flex-shrink: 0;
-  background: var(--border);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.55em;
+  color: var(--foreground);
 }
 
 .collections__all {
@@ -1693,10 +1691,10 @@ button:focus-visible .hover-text__track {
   border-radius: 999px;
   background: var(--button-gradient);
   color: var(--surface-white);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 23px;
-  letter-spacing: normal;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
   white-space: nowrap;
   transition: opacity 160ms ease;
 }
@@ -1874,7 +1872,7 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -1894,8 +1892,8 @@ button:focus-visible .hover-text__track {
 
 .customer-reviews__heading {
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 45px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -1903,12 +1901,12 @@ button:focus-visible .hover-text__track {
 }
 
 .customer-reviews__intro {
-  max-width: 440px;
-  font-size: 16px;
-  font-weight: 500;
+  max-width: 450px;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1.55em;
   letter-spacing: -0.03em;
-  color: rgb(110, 110, 110);
+  color: #6E6E6E;
   text-align: center;
 }
 
@@ -1923,6 +1921,7 @@ button:focus-visible .hover-text__track {
   padding: 80px 0 0;
   border-radius: 12px;
   background: var(--surface-tint);
+  overflow: hidden;
 }
 
 .customer-reviews__rating {
@@ -1935,7 +1934,7 @@ button:focus-visible .hover-text__track {
   gap: 10px;
   padding: 6px 14px;
   border-radius: 999px;
-  background: #f8f8f8;
+  background: #FFFFFF;
 }
 
 .customer-reviews__stars {
@@ -1948,10 +1947,10 @@ button:focus-visible .hover-text__track {
 
 .customer-reviews__rating-label {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5em;
   letter-spacing: -0.03em;
-  color: rgb(120, 120, 120);
+  color: #787878;
   white-space: nowrap;
 }
 
@@ -1987,11 +1986,16 @@ button:focus-visible .hover-text__track {
 .customer-reviews__quote p {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
   text-align: center;
+}
+
+.customer-reviews__quote-em {
+  font-weight: 600;
+  color: var(--foreground);
 }
 
 .customer-reviews__profile {
@@ -2018,7 +2022,7 @@ button:focus-visible .hover-text__track {
 .customer-reviews__name {
   margin: 0;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -2027,7 +2031,7 @@ button:focus-visible .hover-text__track {
 .customer-reviews__role {
   margin: 0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: rgb(120, 120, 120);
@@ -2041,8 +2045,10 @@ button:focus-visible .hover-text__track {
 .customer-reviews__logos {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 10px 4px;
+  gap: 0;
   width: 100%;
+  overflow: hidden;
+  border-radius: 0 0 12px 12px;
 }
 
 .customer-reviews__logo-tab {
@@ -2053,18 +2059,29 @@ button:focus-visible .hover-text__track {
   margin: 0;
   padding: 0;
   border: 0;
-  background: var(--surface-tint);
+  border-right: 1px solid #d6eaf8;
+  background: var(--surface-white);
   cursor: pointer;
-  transition: background-color 200ms ease;
+  transition: background 200ms ease;
+}
+
+.customer-reviews__logo-tab:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+.customer-reviews__logo-tab:last-child {
+  border-right: 0;
+  border-bottom-right-radius: 12px;
 }
 
 .customer-reviews__logo-tab--active {
-  background: var(--foreground);
+  background: linear-gradient(180deg, #005afa 0%, #30b1fd 100%);
 }
 
 .customer-reviews__logo-tab:focus-visible {
-  outline: 2px solid var(--foreground);
-  outline-offset: 2px;
+  outline: 2px solid var(--accent-deep);
+  outline-offset: -2px;
+  z-index: 1;
 }
 
 .customer-reviews__logo-img {
@@ -2141,11 +2158,35 @@ button:focus-visible .hover-text__track {
 
   .customer-reviews__logos {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 4px;
+    gap: 0;
+    border-radius: 0 0 12px 12px;
   }
 
   .customer-reviews__logo-tab {
     height: 80px;
+    border-right: 1px solid #d6eaf8;
+    border-bottom: 1px solid #d6eaf8;
+    border-radius: 0;
+  }
+
+  .customer-reviews__logo-tab:nth-child(even) {
+    border-right: 0;
+  }
+
+  .customer-reviews__logo-tab:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+
+  .customer-reviews__logo-tab:nth-last-child(2):nth-child(odd) {
+    border-bottom-left-radius: 12px;
+  }
+
+  .customer-reviews__logo-tab:last-child {
+    border-bottom-right-radius: 12px;
+  }
+
+  .customer-reviews__logo-tab:first-child {
+    border-bottom-left-radius: 0;
   }
 
   .customer-reviews__logo-img {
@@ -2203,10 +2244,12 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
+
+  border-radius: 70px
 }
 
 .features__eyebrow-mark {
@@ -2223,8 +2266,8 @@ button:focus-visible .hover-text__track {
 
 .features__heading {
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 45px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -2234,7 +2277,7 @@ button:focus-visible .hover-text__track {
 .features__intro {
   max-width: 440px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -2264,6 +2307,7 @@ button:focus-visible .hover-text__track {
   border-radius: 20px;
   background: var(--surface-tint);
   overflow: clip;
+  border-radius:20px
 }
 
 .features__images {
@@ -2320,7 +2364,7 @@ button:focus-visible .hover-text__track {
 .features__title {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 22px;
   line-height: 1.5em;
   letter-spacing: -0.03em;
@@ -2330,7 +2374,7 @@ button:focus-visible .hover-text__track {
 .features__description {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -2372,7 +2416,7 @@ button:focus-visible .hover-text__track {
 
 .features__tag-label {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -2471,7 +2515,7 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -2492,11 +2536,12 @@ button:focus-visible .hover-text__track {
 .blog__heading {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 48px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
   color: var(--foreground);
+  max-width: 367px;
 }
 
 .blog__cta {
@@ -2509,7 +2554,7 @@ button:focus-visible .hover-text__track {
   background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 7is00;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -2633,7 +2678,7 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -2653,7 +2698,7 @@ button:focus-visible .hover-text__track {
 .blog__title {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--foreground);
 }
@@ -2671,7 +2716,7 @@ button:focus-visible .hover-text__track {
 .blog__excerpt {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -2695,7 +2740,7 @@ button:focus-visible .hover-text__track {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   white-space: nowrap;
 }
@@ -2872,7 +2917,7 @@ button:focus-visible .hover-text__track {
   border-radius: 70px;
   background: var(--surface-tint);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -2893,7 +2938,7 @@ button:focus-visible .hover-text__track {
 .social-gallery__heading {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 48px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
@@ -2905,7 +2950,7 @@ button:focus-visible .hover-text__track {
   margin: 0;
   max-width: 440px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -2928,7 +2973,7 @@ button:focus-visible .hover-text__track {
   padding: 8px 15px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -3292,7 +3337,7 @@ button:focus-visible .hover-text__track {
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -3316,8 +3361,8 @@ button:focus-visible .hover-text__track {
 
 .brand-story__heading {
   font-family: var(--font-display);
-  font-weight: 500;
-  font-size: 48px;
+  font-weight: 700;
+  font-size: 45.4px;
   line-height: 1.165em;
   letter-spacing: -0.03em;
   color: var(--surface-white);
@@ -3326,13 +3371,14 @@ button:focus-visible .hover-text__track {
 
 .brand-story__text {
   font-family: var(--font-sans);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.55em;
   letter-spacing: -0.03em;
-  color: rgba(255, 255, 255, 0.8);
+  color: #FFFFFFCC;
   max-width: 440px;
   text-align: center;
+  max-width: 367px
 }
 
 .brand-story__actions {
@@ -3352,7 +3398,7 @@ button:focus-visible .hover-text__track {
   padding: 8px 15px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -3473,7 +3519,7 @@ button:focus-visible .hover-text__track {
   width: 300px;
   max-width: 100%;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.22;
   letter-spacing: -0.03em;
@@ -3548,7 +3594,7 @@ button:focus-visible .hover-text__track {
   color: #ffffff;
   font-family: var(--font-sans);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1em;
   letter-spacing: -0.02em;
   cursor: pointer;
@@ -3619,10 +3665,11 @@ button:focus-visible .hover-text__track {
   max-width: 450px;
   font-family: var(--font-sans);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.55;
   letter-spacing: -0.03em;
-  color: rgba(255, 255, 255, 0.8);
+  color: #FFFFFFCC;
+  max-width: 316px;
 }
 
 .footer__contact-btn {
@@ -3637,7 +3684,7 @@ button:focus-visible .hover-text__track {
   text-decoration: none;
   font-family: var(--font-sans);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55;
   letter-spacing: -0.03em;
 }
@@ -3681,7 +3728,7 @@ button:focus-visible .hover-text__track {
 .footer__col-heading {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: -0.6px;
@@ -3703,7 +3750,7 @@ button:focus-visible .hover-text__track {
   text-decoration: none;
   font-family: var(--font-sans);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.55;
   letter-spacing: -0.03em;
 }
@@ -3731,7 +3778,7 @@ button:focus-visible .hover-text__track {
   text-decoration: none;
   font-family: var(--font-sans);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55;
   letter-spacing: -0.03em;
   min-height: 32px;
@@ -3977,7 +4024,7 @@ button:focus-visible .hover-text__track {
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.35;
   letter-spacing: -0.03em;
 }
@@ -3985,7 +4032,7 @@ button:focus-visible .hover-text__track {
 .about-hero__chip-label {
   color: var(--surface-white);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.025em;
   white-space: nowrap;
@@ -3994,7 +4041,7 @@ button:focus-visible .hover-text__track {
 .about-hero__heading {
   font-family: var(--font-display);
   font-size: 62px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.12;
   letter-spacing: -0.03em;
   color: var(--surface-white);
@@ -4026,7 +4073,7 @@ button:focus-visible .hover-text__track {
   padding: 8px 15px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -4120,7 +4167,7 @@ button:focus-visible .hover-text__track {
 
 .about-trust__rating {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.35;
   letter-spacing: -0.025em;
   color: var(--muted);
@@ -4132,7 +4179,7 @@ button:focus-visible .hover-text__track {
 
 .about-trust__trusted {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -4246,7 +4293,7 @@ button:focus-visible .hover-text__track {
 
 .about-mission__eyebrow-label {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -4255,7 +4302,7 @@ button:focus-visible .hover-text__track {
 .about-mission__heading {
   font-family: var(--font-display);
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.28;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -4333,7 +4380,7 @@ button:focus-visible .hover-text__track {
 .about-mission__card-value {
   font-family: var(--font-display);
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.165;
   letter-spacing: -0.03em;
   color: var(--surface-white);
@@ -4529,7 +4576,7 @@ button:focus-visible .hover-text__track {
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.35;
   letter-spacing: -0.03em;
 }
@@ -4537,7 +4584,7 @@ button:focus-visible .hover-text__track {
 .shop-hero__chip-label {
   color: var(--surface-white);
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.025em;
   white-space: nowrap;
@@ -4546,7 +4593,7 @@ button:focus-visible .hover-text__track {
 .shop-hero__heading {
   font-family: var(--font-display);
   font-size: 62px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.12;
   letter-spacing: -0.03em;
   color: var(--surface-white);
@@ -4578,7 +4625,7 @@ button:focus-visible .hover-text__track {
   padding: 8px 15px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -4650,7 +4697,7 @@ button:focus-visible .hover-text__track {
   background: transparent;
   color: var(--foreground);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   transition: background 160ms ease, color 160ms ease;
@@ -4839,7 +4886,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
 }
@@ -4848,7 +4895,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   padding-right: 8px;
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
 }
@@ -4857,7 +4904,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   margin: 0;
   font-family: var(--font-display);
   font-size: 62px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.12em;
   letter-spacing: -0.03em;
   color: var(--surface-white);
@@ -4890,7 +4937,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   padding: 8px 15px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -4965,7 +5012,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   transition: background 160ms ease, color 160ms ease, opacity 160ms ease;
@@ -5096,7 +5143,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   border-radius: 70px;
   background: var(--surface-white);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -5116,7 +5163,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 .blog-card__title {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--foreground);
 }
@@ -5134,7 +5181,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 .blog-card__excerpt {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -5152,7 +5199,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   align-items: center;
   gap: 5px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
   color: rgb(120, 120, 120);
@@ -5380,7 +5427,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
 }
@@ -5389,7 +5436,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   padding-right: 8px;
   color: rgba(255, 255, 255, 0.8);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5em;
   letter-spacing: -0.03em;
 }
@@ -5398,7 +5445,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   margin: 0;
   font-family: var(--font-display);
   font-size: 62px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.12em;
   letter-spacing: -0.03em;
   color: var(--surface-white);
@@ -5430,7 +5477,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   padding: 8px 15px;
   border-radius: 999px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.035em;
   white-space: nowrap;
@@ -5520,7 +5567,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 
 .contact-card__value {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.3em;
   letter-spacing: -0.03em;
 }
@@ -5589,7 +5636,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 
 .contact-field__label {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.4em;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -5655,7 +5702,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   background: var(--button-gradient);
   color: var(--surface-white);
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
   cursor: pointer;
@@ -5861,7 +5908,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   background: var(--surface-white);
   color: var(--foreground);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.03em;
   pointer-events: none;
@@ -5961,7 +6008,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   color: var(--foreground);
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
 }
 
@@ -5973,7 +6020,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 
 .product-info__wear {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
 }
@@ -5982,7 +6029,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   margin: 0;
   font-family: var(--font-display);
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.03em;
   color: var(--foreground);
@@ -5996,14 +6043,14 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 
 .product-info__price {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--foreground);
 }
 
 .product-info__compare {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
   text-decoration: line-through;
@@ -6012,7 +6059,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 .product-info__description {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.55;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -6031,7 +6078,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   color: var(--surface-white);
   text-decoration: none;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.03em;
   transition: opacity 160ms ease;
@@ -6075,7 +6122,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   align-items: center;
   gap: 10px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--foreground);
 }
@@ -6089,7 +6136,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 .product-details__row dd {
   margin: 0;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
@@ -6127,7 +6174,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 .product-trust__title {
   margin: 0 0 6px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--foreground);
 }
@@ -6135,7 +6182,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 .product-trust__body {
   margin: 0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
   letter-spacing: -0.03em;
   color: rgb(110, 110, 110);
