@@ -456,6 +456,39 @@ ol {
   position: relative;
 }
 
+/* Figma bottom fade — only the last 190px of hero images (not full hero) */
+.hero::after,
+.about-hero::after,
+.shop-hero::after,
+.blog-hero::after,
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: auto;
+  z-index: 2;
+  width: 100%;
+  max-width: 1440px;
+  height: 190px;
+  max-height: 190px;
+  margin-inline: auto;
+  pointer-events: none;
+  opacity: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 100%);
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+}
+
 /* —— Hero —— */
 .hero {
   position: relative;
@@ -958,8 +991,8 @@ button:focus-visible .hover-text__track {
 }
 
 .product-card__badge--dark {
-  background: var(--button-gradient);
-  color: var(--surface-white);
+  background: var(--surface-white);
+  color: var(--foreground);
 }
 
 .product-card__badge-text {
@@ -4354,6 +4387,8 @@ button:focus-visible .hover-text__track {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-mission__card-icon {
@@ -4369,6 +4404,13 @@ button:focus-visible .hover-text__track {
   -webkit-backdrop-filter: blur(8px);
 }
 
+.about-mission__card-icon-img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 .about-mission__card-text {
   display: flex;
   flex-direction: column;
@@ -4382,6 +4424,7 @@ button:focus-visible .hover-text__track {
   line-height: 1.165;
   letter-spacing: -0.03em;
   color: var(--surface-white);
+  text-align: center;
 }
 
 .about-mission__card-label {
@@ -4692,30 +4735,24 @@ button:focus-visible .hover-text__track {
   height: 54px;
   padding: 0 16px;
   border-radius: 999px;
-  background: transparent;
+  border: 0;
+  background: var(--surface-white);
   color: var(--foreground);
   font-size: 15px;
   font-weight: 700;
   line-height: 1.55em;
   letter-spacing: -0.03em;
-  transition: background 160ms ease, color 160ms ease;
+  cursor: pointer;
 }
 
 .shop-filters__tab--active {
-background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
+  background: linear-gradient(180deg, #005afa 0%, #30b1fd 100%);
   color: var(--surface-white);
 }
 
-.shop-filters__tab:hover,
 .shop-filters__tab:focus-visible {
-  background:#FFFFFF;
-}
-
-.shop-filters__tab--active:hover,
-.shop-filters__tab--active:focus-visible {
-  background: var(--foreground);
-  color: var(--surface-white);
-  opacity: 0.92;
+  outline: 2px solid var(--accent-deep);
+  outline-offset: 2px;
 }
 
 .shop-grid {
@@ -4994,7 +5031,7 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   width: 100%;
   padding: 10px;
   border-radius: 9999px;
-  background: var(--secondary-background);
+  background: #F0F9FF;
 }
 
 .blog-filter__tab {
@@ -5017,18 +5054,18 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 }
 
 .blog-filter__tab--active {
-  background: var(--foreground);
+   background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   color: var(--surface-white);
 }
 
 .blog-filter__tab:hover,
 .blog-filter__tab:focus-visible {
-  background: var(--surface-tint);
+  background: #fff;
 }
 
 .blog-filter__tab--active:hover,
 .blog-filter__tab--active:focus-visible {
-  background: var(--foreground);
+  background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
   color: var(--surface-white);
   opacity: 0.92;
 }
@@ -5913,8 +5950,8 @@ background: linear-gradient(180deg, #005AFA 0%, #30B1FD 100%);
 }
 
 .product-gallery__badge--best {
-  background: var(--button-gradient);
-  color: var(--surface-white);
+  background: var(--surface-white);
+  color: var(--foreground);
 }
 
 .product-gallery__badge .product-card__badge-icon {

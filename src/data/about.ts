@@ -58,7 +58,7 @@ export const aboutTrust = {
 } as const;
 
 export const aboutMission = {
-  eyebrow: "About Wearix",
+  eyebrow: "About RNB",
   heading:
     "More than fashion, Wearix is a commitment to intentional design. Our curated collections focus on sleek silhouettes, empowering your unique and personal journey with modern ease.",
   stats: [
@@ -68,7 +68,7 @@ export const aboutMission = {
       label: "Pieces worn daily",
       image: `${FRAMER}/pEBq80I4IeHuPWY6F4zlaCYPo.png?scale-down-to=512&width=1200&height=1200`,
       imageAlt: "Blue T-shirt",
-      icon: "shirt" as const,
+      icon: "/Images/i11.svg",
     },
     {
       id: "satisfaction",
@@ -76,7 +76,7 @@ export const aboutMission = {
       label: "Customer Satisfaction",
       image: `${FRAMER}/gXeXEdJCGwcyaYKiWNSbF2Wf5Yg.jpeg?scale-down-to=1024&width=810&height=1440`,
       imageAlt: "Woman in stylish dress",
-      icon: "user-check" as const,
+      icon: "/Images/i22.svg",
     },
     {
       id: "styles",
@@ -84,7 +84,7 @@ export const aboutMission = {
       label: "Essential Styles",
       image: `${FRAMER}/nvGX8w2EmNhLJbIVjLMsGKTV4I.jpeg?scale-down-to=512&width=1280&height=1280`,
       imageAlt: "Woman in black dress",
-      icon: "hanger" as const,
+      icon: "/Images/i33.svg",
     },
     {
       id: "community",
@@ -92,7 +92,7 @@ export const aboutMission = {
       label: "Community worldwide",
       image: `${FRAMER}/k4gwIeU3rPPXIyxSMgWszrewfy8.png?scale-down-to=512&width=1200&height=904`,
       imageAlt: "Community of boys",
-      icon: "people" as const,
+      icon: "/Images/i44.svg",
     },
   ],
 } as const;

@@ -44,165 +44,6 @@ function InfoIcon({ size = 14 }: { size?: number }) {
   );
 }
 
-type StatIconName = (typeof aboutMission.stats)[number]["icon"];
-
-/** Framer stat card icons — stroke 1.5, white on glass chip. */
-function StatIcon({ name, size = 20 }: { name: StatIconName; size?: number }) {
-  const common = {
-    width: size,
-    height: size,
-    viewBox: "0 0 24 24",
-    fill: "none" as const,
-    "aria-hidden": true as const,
-  };
-
-  if (name === "shirt") {
-    return (
-      <svg {...common}>
-        <path
-          d="M 0 7.5 L 2.657 7.5 C 2.95 7.503 3.22 7.343 3.36 7.086 L 5.167 3.635 C 5.352 3.276 5.213 2.835 4.854 2.648 L 0 0"
-          transform="translate(18 3.75)"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M 5.249 7.5 L 2.592 7.5 C 2.299 7.503 2.028 7.343 1.889 7.086 L 0.082 3.635 C -0.104 3.276 0.036 2.835 0.394 2.648 L 5.249 0"
-          transform="translate(0.751 3.75)"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M 9 0 C 9 1.657 7.657 3 6 3 C 4.343 3 3 1.657 3 0 L 0 0 L 0 15.75 C 0 16.164 0.336 16.5 0.75 16.5 L 11.25 16.5 C 11.664 16.5 12 16.164 12 15.75 L 12 0 Z"
-          transform="translate(6 3.75)"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    );
-  }
-
-  if (name === "user-check") {
-    return (
-      <svg {...common}>
-        <path
-          d="M 0 5.625 C 0 2.518 2.518 0 5.625 0 C 8.732 0 11.25 2.518 11.25 5.625 C 11.25 8.732 8.732 11.25 5.625 11.25 C 2.518 11.25 0 8.732 0 5.625 Z"
-          transform="translate(4.5 3.75)"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M 0 3.75 C 1.927 1.458 4.646 0 7.875 0 C 11.104 0 13.823 1.458 15.75 3.75"
-          transform="translate(2.25 15)"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M 0 1.5 L 1.5 3 L 4.5 0"
-          transform="translate(18.75 12)"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    );
-  }
-
-  if (name === "hanger") {
-    return (
-      <svg {...common}>
-        <path
-          d="M 7.498 3 C 7.498 1.343 8.841 0 10.498 0 C 12.155 0 13.498 1.343 13.498 3 L 0.3 12.9 C 0.042 13.093 -0.063 13.43 0.038 13.736 C 0.14 14.042 0.426 14.249 0.748 14.25 L 20.248 14.25 C 20.571 14.25 20.857 14.043 20.959 13.737 C 21.061 13.431 20.955 13.094 20.697 12.9 L 10.498 5.25"
-          transform="translate(1.502 3.75)"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    );
-  }
-
-  return (
-    <svg {...common}>
-      <path
-        d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-        transform="translate(3 5.25)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 3 C 0 1.343 1.343 0 3 0 C 4.657 0 6 1.343 6 3 C 6 4.657 4.657 6 3 6 C 1.343 6 0 4.657 0 3 Z"
-        transform="translate(15 5.25)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 3.75 C 0 1.679 1.679 0 3.75 0 C 5.821 0 7.5 1.679 7.5 3.75 C 7.5 5.821 5.821 7.5 3.75 7.5 C 1.679 7.5 0 5.821 0 3.75 Z"
-        transform="translate(8.25 9.75)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 2.25 C 0.39 0.741 1.87 -0.218 3.407 0.043 C 4.944 0.304 6.025 1.698 5.894 3.252 C 5.764 4.805 4.465 6 2.906 6"
-        transform="translate(15.094 5.25)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 2.999 6 C 1.44 6 0.141 4.805 0.011 3.252 C -0.12 1.698 0.961 0.304 2.498 0.043 C 4.034 -0.218 5.515 0.741 5.905 2.25"
-        transform="translate(3.001 5.25)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 0 C 1.771 -0.001 3.439 0.833 4.5 2.25"
-        transform="translate(18 11.25)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 2.25 C 1.061 0.833 2.729 -0.001 4.5 0"
-        transform="translate(1.5 11.25)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 0 3 C 1.095 1.141 3.092 0 5.25 0 C 7.408 0 9.405 1.141 10.5 3"
-        transform="translate(6.75 17.25)"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 export function AboutHero() {
   return (
     <section className="about-hero" aria-labelledby="about-hero-heading">
@@ -336,7 +177,13 @@ export function AboutMission() {
               <div className="about-mission__card-mask" aria-hidden="true" />
               <div className="about-mission__card-content">
                 <span className="about-mission__card-icon" aria-hidden="true">
-                  <StatIcon name={stat.icon} />
+                  <Image
+                    src={stat.icon}
+                    alt=""
+                    width={20}
+                    height={20}
+                    className="about-mission__card-icon-img"
+                  />
                 </span>
                 <div className="about-mission__card-text">
                   <p className="about-mission__card-value">{stat.value}</p>
