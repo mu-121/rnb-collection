@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useState } from "react";
+import { useAuth } from "@/context/AuthContext";
 import HoverText from "./HoverText";
 import MobileMenu, { LINKS } from "./MobileMenu";
 
@@ -17,6 +18,7 @@ function SearchIcon() {
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { isAuthenticated, loading, logout } = useAuth();
 
   const closeMenu = useCallback(() => setMenuOpen(false), []);
   const toggleMenu = useCallback(() => setMenuOpen((value) => !value), []);
@@ -47,6 +49,35 @@ export default function Header() {
             <button type="button" className="site-header__search" aria-label="Search">
               <SearchIcon />
             </button>
+
+            <div className="site-header__auth" aria-label="Account">
+              {!loading && isAuthenticated ? (
+                <>
+                  <Link href="/account" className="site-header__auth-link">
+                    <HoverText>Account</HoverText>
+                  </Link>
+                  <button
+                    type="button"
+                    className="site-header__auth-link site-header__auth-link--button"
+                    onClick={logout}
+                  >
+                    <HoverText>Logout</HoverText>
+                  </button>
+                </>
+              ) : !loading ? (
+                <>
+                  <Link href="/login" className="site-header__auth-link">
+                    <HoverText>Login</HoverText>
+                  </Link>
+                  <Link
+                    href="/register"
+                    className="site-header__auth-link site-header__auth-link--muted"
+                  >
+                    <HoverText>Register</HoverText>
+                  </Link>
+                </>
+              ) : null}
+            </div>
 
             <Link href="/shop" className="site-header__cta">
               <HoverText>Shop all items</HoverText>

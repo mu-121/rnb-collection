@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
+import { useAuth } from "@/context/AuthContext";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -17,6 +18,8 @@ type MobileMenuProps = {
 };
 
 export default function MobileMenu({ open, onClose }: MobileMenuProps) {
+  const { isAuthenticated, loading, logout } = useAuth();
+
   useEffect(() => {
     if (!open) return;
 
@@ -60,6 +63,48 @@ export default function MobileMenu({ open, onClose }: MobileMenuProps) {
               {link.label}
             </Link>
           ))}
+          {!loading && isAuthenticated ? (
+            <>
+              <Link
+                href="/account"
+                className="mobile-menu__link"
+                tabIndex={open ? 0 : -1}
+                onClick={onClose}
+              >
+                Account
+              </Link>
+              <button
+                type="button"
+                className="mobile-menu__link mobile-menu__link--button"
+                tabIndex={open ? 0 : -1}
+                onClick={() => {
+                  logout();
+                  onClose();
+                }}
+              >
+                Logout
+              </button>
+            </>
+          ) : !loading ? (
+            <>
+              <Link
+                href="/login"
+                className="mobile-menu__link"
+                tabIndex={open ? 0 : -1}
+                onClick={onClose}
+              >
+                Login
+              </Link>
+              <Link
+                href="/register"
+                className="mobile-menu__link"
+                tabIndex={open ? 0 : -1}
+                onClick={onClose}
+              >
+                Register
+              </Link>
+            </>
+          ) : null}
         </nav>
         <Link
           href="/shop"
