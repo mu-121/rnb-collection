@@ -27,8 +27,10 @@ export default function LoginPage() {
     const result = await login(email.trim(), password);
     setLoading(false);
     if (!result.ok) {
-      if (result.error.toLowerCase().includes("not verified")) {
-        router.push(`/verify-email?email=${encodeURIComponent(email.trim())}`);
+      if (result.needsVerification) {
+        router.push(
+          `/verify-email?email=${encodeURIComponent(email.trim())}&sent=1`,
+        );
         return;
       }
       setError(result.error);

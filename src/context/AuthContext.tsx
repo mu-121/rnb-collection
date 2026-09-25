@@ -21,7 +21,9 @@ import {
   type Customer,
 } from "@/lib/api";
 
-type AuthResult = { ok: true } | { ok: false; error: string };
+type AuthResult =
+  | { ok: true }
+  | { ok: false; error: string; needsVerification?: boolean };
 
 type AuthContextValue = {
   customer: Customer | null;
@@ -143,7 +145,30 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         applySession(data.token, data.customer);
         return { ok: true };
       } catch (error) {
-        return { ok: false, error: toErrorMessage(error, "Login failed") };
+        const status =
+          error && typeof error === "object" && "status" in error
+            ? Number((error as { status: unknown }).status)
+            : 0;
+        const errors =
+          error && typeof error === "object" && "errors" in error
+            ? (error as { errors?: unknown[] }).errors
+            : [];
+        const errorCode =
+          Array.isArray(errors) &&
+          errors.some(
+            (item) =>
+              item &&
+              typeof item === "object" &&
+              "errorCode" in item &&
+              (item as { errorCode?: string }).errorCode === "EMAIL_NOT_VERIFIED",
+          );
+        const message = toErrorMessage(error, "Login failed");
+        const needsVerification =
+          status === 403 ||
+          errorCode ||
+          message.toLowerCase().includes("not verified");
+
+        return { ok: false, error: message, needsVerification };
       }
     },
     [applySession],

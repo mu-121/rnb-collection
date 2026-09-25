@@ -23,6 +23,10 @@ function VerifyEmailForm() {
   useEffect(() => {
     const fromQuery = searchParams.get("email");
     if (fromQuery) setEmail(fromQuery);
+    if (searchParams.get("sent") === "1") {
+      setMessage("A verification code has been sent to your email.");
+      setCooldown(60);
+    }
   }, [searchParams]);
 
   useEffect(() => {
