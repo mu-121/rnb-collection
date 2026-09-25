@@ -6843,3 +6843,69 @@ button:focus-visible .hover-text__track {
     font-size: 16px;
   }
 }
+
+.shop-catalog__status {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 14px;
+  padding: 24px 0;
+}
+
+.site-search {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+}
+
+.site-search__backdrop {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  background: rgba(2, 10, 29, 0.45);
+  cursor: pointer;
+}
+
+.site-search__panel {
+  position: relative;
+  z-index: 1;
+  width: min(100% - 32px, 520px);
+  margin: 96px auto 0;
+  background: var(--surface-white);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 20px 50px rgba(2, 10, 29, 0.16);
+}
+
+.site-search__input {
+  width: 100%;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font: inherit;
+  color: var(--foreground);
+}
+
+.site-search__results {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+  max-height: 320px;
+  overflow: auto;
+}
+
+.site-search__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 4px;
+  color: var(--foreground);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.site-search__status {
+  color: var(--muted);
+  font-size: 13px;
+}
+

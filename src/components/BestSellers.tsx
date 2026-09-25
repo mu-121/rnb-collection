@@ -1,9 +1,16 @@
 import Link from "next/link";
-import { bestSellers } from "@/data/products";
 import HoverText from "./HoverText";
 import ProductCard, { CrownIcon } from "./ProductCard";
+import { fetchActiveProducts, pickBestSellers } from "@/lib/catalog";
 
-export default function BestSellers() {
+export default async function BestSellers() {
+  let products: Awaited<ReturnType<typeof pickBestSellers>> = [];
+  try {
+    products = pickBestSellers(await fetchActiveProducts({ limit: 100 }));
+  } catch {
+    products = [];
+  }
+
   return (
     <section className="best-sellers" aria-labelledby="best-sellers-heading">
       <div className="best-sellers__inner">
@@ -26,7 +33,7 @@ export default function BestSellers() {
         </div>
 
         <div className="best-sellers__grid">
-          {bestSellers.map((product) => (
+          {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>

@@ -153,7 +153,7 @@ export default function CollectionCard({
             </div>
           </div>
 
-          <Link href="/shop" className="collections__all">
+          <Link href={`/shop?category=${collection.slug}`} className="collections__all">
             <HoverText>All collections</HoverText>
           </Link>
         </div>

@@ -119,15 +119,17 @@ type ProductCardProps = {
 };
 
 export default function ProductCard({ product }: ProductCardProps) {
-  const remotePrimary = product.hoverImage.startsWith("http");
-  const remoteHover = product.image.startsWith("http");
+  const primarySrc = product.hoverImage || product.image;
+  const hoverSrc = product.image || product.hoverImage;
+  const remotePrimary = primarySrc.startsWith("http");
+  const remoteHover = hoverSrc.startsWith("http");
 
   return (
     <Link href={`/shop/${product.slug}`} className="product-card">
       <div className="product-card__media">
         {/* Live Wearix shows products.ts hoverImage as the default, image on hover */}
         <Image
-          src={product.hoverImage}
+          src={primarySrc}
           alt={product.name}
           fill
           sizes="(max-width: 809.98px) 100vw, (max-width: 1199.98px) 50vw, 373px"
@@ -135,7 +137,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           unoptimized={remotePrimary}
         />
         <Image
-          src={product.image}
+          src={hoverSrc}
           alt=""
           fill
           sizes="(max-width: 809.98px) 100vw, (max-width: 1199.98px) 50vw, 373px"
@@ -187,7 +189,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="product-card__swatch product-card__swatch--active">
               <span className="product-card__swatch-inner">
                 <Image
-                  src={product.hoverImage}
+                  src={primarySrc}
                   alt=""
                   width={30}
                   height={30}
@@ -199,7 +201,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             <span className="product-card__swatch">
               <span className="product-card__swatch-inner">
                 <Image
-                  src={product.image}
+                  src={hoverSrc}
                   alt=""
                   width={30}
                   height={30}

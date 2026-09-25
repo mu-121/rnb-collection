@@ -11,6 +11,8 @@ import Blog from "@/components/Blog";
 import SocialGallery from "@/components/SocialGallery";
 import Footer from "@/components/Footer";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   return (
     <>
@@ -26,8 +28,8 @@ export default function Home() {
       <BestSellers />
       <Collections />
       <CustomerReviews />
-      <Features />
-      <Blog />
+      {/* <Features />
+      <Blog /> */}
       <SocialGallery />
       <Footer />
     </>

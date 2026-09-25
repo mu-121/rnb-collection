@@ -2,13 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import {
-  shopFilters,
-  shopHero,
-  shopProducts,
-  type ShopWear,
-} from "@/data/shop";
+import { useEffect, useMemo, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { shopHero } from "@/data/shop";
+import type { CatalogCard } from "@/lib/catalog";
+import { fetchShopCatalog } from "@/lib/catalog";
 import ProductCard from "./ProductCard";
 import HoverText from "./HoverText";
 
@@ -63,8 +61,81 @@ function ShopHero() {
 }
 
 function ShopCatalog() {
-  // LIVE category tabs update active state only — product set stays full catalog (20).
-  const [wear, setWear] = useState<ShopWear>("all");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const categoryParam = searchParams.get("category") || "all";
+  const [wear, setWear] = useState(categoryParam);
+  const [products, setProducts] = useState<CatalogCard[]>([]);
+  const [filters, setFilters] = useState<{ id: string; label: string }[]>([
+    { id: "all", label: "All Products" },
+  ]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setWear(categoryParam);
+  }, [categoryParam]);
+
+  useEffect(() => {
+    if (filters.length <= 1) return;
+    if (wear !== "all" && !filters.some((filter) => filter.id === wear)) {
+      setWear("all");
+    }
+  }, [filters, wear]);
+
+  useEffect(() => {
+    let cancelled = false;
+    async function load() {
+      setLoading(true);
+      try {
+        const categories = (await fetchShopCatalog()).categories;
+        if (cancelled) return;
+        setFilters([
+          { id: "all", label: "All Products" },
+          ...categories.map((category) => ({
+            id: category.slug,
+            label: category.name,
+          })),
+        ]);
+      } catch {
+        if (!cancelled) setFilters([{ id: "all", label: "All Products" }]);
+      }
+    }
+    void load();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const selectedCategoryName = useMemo(() => {
+    if (wear === "all") return undefined;
+    return filters.find((filter) => filter.id === wear && filter.id !== "all")?.label;
+  }, [filters, wear]);
+
+  useEffect(() => {
+    let cancelled = false;
+    async function loadProducts() {
+      if (wear !== "all" && !selectedCategoryName) return;
+      setLoading(true);
+      try {
+        const catalog = await fetchShopCatalog(selectedCategoryName);
+        if (!cancelled) setProducts(catalog.products);
+      } catch {
+        if (!cancelled) setProducts([]);
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    }
+    void loadProducts();
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedCategoryName, wear]);
+
+  function onSelect(id: string) {
+    setWear(id);
+    const href = id === "all" ? "/shop" : `/shop?category=${encodeURIComponent(id)}`;
+    router.replace(href, { scroll: false });
+  }
 
   return (
     <section className="shop-catalog" aria-labelledby="shop-catalog-heading">
@@ -78,7 +149,7 @@ function ShopCatalog() {
           role="tablist"
           aria-label="Product categories"
         >
-          {shopFilters.map((filter) => {
+          {filters.map((filter) => {
             const active = wear === filter.id;
             return (
               <button
@@ -91,7 +162,7 @@ function ShopCatalog() {
                     ? "shop-filters__tab shop-filters__tab--active"
                     : "shop-filters__tab"
                 }
-                onClick={() => setWear(filter.id)}
+                onClick={() => onSelect(filter.id)}
               >
                 <HoverText>{filter.label}</HoverText>
               </button>
@@ -99,10 +170,16 @@ function ShopCatalog() {
           })}
         </div>
 
-        <div className="shop-grid" data-filter={wear} data-count={shopProducts.length}>
-          {shopProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
+        <div className="shop-grid" data-filter={wear} data-count={products.length}>
+          {loading ? (
+            <p className="shop-catalog__status">Loading products...</p>
+          ) : products.length ? (
+            products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))
+          ) : (
+            <p className="shop-catalog__status">No products in this category yet.</p>
+          )}
         </div>
       </div>
     </section>

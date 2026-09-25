@@ -1,9 +1,16 @@
 import Link from "next/link";
-import { newArrivals } from "@/data/products";
 import HoverText from "./HoverText";
 import ProductCard, { SparkleIcon } from "./ProductCard";
+import { fetchActiveProducts, pickNewArrivals } from "@/lib/catalog";
 
-export default function NewArrivals() {
+export default async function NewArrivals() {
+  let products: Awaited<ReturnType<typeof pickNewArrivals>> = [];
+  try {
+    products = pickNewArrivals(await fetchActiveProducts({ limit: 100 }));
+  } catch {
+    products = [];
+  }
+
   return (
     <section className="new-arrivals" aria-labelledby="new-arrivals-heading">
       <div className="new-arrivals__inner">
@@ -26,7 +33,7 @@ export default function NewArrivals() {
         </div>
 
         <div className="new-arrivals__grid">
-          {newArrivals.map((product) => (
+          {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>

@@ -5,36 +5,31 @@ import Header from "@/components/Header";
 import ProductDetailPage from "@/components/ProductDetailPage";
 import SocialGallery from "@/components/SocialGallery";
 import Footer from "@/components/Footer";
-import {
-  getAllProductSlugs,
-  getProductDetail,
-} from "@/data/productDetails";
+import { fetchProductBySlug, toProductDetail } from "@/lib/catalog";
+
+export const dynamic = "force-dynamic";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export function generateStaticParams() {
-  return getAllProductSlugs().map((slug) => ({ slug }));
-}
-
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProductDetail(slug);
+  const product = await fetchProductBySlug(slug);
   if (!product) {
     return { title: "Product — RnB Collection" };
   }
   return {
     title: `${product.name} — RnB Collection`,
-    description: product.description,
+    description: product.description || undefined,
   };
 }
 
 export default async function ProductPage({ params }: PageProps) {
   const { slug } = await params;
-  const product = getProductDetail(slug);
+  const product = await fetchProductBySlug(slug);
   if (!product) notFound();
 
   return (
@@ -44,7 +39,7 @@ export default async function ProductPage({ params }: PageProps) {
         <Header />
       </div>
       <main>
-        <ProductDetailPage product={product} />
+        <ProductDetailPage product={toProductDetail(product)} />
       </main>
       <SocialGallery />
       <Footer />

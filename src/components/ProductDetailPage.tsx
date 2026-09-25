@@ -165,6 +165,25 @@ export default function ProductDetailPage({
 
             <p className="product-info__description">{product.description}</p>
 
+            {product.stock !== undefined && product.stock <= 0 ? (
+              <p className="product-info__description">Currently out of stock.</p>
+            ) : null}
+
+            {product.sizes && product.sizes.length ? (
+              <p className="product-info__wear">Sizes: {product.sizes.join(", ")}</p>
+            ) : null}
+
+            {product.variations?.map((variation) => (
+              <p key={variation.name} className="product-info__wear">
+                {variation.name}: {variation.options.join(", ")}
+              </p>
+            ))}
+
+            {product.orderHref.startsWith("/") ? (
+              <Link href={product.orderHref} className="product-info__order">
+                <HoverText>Order Now</HoverText>
+              </Link>
+            ) : (
             <a
               href={product.orderHref}
               className="product-info__order"
@@ -173,6 +192,7 @@ export default function ProductDetailPage({
             >
               <HoverText>Order Now</HoverText>
             </a>
+            )}
 
             <dl className="product-details">
               <div className="product-details__row">

@@ -8,7 +8,7 @@ import { CrownIcon, SparkleIcon } from "./ProductCard";
 type ProductGalleryProps = {
   name: string;
   images: string[];
-  badge: ProductBadge;
+  badge: ProductBadge | "";
 };
 
 export default function ProductGallery({
@@ -39,6 +39,7 @@ export default function ProductGallery({
           />
         </div>
 
+        {badge ? (
         <span
           className={`product-gallery__badge${
             isBest ? " product-gallery__badge--best" : ""
@@ -51,6 +52,7 @@ export default function ProductGallery({
           )}
           <span>{badge}</span>
         </span>
+        ) : null}
 
         {images.length > 1 ? (
           <ul className="product-gallery__thumbs" aria-label="Product images">

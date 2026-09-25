@@ -6,6 +6,7 @@ import { useCallback, useState } from "react";
 import { useAuth } from "@/context/AuthContext";
 import HoverText from "./HoverText";
 import MobileMenu, { LINKS } from "./MobileMenu";
+import SiteSearch from "./SiteSearch";
 
 function SearchIcon() {
   return (
@@ -18,6 +19,7 @@ function SearchIcon() {
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const { isAuthenticated, loading, logout } = useAuth();
 
   const closeMenu = useCallback(() => setMenuOpen(false), []);
@@ -46,7 +48,12 @@ export default function Header() {
           </nav>
 
           <div className="site-header__actions">
-            <button type="button" className="site-header__search" aria-label="Search">
+            <button
+              type="button"
+              className="site-header__search"
+              aria-label="Search"
+              onClick={() => setSearchOpen(true)}
+            >
               <SearchIcon />
             </button>
 
@@ -97,6 +104,7 @@ export default function Header() {
         </div>
       </header>
 
+      <SiteSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
       <div id="mobile-navigation">
         <MobileMenu open={menuOpen} onClose={closeMenu} />
       </div>

@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { collections } from "@/data/collections";
+import { collectionsFromCatalog, fetchActiveCategories, fetchActiveProducts } from "@/lib/catalog";
 import HoverText from "./HoverText";
 import CollectionCard from "./CollectionCard";
 
-/** Framer layers/stack glyph (symbol #3580097749) — Collections eyebrow. */
 function LayersIcon({ size = 14 }: { size?: number }) {
   return (
     <svg
@@ -33,7 +32,18 @@ function LayersIcon({ size = 14 }: { size?: number }) {
   );
 }
 
-export default function Collections() {
+export default async function Collections() {
+  let collections: ReturnType<typeof collectionsFromCatalog> = [];
+  try {
+    const [categories, products] = await Promise.all([
+      fetchActiveCategories(),
+      fetchActiveProducts({ limit: 100 }),
+    ]);
+    collections = collectionsFromCatalog(categories, products);
+  } catch {
+    collections = [];
+  }
+
   return (
     <section className="collections" aria-labelledby="collections-heading">
       <div className="collections__inner">
