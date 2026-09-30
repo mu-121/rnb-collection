@@ -134,6 +134,7 @@ export function toProductDetail(
   const urls = imageUrls(product);
   const card = toCardProduct(product, categorySlug);
   return {
+    id: product.id,
     slug: product.slug,
     name: product.name,
     wearLabel: product.collection || product.category || "Shop",

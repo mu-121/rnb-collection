@@ -49,6 +49,20 @@ export default function CheckoutPage() {
       return;
     }
 
+    // Validate that all cart items have valid MongoDB ObjectId productIds
+    // (24 hex chars). Old cart items stored before this fix may have slugs.
+    const invalidItems = items.filter(
+      (i) => !i.productId || !/^[a-f\d]{24}$/i.test(i.productId)
+    );
+    if (invalidItems.length > 0) {
+      setError(
+        `Your cart has outdated items (${invalidItems.map((i) => i.name).join(", ")}). ` +
+        "Please clear your cart and add the products again."
+      );
+      setLoading(false);
+      return;
+    }
+
     try {
       const orderPayload = {
         customerName: formData.name,

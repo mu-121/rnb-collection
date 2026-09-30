@@ -52,7 +52,7 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
       : undefined;
 
     addItem({
-      productId: product.slug, // Using slug as ID for frontend mock data
+      productId: product.id, // MongoDB ObjectId — required by backend
       name: product.name,
       image: product.gallery[0] || "",
       price: product.price,

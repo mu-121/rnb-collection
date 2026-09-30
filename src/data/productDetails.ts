@@ -1,6 +1,7 @@
 import type { ProductBadge } from "@/data/products";
 
 export type ProductDetail = {
+  id: string;
   slug: string;
   name: string;
   wearLabel: string;
