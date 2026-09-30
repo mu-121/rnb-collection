@@ -42,6 +42,7 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
   const [selectedSize, setSelectedSize] = useState<string>("");
   const [selectedVariations, setSelectedVariations] = useState<Record<string, string>>({});
   const [error, setError] = useState("");
+  const [showToast, setShowToast] = useState(false);
 
   // Show selected color images, else fallback to product gallery
   const displayImages =
@@ -49,7 +50,7 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
       ? selectedColor.images
       : product.gallery;
 
-  const handleAddToCart = () => {
+  const handleAddToCart = (showNotification = true) => {
     if (hasColorVariants && !selectedColor) {
       setError("Please select a Color.");
       return false;
@@ -83,12 +84,15 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
       stock: product.stock !== undefined ? product.stock : 99,
     });
 
-    alert("Added to cart!");
+    if (showNotification) {
+      setShowToast(true);
+      setTimeout(() => setShowToast(false), 3000);
+    }
     return true;
   };
 
   const handleBuyNow = () => {
-    if (handleAddToCart()) {
+    if (handleAddToCart(false)) {
       router.push("/cart");
     }
   };
@@ -267,6 +271,37 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
           ))}
         </ul>
       </div>
+
+      {showToast && (
+        <div style={{
+          position: "fixed",
+          bottom: "24px",
+          right: "24px",
+          background: "#333",
+          color: "white",
+          padding: "16px 24px",
+          borderRadius: "8px",
+          boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+          zIndex: 9999,
+          display: "flex",
+          alignItems: "center",
+          gap: "12px",
+          fontWeight: 500,
+          fontSize: "15px",
+          animation: "slideIn 0.3s ease-out forwards"
+        }}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4caf50" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          Item added to cart
+          <style>{`
+            @keyframes slideIn {
+              from { transform: translateY(100px); opacity: 0; }
+              to { transform: translateY(0); opacity: 1; }
+            }
+          `}</style>
+        </div>
+      )}
     </article>
   );
 }
