@@ -119,7 +119,9 @@ export default function CheckoutPage() {
   if (items.length === 0) {
     return (
       <>
-        <Header />
+        <div className="hero-shell hero-shell--product">
+          <Header />
+        </div>
         <div style={{ textAlign: 'center', padding: '100px 20px', minHeight: '60vh' }}>
           <h2>Your cart is empty</h2>
           <button onClick={() => router.push("/shop")} style={{ marginTop: '20px', padding: '12px 24px', background: '#005AFA', color: '#fff', borderRadius: '4px', border: 'none', cursor: 'pointer' }}>
@@ -133,7 +135,9 @@ export default function CheckoutPage() {
 
   return (
     <>
-      <Header />
+      <div className="hero-shell hero-shell--product">
+        <Header />
+      </div>
       <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px', minHeight: '60vh' }}>
         <h1 style={{ fontSize: '32px', marginBottom: '32px' }}>Checkout</h1>
         

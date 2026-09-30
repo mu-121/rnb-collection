@@ -6,6 +6,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { formatPKR } from "@/lib/format";
+import { ShimmerCard } from "@/components/Shimmer";
 
 export default function OrderSuccessPage() {
   const params = useParams();
@@ -62,7 +63,9 @@ export default function OrderSuccessPage() {
     return (
       <>
         <Header />
-        <div style={{ textAlign: 'center', padding: '100px 20px', minHeight: '60vh' }}>Loading...</div>
+        <div style={{ maxWidth: '800px', margin: '0 auto', padding: '60px 20px', minHeight: '60vh' }}>
+          <ShimmerCard />
+        </div>
         <Footer />
       </>
     );

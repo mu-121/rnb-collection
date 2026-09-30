@@ -12,7 +12,9 @@ export default function CartPage() {
 
   return (
     <>
-      <Header />
+      <div className="hero-shell hero-shell--product">
+        <Header />
+      </div>
       <main className="cart-page" style={{ maxWidth: '1200px', margin: '0 auto', padding: '40px 20px', minHeight: '60vh' }}>
         <h1 style={{ fontSize: '32px', marginBottom: '24px' }}>Your Cart</h1>
         

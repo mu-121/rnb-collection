@@ -8,7 +8,7 @@ import {
 } from "@/components/ShopPage";
 import SocialGallery from "@/components/SocialGallery";
 import Footer from "@/components/Footer";
-import CatalogEmpty from "@/components/CatalogEmpty";
+import { ShimmerProductGrid } from "@/components/Shimmer";
 
 export const dynamic = "force-dynamic";
 
@@ -28,18 +28,7 @@ export default function Shop() {
           <ShopHeroSection />
         </main>
       </div>
-      <Suspense
-        fallback={
-          <div className="shop-catalog">
-            <div className="shop-catalog__inner">
-              <CatalogEmpty
-                title="Loading products"
-                body="Please wait while we fetch the latest pieces from the catalog."
-              />
-            </div>
-          </div>
-        }
-      >
+      <Suspense fallback={<ShimmerProductGrid />}>
         <ShopCatalogSection />
       </Suspense>
       <SocialGallery />

@@ -6,6 +6,7 @@ import { Suspense, useEffect, useState, type FormEvent } from "react";
 import { GuestRoute } from "@/components/auth/AuthGuards";
 import AuthPageLayout from "@/components/auth/AuthPageLayout";
 import { AuthShell, PasswordField } from "@/components/auth/AuthShell";
+import { ShimmerCard } from "@/components/Shimmer";
 import { useAuth } from "@/context/AuthContext";
 
 function ResetPasswordForm() {
@@ -107,7 +108,9 @@ export default function ResetPasswordPage() {
         <Suspense
           fallback={
             <div className="auth-page">
-              <div className="auth-card">Loading...</div>
+              <div style={{ maxWidth: '400px', margin: '0 auto', width: '100%' }}>
+                <ShimmerCard />
+              </div>
             </div>
           }
         >
