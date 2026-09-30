@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { fetchActiveProducts, toCardProduct, type CatalogCard } from "@/lib/catalog";
+import { formatPKR } from "@/lib/format";
 
 export default function SiteSearch({
   open,
@@ -62,7 +63,10 @@ export default function SiteSearch({
         <div className="site-search__results">
           {loading ? <p className="site-search__status">Searching...</p> : null}
           {!loading && query.trim().length >= 2 && !results.length ? (
-            <p className="site-search__status">No matching products.</p>
+            <p className="site-search__status">No products match that search yet.</p>
+          ) : null}
+          {!loading && query.trim().length < 2 ? (
+            <p className="site-search__status">Type at least 2 characters to search the catalog.</p>
           ) : null}
           {results.map((product) => (
             <Link
@@ -72,7 +76,7 @@ export default function SiteSearch({
               onClick={onClose}
             >
               <span>{product.name}</span>
-              <span>${product.price.toFixed(2)}</span>
+              <span>{formatPKR(product.price)}</span>
             </Link>
           ))}
         </div>

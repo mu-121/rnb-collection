@@ -9,6 +9,7 @@ import type { CatalogCard } from "@/lib/catalog";
 import { fetchShopCatalog } from "@/lib/catalog";
 import ProductCard from "./ProductCard";
 import HoverText from "./HoverText";
+import CatalogEmpty from "./CatalogEmpty";
 
 function ShopHero() {
   return (
@@ -70,6 +71,7 @@ function ShopCatalog() {
     { id: "all", label: "All Products" },
   ]);
   const [loading, setLoading] = useState(true);
+  const [failed, setFailed] = useState(false);
 
   useEffect(() => {
     setWear(categoryParam);
@@ -116,11 +118,15 @@ function ShopCatalog() {
     async function loadProducts() {
       if (wear !== "all" && !selectedCategoryName) return;
       setLoading(true);
+      setFailed(false);
       try {
         const catalog = await fetchShopCatalog(selectedCategoryName);
         if (!cancelled) setProducts(catalog.products);
       } catch {
-        if (!cancelled) setProducts([]);
+        if (!cancelled) {
+          setProducts([]);
+          setFailed(true);
+        }
       } finally {
         if (!cancelled) setLoading(false);
       }
@@ -172,13 +178,35 @@ function ShopCatalog() {
 
         <div className="shop-grid" data-filter={wear} data-count={products.length}>
           {loading ? (
-            <p className="shop-catalog__status">Loading products...</p>
+            <CatalogEmpty
+              title="Loading products"
+              body="Please wait while we fetch the latest pieces from the catalog."
+              href=""
+              cta=""
+            />
+          ) : failed ? (
+            <CatalogEmpty
+              title="Unable to load products"
+              body="Please try again in a moment. The shop will update as soon as the catalog is available."
+            />
           ) : products.length ? (
             products.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))
+          ) : wear !== "all" ? (
+            <CatalogEmpty
+              title="Nothing in this category"
+              body="No active products are assigned to this category yet. Try another category or check back soon."
+              href="/shop"
+              cta="View all products"
+            />
           ) : (
-            <p className="shop-catalog__status">No products in this category yet.</p>
+            <CatalogEmpty
+              title="No products yet"
+              body="Products published as active in the admin panel will appear here."
+              href="/"
+              cta="Back to home"
+            />
           )}
         </div>
       </div>

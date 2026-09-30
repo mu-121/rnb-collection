@@ -3,10 +3,7 @@ import type { ProductDetail } from "@/data/productDetails";
 import { productTrustFeatures } from "@/data/productDetails";
 import HoverText from "./HoverText";
 import ProductGallery from "./ProductGallery";
-
-function formatPrice(value: number) {
-  return `USD $${value.toFixed(2)}`;
-}
+import { formatPKR } from "@/lib/format";
 
 function TrustIcon({ id }: { id: string }) {
   const common = {
@@ -156,10 +153,10 @@ export default function ProductDetailPage({
 
             <div className="product-info__pricing">
               <span className="product-info__price">
-                {formatPrice(product.price)}
+                {formatPKR(product.price)}
               </span>
               <span className="product-info__compare">
-                {formatPrice(product.compareAtPrice)}
+                {formatPKR(product.compareAtPrice)}
               </span>
             </div>
 

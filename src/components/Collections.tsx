@@ -2,6 +2,7 @@ import Link from "next/link";
 import { collectionsFromCatalog, fetchActiveCategories, fetchActiveProducts } from "@/lib/catalog";
 import HoverText from "./HoverText";
 import CollectionCard from "./CollectionCard";
+import CatalogEmpty from "./CatalogEmpty";
 
 function LayersIcon({ size = 14 }: { size?: number }) {
   return (
@@ -66,13 +67,22 @@ export default async function Collections() {
         </div>
 
         <div className="collections__list">
-          {collections.map((collection, index) => (
-            <CollectionCard
-              key={collection.id}
-              collection={collection}
-              reverse={index % 2 === 1}
+          {collections.length ? (
+            collections.map((collection, index) => (
+              <CollectionCard
+                key={collection.id}
+                collection={collection}
+                reverse={index % 2 === 1}
+              />
+            ))
+          ) : (
+            <CatalogEmpty
+              title="No collections yet"
+              body="Categories created in the admin panel will appear here with their products."
+              href="/shop"
+              cta="Shop all items"
             />
-          ))}
+          )}
         </div>
       </div>
     </section>

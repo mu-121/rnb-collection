@@ -44,6 +44,9 @@ export type ApiCategory = {
   description?: string;
   image?: string;
   status?: string;
+  parentId?: string | null;
+  parentName?: string | null;
+  childNames?: string[];
   productCount?: number;
 };
 
@@ -195,11 +198,12 @@ export async function fetchActiveCategories(): Promise<ApiCategory[]> {
 }
 
 export async function fetchShopCatalog(categoryName?: string) {
-  const [categories, products] = await Promise.all([
+  const [allCategories, products] = await Promise.all([
     fetchActiveCategories(),
     fetchActiveProducts({ category: categoryName, limit: 100 }),
   ]);
-  const slugByName = new Map(categories.map((category) => [category.name, category.slug]));
+  const categories = allCategories.filter((category) => !category.parentId);
+  const slugByName = new Map(allCategories.map((category) => [category.name, category.slug]));
   return {
     categories,
     products: products.map((product) =>
@@ -224,15 +228,18 @@ export function collectionsFromCatalog(
   categories: ApiCategory[],
   products: ApiProduct[],
 ): Collection[] {
-  return categories.slice(0, 3).map((category) => {
-    const inCategory = products.filter((product) => product.category === category.name);
+  const topLevel = categories.filter((category) => !category.parentId);
+  
+  const collections = topLevel.map((category) => {
+    const names = new Set([category.name, ...(category.childNames || [])]);
+    const inCategory = products.filter((product) => names.has(product.category));
+    
+    if (inCategory.length === 0) return null;
+
     const prices = inCategory.map((product) =>
       product.salePrice && product.salePrice > 0 ? product.salePrice : product.price,
     );
-    const images = [
-      category.image,
-      ...inCategory.flatMap((product) => imageUrls(product)),
-    ].filter((url): url is string => Boolean(url));
+    const images = inCategory.flatMap((product) => imageUrls(product));
     const uniqueImages = [...new Set(images)].slice(0, 5);
     const slides = uniqueImages.length ? uniqueImages : ["/Images/logo.svg"];
 
@@ -250,4 +257,6 @@ export function collectionsFromCatalog(
       images: slides,
     };
   });
+
+  return collections.filter((c): c is Collection => c !== null).slice(0, 3);
 }

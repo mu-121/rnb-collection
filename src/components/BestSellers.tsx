@@ -1,6 +1,7 @@
 import Link from "next/link";
 import HoverText from "./HoverText";
 import ProductCard, { CrownIcon } from "./ProductCard";
+import CatalogEmpty from "./CatalogEmpty";
 import { fetchActiveProducts, pickBestSellers } from "@/lib/catalog";
 
 export default async function BestSellers() {
@@ -33,9 +34,18 @@ export default async function BestSellers() {
         </div>
 
         <div className="best-sellers__grid">
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
+          {products.length ? (
+            products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))
+          ) : (
+            <CatalogEmpty
+              title="No best sellers yet"
+              body="Best selling pieces will show here once active products are available."
+              href="/shop"
+              cta="See all collections"
+            />
+          )}
         </div>
       </div>
     </section>

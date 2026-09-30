@@ -8,6 +8,7 @@ import {
 } from "@/components/ShopPage";
 import SocialGallery from "@/components/SocialGallery";
 import Footer from "@/components/Footer";
+import CatalogEmpty from "@/components/CatalogEmpty";
 
 export const dynamic = "force-dynamic";
 
@@ -27,7 +28,18 @@ export default function Shop() {
           <ShopHeroSection />
         </main>
       </div>
-      <Suspense fallback={<p className="shop-catalog__status">Loading products...</p>}>
+      <Suspense
+        fallback={
+          <div className="shop-catalog">
+            <div className="shop-catalog__inner">
+              <CatalogEmpty
+                title="Loading products"
+                body="Please wait while we fetch the latest pieces from the catalog."
+              />
+            </div>
+          </div>
+        }
+      >
         <ShopCatalogSection />
       </Suspense>
       <SocialGallery />

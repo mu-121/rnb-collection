@@ -1,10 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/data/products";
-
-function formatPrice(value: number) {
-  return `$${value.toFixed(2)}`;
-}
+import { formatPKR } from "@/lib/format";
 
 /** Framer sparkle glyph (symbol #1529132500) — stroked 4-point star + corner rays. */
 export function SparkleIcon({
@@ -178,9 +175,9 @@ export default function ProductCard({ product }: ProductCardProps) {
           <div className="product-card__copy">
             <h3 className="product-card__name">{product.name}</h3>
             <div className="product-card__prices">
-              <span className="product-card__price">{formatPrice(product.price)}</span>
+              <span className="product-card__price">{formatPKR(product.price)}</span>
               <span className="product-card__compare">
-                {formatPrice(product.compareAtPrice)}
+                {formatPKR(product.compareAtPrice)}
               </span>
             </div>
           </div>

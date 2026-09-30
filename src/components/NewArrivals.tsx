@@ -1,6 +1,7 @@
 import Link from "next/link";
 import HoverText from "./HoverText";
 import ProductCard, { SparkleIcon } from "./ProductCard";
+import CatalogEmpty from "./CatalogEmpty";
 import { fetchActiveProducts, pickNewArrivals } from "@/lib/catalog";
 
 export default async function NewArrivals() {
@@ -33,9 +34,18 @@ export default async function NewArrivals() {
         </div>
 
         <div className="new-arrivals__grid">
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
+          {products.length ? (
+            products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))
+          ) : (
+            <CatalogEmpty
+              title="No new arrivals yet"
+              body="Fresh pieces will appear here as soon as they are published from the admin panel."
+              href="/shop"
+              cta="See all collections"
+            />
+          )}
         </div>
       </div>
     </section>

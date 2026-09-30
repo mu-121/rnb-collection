@@ -5,10 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Collection } from "@/data/collections";
 import HoverText from "./HoverText";
-
-function formatPrice(value: number) {
-  return `$${value.toFixed(2)}`;
-}
+import { formatPKR } from "@/lib/format";
 
 /** Object-position overrides matching live Framer Image 01 crops. */
 const IMAGE_POSITION: Record<string, string> = {
@@ -141,13 +138,13 @@ export default function CollectionCard({
               </span>
               <div className="collections__prices">
                 <span className="collections__price">
-                  {formatPrice(collection.priceFrom)}
+                  {formatPKR(collection.priceFrom)}
                 </span>
                 <span className="collections__price-sep" aria-hidden="true">
                   —
                 </span>
                 <span className="collections__price">
-                  {formatPrice(collection.priceTo)}
+                  {formatPKR(collection.priceTo)}
                 </span>
               </div>
             </div>
