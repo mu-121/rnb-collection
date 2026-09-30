@@ -8,6 +8,16 @@ const nextConfig: NextConfig = {
         hostname: "framerusercontent.com",
         pathname: "/images/**",
       },
+      {
+        protocol: "https",
+        hostname: "pub-650f005dfb2e415cbe4f6f39ffb7bcdc.r2.dev",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "*.r2.dev",
+        pathname: "/**",
+      },
     ],
   },
 };
