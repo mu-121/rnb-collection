@@ -130,9 +130,9 @@ export default function OrderSuccessPage() {
           <Link href="/shop" style={{ padding: '12px 24px', background: '#005AFA', color: '#fff', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold' }}>
             Continue Shopping
           </Link>
-          <Link href="/account" style={{ padding: '12px 24px', background: '#fff', color: '#005AFA', border: '1px solid #005AFA', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold' }}>
+          {/* <Link href="/account" style={{ padding: '12px 24px', background: '#fff', color: '#005AFA', border: '1px solid #005AFA', borderRadius: '4px', textDecoration: 'none', fontWeight: 'bold' }}>
             View My Orders
-          </Link>
+          </Link> */}
         </div>
       </main>
       <Footer />

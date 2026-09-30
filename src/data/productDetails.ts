@@ -1,5 +1,12 @@
 import type { ProductBadge } from "@/data/products";
 
+export type ProductColorVariant = {
+  id: string;
+  colorName: string;
+  colorCode: string;
+  images: string[];
+};
+
 export type ProductDetail = {
   id: string;
   slug: string;
@@ -16,6 +23,7 @@ export type ProductDetail = {
   gallery: string[];
   variations?: { name: string; options: string[] }[];
   sizes?: string[];
+  colorVariants?: ProductColorVariant[];
   stock?: number;
 };
 

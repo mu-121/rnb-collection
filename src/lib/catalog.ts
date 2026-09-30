@@ -16,6 +16,14 @@ export type ApiProductVariation = {
   options: string[];
 };
 
+export type ApiColorVariant = {
+  id: string;
+  colorName: string;
+  colorCode: string;
+  images?: { url: string }[];
+  sortOrder?: number;
+};
+
 export type ApiProduct = {
   id: string;
   name: string;
@@ -34,6 +42,7 @@ export type ApiProduct = {
   status?: string;
   variations?: ApiProductVariation[];
   sizes?: string[];
+  colorVariants?: ApiColorVariant[];
   createdAt?: string;
 };
 
@@ -149,6 +158,12 @@ export function toProductDetail(
     gallery: urls.length ? urls : [card.image],
     variations: product.variations || [],
     sizes: product.sizes || [],
+    colorVariants: (product.colorVariants || []).map((cv) => ({
+      id: cv.id,
+      colorName: cv.colorName,
+      colorCode: cv.colorCode,
+      images: (cv.images || []).map((img) => img.url),
+    })),
     stock: product.stock ?? 0,
   };
 }

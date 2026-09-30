@@ -3,9 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import type { ProductDetail } from "@/data/productDetails";
+import type { ProductDetail, ProductColorVariant } from "@/data/productDetails";
 import { productTrustFeatures } from "@/data/productDetails";
-import HoverText from "./HoverText";
 import ProductGallery from "./ProductGallery";
 import { formatPKR } from "@/lib/format";
 import { useCart } from "@/context/CartContext";
@@ -25,44 +24,66 @@ function DetailIcon({ kind }: { kind: "material" | "care" | "warranty" }) {
   return <svg {...common}><circle cx="12" cy="12" r="8.25" stroke="currentColor" strokeWidth="1.6" /><path d="M8.2 12.2 10.7 14.7 15.8 9.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>;
 }
 
+function isLightColor(hex: string): boolean {
+  const c = hex.replace("#", "");
+  const r = parseInt(c.substring(0, 2), 16);
+  const g = parseInt(c.substring(2, 4), 16);
+  const b = parseInt(c.substring(4, 6), 16);
+  return (0.299 * r + 0.587 * g + 0.114 * b) / 255 > 0.8;
+}
+
 export default function ProductDetailPage({ product }: { product: ProductDetail }) {
   const router = useRouter();
   const { addItem } = useCart();
-  
+
+  const hasColorVariants = (product.colorVariants?.length ?? 0) > 0;
+
+  const [selectedColor, setSelectedColor] = useState<ProductColorVariant | null>(null);
   const [selectedSize, setSelectedSize] = useState<string>("");
   const [selectedVariations, setSelectedVariations] = useState<Record<string, string>>({});
   const [error, setError] = useState("");
 
+  // Show selected color images, else fallback to product gallery
+  const displayImages =
+    selectedColor && selectedColor.images.length > 0
+      ? selectedColor.images
+      : product.gallery;
+
   const handleAddToCart = () => {
+    if (hasColorVariants && !selectedColor) {
+      setError("Please select a Color.");
+      return false;
+    }
     if (product.sizes && product.sizes.length > 0 && !selectedSize) {
       setError("Please select a size.");
       return false;
     }
-    for (const v of (product.variations || [])) {
+    for (const v of product.variations || []) {
       if (!selectedVariations[v.name]) {
         setError(`Please select a ${v.name}.`);
         return false;
       }
     }
-    
+
     setError("");
-    
-    const variationStr = Object.keys(selectedVariations).length > 0 
-      ? Object.entries(selectedVariations).map(([k, v]) => `${k}: ${v}`).join(", ") 
-      : undefined;
+
+    const parts: string[] = [];
+    if (selectedColor) parts.push(`Color: ${selectedColor.colorName}`);
+    Object.entries(selectedVariations).forEach(([k, v]) => parts.push(`${k}: ${v}`));
+    const variationStr = parts.length > 0 ? parts.join(", ") : undefined;
 
     addItem({
-      productId: product.id, // MongoDB ObjectId — required by backend
+      productId: product.id,
       name: product.name,
-      image: product.gallery[0] || "",
+      image: displayImages[0] || "",
       price: product.price,
       quantity: 1,
       size: selectedSize || undefined,
       variation: variationStr,
       stock: product.stock !== undefined ? product.stock : 99,
     });
-    
-    alert("Added to cart!"); 
+
+    alert("Added to cart!");
     return true;
   };
 
@@ -76,7 +97,7 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
     <article className="product-page">
       <div className="product-page__inner">
         <div className="product-page__layout">
-          <ProductGallery name={product.name} images={product.gallery} badge={product.badge} />
+          <ProductGallery name={product.name} images={displayImages} badge={product.badge} />
 
           <div className="product-info">
             <div className="product-info__meta">
@@ -96,23 +117,68 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
             <p className="product-info__description">{product.description}</p>
 
             {product.stock !== undefined && product.stock <= 0 ? (
-              <p className="product-info__description" style={{color: 'red'}}>Currently out of stock.</p>
+              <p className="product-info__description" style={{ color: "red" }}>Currently out of stock.</p>
             ) : null}
 
+            {/* ── Color Swatches ── */}
+            {hasColorVariants && (
+              <div style={{ marginBottom: "1.25rem" }}>
+                <p className="product-info__wear" style={{ marginBottom: "10px" }}>
+                  Select Color:
+                  {selectedColor && (
+                    <span style={{ marginLeft: "8px", fontWeight: 600, color: "#111" }}>
+                      {selectedColor.colorName}
+                    </span>
+                  )}
+                </p>
+                <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+                  {product.colorVariants!.map((cv) => {
+                    const isSelected = selectedColor?.id === cv.id;
+                    const light = isLightColor(cv.colorCode);
+                    return (
+                      <button
+                        key={cv.id}
+                        title={cv.colorName}
+                        onClick={() => { setSelectedColor(cv); setError(""); }}
+                        style={{
+                          width: "36px",
+                          height: "36px",
+                          borderRadius: "50%",
+                          background: cv.colorCode,
+                          border: isSelected
+                            ? "3px solid #005AFA"
+                            : light ? "2px solid #ccc" : "2px solid transparent",
+                          cursor: "pointer",
+                          boxShadow: isSelected
+                            ? "0 0 0 2px #fff, 0 0 0 4px #005AFA"
+                            : "0 1px 3px rgba(0,0,0,0.25)",
+                          transition: "box-shadow 0.15s, border 0.15s",
+                        }}
+                        aria-label={cv.colorName}
+                        aria-pressed={isSelected}
+                      />
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* ── Size Selector ── */}
             {product.sizes && product.sizes.length > 0 && (
-              <div style={{ marginBottom: '1rem' }}>
-                <p className="product-info__wear" style={{marginBottom: '8px'}}>Select Size:</p>
-                <div style={{display: 'flex', gap: '8px'}}>
-                  {product.sizes.map(size => (
-                    <button 
+              <div style={{ marginBottom: "1rem" }}>
+                <p className="product-info__wear" style={{ marginBottom: "8px" }}>Select Size:</p>
+                <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                  {product.sizes.map((size) => (
+                    <button
                       key={size}
                       onClick={() => setSelectedSize(size)}
                       style={{
-                        padding: '8px 16px', 
-                        border: selectedSize === size ? '2px solid #005AFA' : '1px solid #ccc',
-                        borderRadius: '4px',
-                        background: 'transparent',
-                        cursor: 'pointer'
+                        padding: "8px 16px",
+                        border: selectedSize === size ? "2px solid #005AFA" : "1px solid #ccc",
+                        borderRadius: "4px",
+                        background: selectedSize === size ? "#f0f7ff" : "transparent",
+                        cursor: "pointer",
+                        fontWeight: selectedSize === size ? 600 : 400,
                       }}
                     >
                       {size}
@@ -122,20 +188,24 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
               </div>
             )}
 
+            {/* ── Other Variations ── */}
             {product.variations?.map((variation) => (
-              <div key={variation.name} style={{ marginBottom: '1rem' }}>
-                <p className="product-info__wear" style={{marginBottom: '8px'}}>Select {variation.name}:</p>
-                <div style={{display: 'flex', gap: '8px'}}>
-                  {variation.options.map(opt => (
-                    <button 
+              <div key={variation.name} style={{ marginBottom: "1rem" }}>
+                <p className="product-info__wear" style={{ marginBottom: "8px" }}>
+                  Select {variation.name}:
+                </p>
+                <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                  {variation.options.map((opt) => (
+                    <button
                       key={opt}
-                      onClick={() => setSelectedVariations(prev => ({...prev, [variation.name]: opt}))}
+                      onClick={() => setSelectedVariations((prev) => ({ ...prev, [variation.name]: opt }))}
                       style={{
-                        padding: '8px 16px', 
-                        border: selectedVariations[variation.name] === opt ? '2px solid #005AFA' : '1px solid #ccc',
-                        borderRadius: '4px',
-                        background: 'transparent',
-                        cursor: 'pointer'
+                        padding: "8px 16px",
+                        border: selectedVariations[variation.name] === opt ? "2px solid #005AFA" : "1px solid #ccc",
+                        borderRadius: "4px",
+                        background: selectedVariations[variation.name] === opt ? "#f0f7ff" : "transparent",
+                        cursor: "pointer",
+                        fontWeight: selectedVariations[variation.name] === opt ? 600 : 400,
                       }}
                     >
                       {opt}
@@ -145,13 +215,25 @@ export default function ProductDetailPage({ product }: { product: ProductDetail 
               </div>
             ))}
 
-            {error && <p style={{color: 'red', marginBottom: '1rem'}}>{error}</p>}
+            {/* ── Error ── */}
+            {error && (
+              <p style={{ color: "red", marginBottom: "1rem", fontSize: "14px" }}>{error}</p>
+            )}
 
-            <div style={{display: 'flex', gap: '16px', marginBottom: '24px'}}>
-              <button onClick={handleAddToCart} className="product-info__order" style={{flex: 1, background: '#fff', color: '#005AFA', border: '1px solid #005AFA', cursor: 'pointer', padding: '16px', borderRadius: '4px', fontWeight: 'bold'}}>
+            {/* ── Buttons ── */}
+            <div style={{ display: "flex", gap: "16px", marginBottom: "24px" }}>
+              <button
+                onClick={handleAddToCart}
+                className="product-info__order"
+                style={{ flex: 1, background: "#fff", color: "#005AFA", border: "1px solid #005AFA", cursor: "pointer", padding: "16px", borderRadius: "4px", fontWeight: "bold" }}
+              >
                 Add to Cart
               </button>
-              <button onClick={handleBuyNow} className="product-info__order" style={{flex: 1, cursor: 'pointer', border: 'none', padding: '16px', borderRadius: '4px', fontWeight: 'bold'}}>
+              <button
+                onClick={handleBuyNow}
+                className="product-info__order"
+                style={{ flex: 1, cursor: "pointer", border: "none", padding: "16px", borderRadius: "4px", fontWeight: "bold" }}
+              >
                 Buy Now
               </button>
             </div>
